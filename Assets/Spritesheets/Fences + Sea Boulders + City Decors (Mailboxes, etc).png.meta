@@ -1,0 +1,4463 @@
+fileFormatVersion: 2
+guid: a9ce704c29d684dfd9f4fbe7b1527e64
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Fences + Sea Boulders + City Decors (Mailboxes, etc)_0
+    21300002: Fences + Sea Boulders + City Decors (Mailboxes, etc)_1
+    21300004: Fences + Sea Boulders + City Decors (Mailboxes, etc)_2
+    21300006: Fences + Sea Boulders + City Decors (Mailboxes, etc)_3
+    21300008: Fences + Sea Boulders + City Decors (Mailboxes, etc)_4
+    21300010: Fences + Sea Boulders + City Decors (Mailboxes, etc)_5
+    21300012: Fences + Sea Boulders + City Decors (Mailboxes, etc)_6
+    21300014: Fences + Sea Boulders + City Decors (Mailboxes, etc)_7
+    21300016: Fences + Sea Boulders + City Decors (Mailboxes, etc)_8
+    21300018: Fences + Sea Boulders + City Decors (Mailboxes, etc)_9
+    21300020: Fences + Sea Boulders + City Decors (Mailboxes, etc)_10
+    21300022: Fences + Sea Boulders + City Decors (Mailboxes, etc)_11
+    21300024: Fences + Sea Boulders + City Decors (Mailboxes, etc)_12
+    21300026: Fences + Sea Boulders + City Decors (Mailboxes, etc)_13
+    21300028: Fences + Sea Boulders + City Decors (Mailboxes, etc)_14
+    21300030: Fences + Sea Boulders + City Decors (Mailboxes, etc)_15
+    21300032: Fences + Sea Boulders + City Decors (Mailboxes, etc)_16
+    21300034: Fences + Sea Boulders + City Decors (Mailboxes, etc)_17
+    21300036: Fences + Sea Boulders + City Decors (Mailboxes, etc)_18
+    21300038: Fences + Sea Boulders + City Decors (Mailboxes, etc)_19
+    21300040: Fences + Sea Boulders + City Decors (Mailboxes, etc)_20
+    21300042: Fences + Sea Boulders + City Decors (Mailboxes, etc)_21
+    21300044: Fences + Sea Boulders + City Decors (Mailboxes, etc)_22
+    21300046: Fences + Sea Boulders + City Decors (Mailboxes, etc)_23
+    21300048: Fences + Sea Boulders + City Decors (Mailboxes, etc)_24
+    21300050: Fences + Sea Boulders + City Decors (Mailboxes, etc)_25
+    21300052: Fences + Sea Boulders + City Decors (Mailboxes, etc)_26
+    21300054: Fences + Sea Boulders + City Decors (Mailboxes, etc)_27
+    21300056: Fences + Sea Boulders + City Decors (Mailboxes, etc)_28
+    21300058: Fences + Sea Boulders + City Decors (Mailboxes, etc)_29
+    21300060: Fences + Sea Boulders + City Decors (Mailboxes, etc)_30
+    21300062: Fences + Sea Boulders + City Decors (Mailboxes, etc)_31
+    21300064: Fences + Sea Boulders + City Decors (Mailboxes, etc)_32
+    21300066: Fences + Sea Boulders + City Decors (Mailboxes, etc)_33
+    21300068: Fences + Sea Boulders + City Decors (Mailboxes, etc)_34
+    21300070: Fences + Sea Boulders + City Decors (Mailboxes, etc)_35
+    21300072: Fences + Sea Boulders + City Decors (Mailboxes, etc)_36
+    21300074: Fences + Sea Boulders + City Decors (Mailboxes, etc)_37
+    21300076: Fences + Sea Boulders + City Decors (Mailboxes, etc)_38
+    21300078: Fences + Sea Boulders + City Decors (Mailboxes, etc)_39
+    21300080: Fences + Sea Boulders + City Decors (Mailboxes, etc)_40
+    21300082: Fences + Sea Boulders + City Decors (Mailboxes, etc)_41
+    21300084: Fences + Sea Boulders + City Decors (Mailboxes, etc)_42
+    21300086: Fences + Sea Boulders + City Decors (Mailboxes, etc)_43
+    21300088: Fences + Sea Boulders + City Decors (Mailboxes, etc)_44
+    21300090: Fences + Sea Boulders + City Decors (Mailboxes, etc)_45
+    21300092: Fences + Sea Boulders + City Decors (Mailboxes, etc)_46
+    21300094: Fences + Sea Boulders + City Decors (Mailboxes, etc)_47
+    21300096: Fences + Sea Boulders + City Decors (Mailboxes, etc)_48
+    21300098: Fences + Sea Boulders + City Decors (Mailboxes, etc)_49
+    21300100: Fences + Sea Boulders + City Decors (Mailboxes, etc)_50
+    21300102: Fences + Sea Boulders + City Decors (Mailboxes, etc)_51
+    21300104: Fences + Sea Boulders + City Decors (Mailboxes, etc)_52
+    21300106: Fences + Sea Boulders + City Decors (Mailboxes, etc)_53
+    21300108: Fences + Sea Boulders + City Decors (Mailboxes, etc)_54
+    21300110: Fences + Sea Boulders + City Decors (Mailboxes, etc)_55
+    21300112: Fences + Sea Boulders + City Decors (Mailboxes, etc)_56
+    21300114: Fences + Sea Boulders + City Decors (Mailboxes, etc)_57
+    21300116: Fences + Sea Boulders + City Decors (Mailboxes, etc)_58
+    21300118: Fences + Sea Boulders + City Decors (Mailboxes, etc)_59
+    21300120: Fences + Sea Boulders + City Decors (Mailboxes, etc)_60
+    21300122: Fences + Sea Boulders + City Decors (Mailboxes, etc)_61
+    21300124: Fences + Sea Boulders + City Decors (Mailboxes, etc)_62
+    21300126: Fences + Sea Boulders + City Decors (Mailboxes, etc)_63
+    21300128: Fences + Sea Boulders + City Decors (Mailboxes, etc)_64
+    21300130: Fences + Sea Boulders + City Decors (Mailboxes, etc)_65
+    21300132: Fences + Sea Boulders + City Decors (Mailboxes, etc)_66
+    21300134: Fences + Sea Boulders + City Decors (Mailboxes, etc)_67
+    21300136: Fences + Sea Boulders + City Decors (Mailboxes, etc)_68
+    21300138: Fences + Sea Boulders + City Decors (Mailboxes, etc)_69
+    21300140: Fences + Sea Boulders + City Decors (Mailboxes, etc)_70
+    21300142: Fences + Sea Boulders + City Decors (Mailboxes, etc)_71
+    21300144: Fences + Sea Boulders + City Decors (Mailboxes, etc)_72
+    21300146: Fences + Sea Boulders + City Decors (Mailboxes, etc)_73
+    21300148: Fences + Sea Boulders + City Decors (Mailboxes, etc)_74
+    21300150: Fences + Sea Boulders + City Decors (Mailboxes, etc)_75
+    21300152: Fences + Sea Boulders + City Decors (Mailboxes, etc)_76
+    21300154: Fences + Sea Boulders + City Decors (Mailboxes, etc)_77
+    21300156: Fences + Sea Boulders + City Decors (Mailboxes, etc)_78
+    21300158: Fences + Sea Boulders + City Decors (Mailboxes, etc)_79
+    21300160: Fences + Sea Boulders + City Decors (Mailboxes, etc)_80
+    21300162: Fences + Sea Boulders + City Decors (Mailboxes, etc)_81
+    21300164: Fences + Sea Boulders + City Decors (Mailboxes, etc)_82
+    21300166: Fences + Sea Boulders + City Decors (Mailboxes, etc)_83
+    21300168: Fences + Sea Boulders + City Decors (Mailboxes, etc)_84
+    21300170: Fences + Sea Boulders + City Decors (Mailboxes, etc)_85
+    21300172: Fences + Sea Boulders + City Decors (Mailboxes, etc)_86
+    21300174: Fences + Sea Boulders + City Decors (Mailboxes, etc)_87
+    21300176: Fences + Sea Boulders + City Decors (Mailboxes, etc)_88
+    21300178: Fences + Sea Boulders + City Decors (Mailboxes, etc)_89
+    21300180: Fences + Sea Boulders + City Decors (Mailboxes, etc)_90
+    21300182: Fences + Sea Boulders + City Decors (Mailboxes, etc)_91
+    21300184: Fences + Sea Boulders + City Decors (Mailboxes, etc)_92
+    21300186: Fences + Sea Boulders + City Decors (Mailboxes, etc)_93
+    21300188: Fences + Sea Boulders + City Decors (Mailboxes, etc)_94
+    21300190: Fences + Sea Boulders + City Decors (Mailboxes, etc)_95
+    21300192: Fences + Sea Boulders + City Decors (Mailboxes, etc)_96
+    21300194: Fences + Sea Boulders + City Decors (Mailboxes, etc)_97
+    21300196: Fences + Sea Boulders + City Decors (Mailboxes, etc)_98
+    21300198: Fences + Sea Boulders + City Decors (Mailboxes, etc)_99
+    21300200: Fences + Sea Boulders + City Decors (Mailboxes, etc)_100
+    21300202: Fences + Sea Boulders + City Decors (Mailboxes, etc)_101
+    21300204: Fences + Sea Boulders + City Decors (Mailboxes, etc)_102
+    21300206: Fences + Sea Boulders + City Decors (Mailboxes, etc)_103
+    21300208: Fences + Sea Boulders + City Decors (Mailboxes, etc)_104
+    21300210: Fences + Sea Boulders + City Decors (Mailboxes, etc)_105
+    21300212: Fences + Sea Boulders + City Decors (Mailboxes, etc)_106
+    21300214: Fences + Sea Boulders + City Decors (Mailboxes, etc)_107
+    21300216: Fences + Sea Boulders + City Decors (Mailboxes, etc)_108
+    21300218: Fences + Sea Boulders + City Decors (Mailboxes, etc)_109
+    21300220: Fences + Sea Boulders + City Decors (Mailboxes, etc)_110
+    21300222: Fences + Sea Boulders + City Decors (Mailboxes, etc)_111
+    21300224: Fences + Sea Boulders + City Decors (Mailboxes, etc)_112
+    21300226: Fences + Sea Boulders + City Decors (Mailboxes, etc)_113
+    21300228: Fences + Sea Boulders + City Decors (Mailboxes, etc)_114
+    21300230: Fences + Sea Boulders + City Decors (Mailboxes, etc)_115
+    21300232: Fences + Sea Boulders + City Decors (Mailboxes, etc)_116
+    21300234: Fences + Sea Boulders + City Decors (Mailboxes, etc)_117
+    21300236: Fences + Sea Boulders + City Decors (Mailboxes, etc)_118
+    21300238: Fences + Sea Boulders + City Decors (Mailboxes, etc)_119
+    21300240: Fences + Sea Boulders + City Decors (Mailboxes, etc)_120
+    21300242: Fences + Sea Boulders + City Decors (Mailboxes, etc)_121
+    21300244: Fences + Sea Boulders + City Decors (Mailboxes, etc)_122
+    21300246: Fences + Sea Boulders + City Decors (Mailboxes, etc)_123
+    21300248: Fences + Sea Boulders + City Decors (Mailboxes, etc)_124
+    21300250: Fences + Sea Boulders + City Decors (Mailboxes, etc)_125
+    21300252: Fences + Sea Boulders + City Decors (Mailboxes, etc)_126
+    21300254: Fences + Sea Boulders + City Decors (Mailboxes, etc)_127
+    21300256: Fences + Sea Boulders + City Decors (Mailboxes, etc)_128
+    21300258: Fences + Sea Boulders + City Decors (Mailboxes, etc)_129
+    21300260: Fences + Sea Boulders + City Decors (Mailboxes, etc)_130
+    21300262: Fences + Sea Boulders + City Decors (Mailboxes, etc)_131
+    21300264: Fences + Sea Boulders + City Decors (Mailboxes, etc)_132
+    21300266: Fences + Sea Boulders + City Decors (Mailboxes, etc)_133
+    21300268: Fences + Sea Boulders + City Decors (Mailboxes, etc)_134
+    21300270: Fences + Sea Boulders + City Decors (Mailboxes, etc)_135
+    21300272: Fences + Sea Boulders + City Decors (Mailboxes, etc)_136
+    21300274: Fences + Sea Boulders + City Decors (Mailboxes, etc)_137
+    21300276: Fences + Sea Boulders + City Decors (Mailboxes, etc)_138
+    21300278: Fences + Sea Boulders + City Decors (Mailboxes, etc)_139
+    21300280: Fences + Sea Boulders + City Decors (Mailboxes, etc)_140
+    21300282: Fences + Sea Boulders + City Decors (Mailboxes, etc)_141
+    21300284: Fences + Sea Boulders + City Decors (Mailboxes, etc)_142
+    21300286: Fences + Sea Boulders + City Decors (Mailboxes, etc)_143
+    21300288: Fences + Sea Boulders + City Decors (Mailboxes, etc)_144
+    21300290: Fences + Sea Boulders + City Decors (Mailboxes, etc)_145
+    21300292: Fences + Sea Boulders + City Decors (Mailboxes, etc)_146
+    21300294: Fences + Sea Boulders + City Decors (Mailboxes, etc)_147
+    21300296: Fences + Sea Boulders + City Decors (Mailboxes, etc)_148
+    21300298: Fences + Sea Boulders + City Decors (Mailboxes, etc)_149
+    21300300: Fences + Sea Boulders + City Decors (Mailboxes, etc)_150
+    21300302: Fences + Sea Boulders + City Decors (Mailboxes, etc)_151
+    21300304: Fences + Sea Boulders + City Decors (Mailboxes, etc)_152
+    21300306: Fences + Sea Boulders + City Decors (Mailboxes, etc)_153
+    21300308: Fences + Sea Boulders + City Decors (Mailboxes, etc)_154
+    21300310: Fences + Sea Boulders + City Decors (Mailboxes, etc)_155
+    21300312: Fences + Sea Boulders + City Decors (Mailboxes, etc)_156
+    21300314: Fences + Sea Boulders + City Decors (Mailboxes, etc)_157
+    21300316: Fences + Sea Boulders + City Decors (Mailboxes, etc)_158
+    21300318: Fences + Sea Boulders + City Decors (Mailboxes, etc)_159
+    21300320: Fences + Sea Boulders + City Decors (Mailboxes, etc)_160
+    21300322: Fences + Sea Boulders + City Decors (Mailboxes, etc)_161
+    21300324: Fences + Sea Boulders + City Decors (Mailboxes, etc)_162
+    21300326: Fences + Sea Boulders + City Decors (Mailboxes, etc)_163
+    21300328: Fences + Sea Boulders + City Decors (Mailboxes, etc)_164
+    21300330: Fences + Sea Boulders + City Decors (Mailboxes, etc)_165
+    21300332: Fences + Sea Boulders + City Decors (Mailboxes, etc)_166
+    21300334: Fences + Sea Boulders + City Decors (Mailboxes, etc)_167
+    21300336: Fences + Sea Boulders + City Decors (Mailboxes, etc)_168
+    21300338: Fences + Sea Boulders + City Decors (Mailboxes, etc)_169
+    21300340: Fences + Sea Boulders + City Decors (Mailboxes, etc)_170
+    21300342: Fences + Sea Boulders + City Decors (Mailboxes, etc)_171
+    21300344: Fences + Sea Boulders + City Decors (Mailboxes, etc)_172
+    21300346: Fences + Sea Boulders + City Decors (Mailboxes, etc)_173
+    21300348: Fences + Sea Boulders + City Decors (Mailboxes, etc)_174
+    21300350: Fences + Sea Boulders + City Decors (Mailboxes, etc)_175
+    21300352: Fences + Sea Boulders + City Decors (Mailboxes, etc)_176
+    21300354: Fences + Sea Boulders + City Decors (Mailboxes, etc)_177
+    21300356: Fences + Sea Boulders + City Decors (Mailboxes, etc)_178
+    21300358: Fences + Sea Boulders + City Decors (Mailboxes, etc)_179
+    21300360: Fences + Sea Boulders + City Decors (Mailboxes, etc)_180
+    21300362: Fences + Sea Boulders + City Decors (Mailboxes, etc)_181
+    21300364: Fences + Sea Boulders + City Decors (Mailboxes, etc)_182
+    21300366: Fences + Sea Boulders + City Decors (Mailboxes, etc)_183
+    21300368: Fences + Sea Boulders + City Decors (Mailboxes, etc)_184
+    21300370: Fences + Sea Boulders + City Decors (Mailboxes, etc)_185
+    21300372: Fences + Sea Boulders + City Decors (Mailboxes, etc)_186
+    21300374: Fences + Sea Boulders + City Decors (Mailboxes, etc)_187
+    21300376: Fences + Sea Boulders + City Decors (Mailboxes, etc)_188
+    21300378: Fences + Sea Boulders + City Decors (Mailboxes, etc)_189
+    21300380: Fences + Sea Boulders + City Decors (Mailboxes, etc)_190
+    21300382: Fences + Sea Boulders + City Decors (Mailboxes, etc)_191
+    21300384: Fences + Sea Boulders + City Decors (Mailboxes, etc)_192
+    21300386: Fences + Sea Boulders + City Decors (Mailboxes, etc)_193
+    21300388: Fences + Sea Boulders + City Decors (Mailboxes, etc)_194
+    21300390: Fences + Sea Boulders + City Decors (Mailboxes, etc)_195
+    21300392: Fences + Sea Boulders + City Decors (Mailboxes, etc)_196
+    21300394: Fences + Sea Boulders + City Decors (Mailboxes, etc)_197
+    21300396: Fences + Sea Boulders + City Decors (Mailboxes, etc)_198
+    21300398: Fences + Sea Boulders + City Decors (Mailboxes, etc)_199
+    21300400: Fences + Sea Boulders + City Decors (Mailboxes, etc)_200
+    21300402: Fences + Sea Boulders + City Decors (Mailboxes, etc)_201
+    21300404: Fences + Sea Boulders + City Decors (Mailboxes, etc)_202
+    21300406: Fences + Sea Boulders + City Decors (Mailboxes, etc)_203
+    21300408: Fences + Sea Boulders + City Decors (Mailboxes, etc)_204
+    21300410: Fences + Sea Boulders + City Decors (Mailboxes, etc)_205
+    21300412: Fences + Sea Boulders + City Decors (Mailboxes, etc)_206
+    21300414: Fences + Sea Boulders + City Decors (Mailboxes, etc)_207
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 963
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee0885d056f3540ab9ca2ce9016b2733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 963
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7edc863f0b7c4ec6aa3f85e469414f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 963
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 418df51d1661f463e8caeca475de8d6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 963
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4baf9a1bae8940b7a95be81d45a9633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_4
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 963
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4935760fe09544494a545f5ca7331cd0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_5
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 963
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a1741515b6e42d99d1865f97222a45
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 931
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328e1d548287d44d5a32bb891b3420d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 931
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5fa9d65cefb43ada7992b602112598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 931
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7740d493a2bda430f9d6dfa3e03045f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 931
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf79c6a302cc40d3956fb8b0b573159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_10
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 931
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 969b5b0ea0e6e47ddb9ba3fe51a23c47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_11
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 931
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68f48cc9cbb94a66a3f892894d5a962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 899
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81e4b268e550f43aebade9e2b252ed1f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 899
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f79a5e3e6ba24da6979b4d5a9e05765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 899
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1639fedf6a7a94c07ad43d9efa22fc04
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 899
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ce50cd91347f4e4998fecb5bbf5e062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 899
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24d7f1c56a0e48458d960b200a08c66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_17
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 899
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 982cafe7aecb944eb93f9ce46da5c6f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 867
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33bacbfb8e994dd69d1dc845c3b5ee9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 867
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2594dd016b21b43858901599da1a03a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_20
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 867
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342737be57a354ad9a7c312ad13204e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 867
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ff67f5753cdb450394ff007dfd24ad3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_22
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 867
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1bb5a51fd48d408d92fe3beb69f1ab9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 867
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96fdc5dfda2714202ad954ca78366d37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_24
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 867
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a46a32df4a940e78b8b1c986ab0962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 835
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18c5f51a0aa92475caa613a2994dd8bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 835
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a340040d1b25489ab785f277df9d6d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 835
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2277e30fa95e445639d6ff8e8465d87a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 835
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d28632348aa7a4a0b88a624b3358e073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 835
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b367d67c676e94609b11aaad452dd70e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 835
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 185cfd10664744980bac37a01df6e068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_31
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 803
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28d6ad9a7233e4c908942542606ca104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 803
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 580b84a36050542cfbab98c080a707a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 803
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5bc019d44c6e4ce890b0e7498bb2673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 803
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57ab9e961b97b47f08c47cf1975223bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 803
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d079c3b5e6ebf4f59af1068deb66c66c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_36
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 803
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed66f35aa9bb8408ca7077ffaccd5a01
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 771
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b3bfedfd17c4c69bc3e6ca10321494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 771
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20fb1b0cf99404705a28179af80d24f3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 771
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 625c6de33b9814bda9e04ae4c227ddcd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 771
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 271cf84c3889640e39e7394a5110ace2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 771
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd58e64787e64d5ab5e180693971f54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 771
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408805e4abad24e219d8c8fba09ed6bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_43
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 771
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94612fd228f344172a15731785287996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 739
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90cb565adb111423f892e03fbcc960bc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 739
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081de98bf223f4b2f8780eda805f9cd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 739
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb733f10a27dd491aaae5e8008c0b985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 739
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2a5712a6689642d2a1d7569bbd86b84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_48
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 739
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 304211ea836624c0fb74a61c90dedd9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_49
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 739
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5d53e27722e4fed815216b6ac74d0d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 707
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d06e3aa6ecf204a33bb62abef1708670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_51
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 707
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9353fe19614c4bfdb9fa2b1ad175740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 707
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b5e5447369647cbbc0d009c59c8ba5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_53
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 707
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 027be696d3fef43fa912667899deb08d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 707
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0467cc7012ce24fcb925e4c58a6a66cc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_55
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 707
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c83947adbc3f4cbe958befe6134a7db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d71f195ee1d40439c58f4ae47f385f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_57
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d990cb7ffbdf411f9fcbdfabdb1d983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_58
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d27ca50f477e445859099c2b3a346fe2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77be1141e0f6345f8ad0d2f0973cecb0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e42aa4244bfa4209944f2710a69d96f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_61
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26ad0c36f6814533a2def34d8d7a29a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_62
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8be5d2df2b454795a35ad2e075d4dec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_63
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 675
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca58f9876f72e48378fead46864cafd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_64
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 643
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d5cde0b213f4ac69ae7ce36eab547e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 611
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f5469b92f2f547cda68188eb1d27028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_66
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 611
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e3906d558504464bc839a6b5ef34b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_67
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 611
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 101c8936326fc4461b7ffff3a407e590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 611
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b139474dc5e17479caaed41113432467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 611
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de5b36537a0b0472ba6faee7906f7e5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_70
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 611
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b506744aef3bf4fe3a2a989cb44063e8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_71
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 611
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9edf73097340c4251aa78e2649f4c871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 579
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b797e813988e44235982435ee54ac188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 579
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f09da6f42d374295927cbb795a84c17
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_74
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 579
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a8370cdcd1bb47b2a718fc08b46854b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_75
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 579
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 323625d2a67a74b959edc994556e6daa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_76
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 579
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06dc30b2736ea453db749f0fe67b7d5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_77
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 579
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 276cd76a6c9f94c24b13725fafd16a32
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 547
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05b5c8e987f3d498a9769f8b9af01ce4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_79
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 547
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8aaf3c89e2c5439b97505ce0d535218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_80
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 547
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af7ef77b7b16547cc8636be3aa8da8b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_81
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 547
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7688c7a557c494e25bda6af1521c016b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_82
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 547
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af53c2be2855d47a6a4d4ab13a3b44e2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_83
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 547
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97ca1e700f8f44edea319b1f310d1f78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_84
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 547
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4580321dcc9e049fc82b1682188ce77a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_85
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 547
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54494144d85a949cca804b2421eb946b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 515
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8892fcf1b1fb04515a4821af1c1e4213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_87
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 515
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a26014e33712a461bbf67d39c0594ea7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 515
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b77210df91244a1ba91c33aefdfd399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_89
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 515
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f230e223f0d34728af625844302b0c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_90
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 515
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b27eec511e8e40989a2574af88a3d2b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_91
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 515
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d1c257529cff40408515bad05a15203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_92
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 515
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 572ae8e6473fe472b8d6b6192741a8d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_93
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 483
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f260fada886554326b375e1bec7f1552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_94
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 483
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6cde81687b214d1ba5d55683b87bdb3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_95
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 483
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d072ea47f5084f7c956549dfc5d04c1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_96
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 483
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bc07526bfff1422199d167e8ede6a53
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 483
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16b029ec392c844b5adc1e590d045847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_98
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 483
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71b440b6413b04416911aa48b3a0e636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 483
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be346ac28187f4ec4a27e7daa3c1e743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_100
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 483
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9428922390941f8bd36937804cafd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 451
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2b8d13d461e64e589e42eba653c8d5a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_102
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 451
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14cd3d62ec5cd40399ada814468971f2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_103
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 451
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e089d4506a34614a5eeb9b30342119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_104
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 451
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b51659d3ad5e42218ad5fbe9778cec5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_105
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 451
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9302b4d85917c49919b72097040e1888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_106
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 451
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f9881bb4ed44b2ca6b4b9dec799918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_107
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 451
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 092b7988ed89c4d62b57693b05c4be72
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_108
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 451
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c4b0ca2e97e418d8ca93eceddae2cd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_109
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 419
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80895e8825f48411988a646e872d0802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_110
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 419
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a1685b4e57344c82a95624aa34fc067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_111
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 419
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 133884df14d434715b8309b7246403ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_112
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 419
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f80112e5a62447b391bd87d2dda614a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_113
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 419
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a03081b8a131f4edea49fa7bfc04ef5f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_114
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 419
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb1b91e7d9a364a8bb9f2a18edc3bf6d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 387
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a839652a1d1cb440580e8dbd229b926b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_116
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 387
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 824c56ddc6f2b49b69ac57c95bfab439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_117
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 387
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aedf626db6a34a3b8616760197b92bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_118
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 387
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc0d5ac269e8c421db11c0008d4a046c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_119
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 387
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbade60a32a640c8b0b1a84d55cc2e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_120
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 387
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92b2875d491e14753ba9065774508a4c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_121
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 387
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b93bac9b4da04051b3d1fed372b3bf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_122
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 387
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e6cd85a362e94d6c9a140ee0179e91d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_123
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 355
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8907318e27434480bb2c56885fb16434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_124
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 355
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb217753e2d89401c9818b71e99a6857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_125
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 355
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93e919eb5728c40d1b77052a861cc518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_126
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 355
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89c919fe283714cfea68d23fe19c112e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_127
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 355
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3269cf36771764f439f23d402361a6c2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_128
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 355
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58e2332aab82748d4baf0a771cc5b12d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_129
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 355
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8302b2af9540b4c9186b4be4986b224b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_130
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 355
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e5d4b1c5bb7496080f580624764708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_131
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 323
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aedb1fd9e8b7449b89a5a1f2af2ddbaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_132
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 323
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c25f95efd59d41b0b571ac097c6345d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_133
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 323
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f50dcae8f46fd426fa1341da2147e8b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_134
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 323
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62653272fdef14b97ba5980d35fd1b93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_135
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 323
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d412020e7054f22aa6a11040bb51bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_136
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 323
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c794d1ce2fe4f2c9e46ae29948020b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_137
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 323
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f009bd3f9234a5481091250882108e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_138
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 323
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13ab502eeca494ce0ab4dfec59a83c06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_139
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5f56e8390f6452690a8428f6f171eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_140
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9143f0d2830a3402d9ab2483231fc18e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_141
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b6bc59fc7a040ffb76c5a389ce7400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_142
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c217fdc979bc04a76b733bc4bd5f9d4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_143
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 614b940504485482198a89758cdf06c4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_144
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1aef193899a541f282846a072dc7368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_145
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0c7e7cba6394360b45498fd3b3d27e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_146
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 291
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad9a48ef51ddc4b8d869786e561a839a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_147
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b3b35c0a3f884e2aa2f05ee0bc678af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_148
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2235ce06c3b154b68b24e9b3aadb5965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_149
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be907446fada64b9dac3e180444517a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_150
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb5cb5f8912046f8bdf4de01adbaaf9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_151
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9c8dd9b472ae47c18d884e5d5e41813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_152
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7392a00a6f2734d8d8d8fc2c2533e6ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_153
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 259
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0a70c1fadf9048e1a8e090202840e91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_154
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 227
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c920668b36a84c15a31a8b8dcb999ba
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_155
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 227
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef54824ef51f4987809797970ece9ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_156
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 227
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56559455be7d4ec1a80b16d451291b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_157
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 227
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2909fdf2db04ebda1dcd404930fa66
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_158
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 227
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e5daa968d57548d9b0a964cf336b5b7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_159
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 227
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22118fc0f8b9496899ee1b3b5e6fe86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 195
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25be5165d05e64106a5b3531ed47089a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_161
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 195
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e30d22c3ee97047d695692436e1c0550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_162
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 195
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6a5d9ccefba45489cd6982b9f35c93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_163
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 195
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e77dcc65053c543c9b6e66957c0d63e9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_164
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 195
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eba3f461a93e407582b0f60c2e55d68
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_165
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 163
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f57d9a5bd52749c286d0a18cdd1d468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_166
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 163
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0586d06c8b8d24794b48441d8fd08225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_167
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 163
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2035fc7b9a0641e4a5a1b1ad4ba638f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_168
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 163
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7511989b1d1485780d0cc6e1c2a7dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_169
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 163
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 831e8170ce5bf4672913f75018009ed4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_170
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 163
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efa068c1a04ea4b5d842ca66889240c3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_171
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 131
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2074471b2704bd6ada744259198fa3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_172
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 131
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4eca6dc261740b681062810fce0361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 131
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe84cdc5d7b04bed9bb1e4fe3f91e3d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_174
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 131
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f49bdf1a7e4ef40e8a18ac34ef63f104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_175
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 131
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b42caab6d89548b8a3040003e5eb62b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_176
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 131
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc602ce49f784fa180ed4841a31e69c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_177
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 131
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c886c0d545ab64bf1b7e4ff795222667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_178
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec2167c15edf4aa5bbc78379874697b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_179
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2af0991d1814d4945b7e0a2b71dc1c64
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_180
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09a5b677ec8a9445f82dcd89ec463ef9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_181
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766158bbf5c094368b8afa77250c974c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_182
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0f23b2b38d3489b91de32b3e59cf2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_183
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a16b3b95c7af4b76a0ce59706f6e7dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_184
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2f1a56e32b640119930dbce911cbf5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_185
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 99
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8792e02e8dc404d0ba35dea59360202d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_186
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff277bd8346854840a26b5ae8fe67887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_187
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5d22b46f7464c2f99ccb8d8ff4c4a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_188
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d139d6d51c29947d4bb44fefd57e63f9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_189
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6d6383412af44c84a4e2090c3922f2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_190
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9d106ef51bc64dbd840ac3b5f805c18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_191
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81ffc5404078d435ead75565b1eb8967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_192
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 67
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0f0e9ec4f964418bcb17509aa4a145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_193
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 35
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b0b7549545694fffabdc8fdc90a1402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_194
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 35
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a245d9b4c9aa4b87a11080352de1091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_195
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 35
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3210f40ed22614ddf8a0667a662d6546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_196
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 35
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43c9d9be27ee4459a9e46e30c2aa6451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_197
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 35
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0019679c21c9f4963b729aad8e9b8b12
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_198
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 35
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 222ffa7a586f8481f8ab77676d4a15dc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_199
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 35
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc29eda2bbf1a467f987b55c6788311d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_200
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 35
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 853606a85fc864fa8883c1e576accb73
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_201
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e4c3429fa724a5698ea88a7cc20e54
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_202
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8d1ca4ab8d24886a64e894d835c04c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_203
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9cac2da5872c46e693f56529f87cc3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_204
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5c5df25b46364444a727b09479ef413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_205
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 058c7c152e0be41be9ab3193a0d4527d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_206
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8d71263e932644d786898b0aecb731a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fences + Sea Boulders + City Decors (Mailboxes, etc)_207
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 3
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e3ef96b4c524b899ef91c5e17437b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: a756e1c9021434ddf961d767ecfefbab
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

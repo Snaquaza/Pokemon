@@ -1,0 +1,2552 @@
+fileFormatVersion: 2
+guid: 371f58b131d5c4dacb938757ed795ae4
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Snowy Cave + Boulders_0
+    21300002: Snowy Cave + Boulders_1
+    21300004: Snowy Cave + Boulders_2
+    21300006: Snowy Cave + Boulders_3
+    21300008: Snowy Cave + Boulders_4
+    21300010: Snowy Cave + Boulders_5
+    21300012: Snowy Cave + Boulders_6
+    21300014: Snowy Cave + Boulders_7
+    21300016: Snowy Cave + Boulders_8
+    21300018: Snowy Cave + Boulders_9
+    21300020: Snowy Cave + Boulders_10
+    21300022: Snowy Cave + Boulders_11
+    21300024: Snowy Cave + Boulders_12
+    21300026: Snowy Cave + Boulders_13
+    21300028: Snowy Cave + Boulders_14
+    21300030: Snowy Cave + Boulders_15
+    21300032: Snowy Cave + Boulders_16
+    21300034: Snowy Cave + Boulders_17
+    21300036: Snowy Cave + Boulders_18
+    21300038: Snowy Cave + Boulders_19
+    21300040: Snowy Cave + Boulders_20
+    21300042: Snowy Cave + Boulders_21
+    21300044: Snowy Cave + Boulders_22
+    21300046: Snowy Cave + Boulders_23
+    21300048: Snowy Cave + Boulders_24
+    21300050: Snowy Cave + Boulders_25
+    21300052: Snowy Cave + Boulders_26
+    21300054: Snowy Cave + Boulders_27
+    21300056: Snowy Cave + Boulders_28
+    21300058: Snowy Cave + Boulders_29
+    21300060: Snowy Cave + Boulders_30
+    21300062: Snowy Cave + Boulders_31
+    21300064: Snowy Cave + Boulders_32
+    21300066: Snowy Cave + Boulders_33
+    21300068: Snowy Cave + Boulders_34
+    21300070: Snowy Cave + Boulders_35
+    21300072: Snowy Cave + Boulders_36
+    21300074: Snowy Cave + Boulders_37
+    21300076: Snowy Cave + Boulders_38
+    21300078: Snowy Cave + Boulders_39
+    21300080: Snowy Cave + Boulders_40
+    21300082: Snowy Cave + Boulders_41
+    21300084: Snowy Cave + Boulders_42
+    21300086: Snowy Cave + Boulders_43
+    21300088: Snowy Cave + Boulders_44
+    21300090: Snowy Cave + Boulders_45
+    21300092: Snowy Cave + Boulders_46
+    21300094: Snowy Cave + Boulders_47
+    21300096: Snowy Cave + Boulders_48
+    21300098: Snowy Cave + Boulders_49
+    21300100: Snowy Cave + Boulders_50
+    21300102: Snowy Cave + Boulders_51
+    21300104: Snowy Cave + Boulders_52
+    21300106: Snowy Cave + Boulders_53
+    21300108: Snowy Cave + Boulders_54
+    21300110: Snowy Cave + Boulders_55
+    21300112: Snowy Cave + Boulders_56
+    21300114: Snowy Cave + Boulders_57
+    21300116: Snowy Cave + Boulders_58
+    21300118: Snowy Cave + Boulders_59
+    21300120: Snowy Cave + Boulders_60
+    21300122: Snowy Cave + Boulders_61
+    21300124: Snowy Cave + Boulders_62
+    21300126: Snowy Cave + Boulders_63
+    21300128: Snowy Cave + Boulders_64
+    21300130: Snowy Cave + Boulders_65
+    21300132: Snowy Cave + Boulders_66
+    21300134: Snowy Cave + Boulders_67
+    21300136: Snowy Cave + Boulders_68
+    21300138: Snowy Cave + Boulders_69
+    21300140: Snowy Cave + Boulders_70
+    21300142: Snowy Cave + Boulders_71
+    21300144: Snowy Cave + Boulders_72
+    21300146: Snowy Cave + Boulders_73
+    21300148: Snowy Cave + Boulders_74
+    21300150: Snowy Cave + Boulders_75
+    21300152: Snowy Cave + Boulders_76
+    21300154: Snowy Cave + Boulders_77
+    21300156: Snowy Cave + Boulders_78
+    21300158: Snowy Cave + Boulders_79
+    21300160: Snowy Cave + Boulders_80
+    21300162: Snowy Cave + Boulders_81
+    21300164: Snowy Cave + Boulders_82
+    21300166: Snowy Cave + Boulders_83
+    21300168: Snowy Cave + Boulders_84
+    21300170: Snowy Cave + Boulders_85
+    21300172: Snowy Cave + Boulders_86
+    21300174: Snowy Cave + Boulders_87
+    21300176: Snowy Cave + Boulders_88
+    21300178: Snowy Cave + Boulders_89
+    21300180: Snowy Cave + Boulders_90
+    21300182: Snowy Cave + Boulders_91
+    21300184: Snowy Cave + Boulders_92
+    21300186: Snowy Cave + Boulders_93
+    21300188: Snowy Cave + Boulders_94
+    21300190: Snowy Cave + Boulders_95
+    21300192: Snowy Cave + Boulders_96
+    21300194: Snowy Cave + Boulders_97
+    21300196: Snowy Cave + Boulders_98
+    21300198: Snowy Cave + Boulders_99
+    21300200: Snowy Cave + Boulders_100
+    21300202: Snowy Cave + Boulders_101
+    21300204: Snowy Cave + Boulders_102
+    21300206: Snowy Cave + Boulders_103
+    21300208: Snowy Cave + Boulders_104
+    21300210: Snowy Cave + Boulders_105
+    21300212: Snowy Cave + Boulders_106
+    21300214: Snowy Cave + Boulders_107
+    21300216: Snowy Cave + Boulders_108
+    21300218: Snowy Cave + Boulders_109
+    21300220: Snowy Cave + Boulders_110
+    21300222: Snowy Cave + Boulders_111
+    21300224: Snowy Cave + Boulders_112
+    21300226: Snowy Cave + Boulders_113
+    21300228: Snowy Cave + Boulders_114
+    21300230: Snowy Cave + Boulders_115
+    21300232: Snowy Cave + Boulders_116
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 702
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 393362cd366ff4d46a00f42078272edc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 702
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85ea48d7e7084fa7a5ccbdbc14e7e9a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 702
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88715a5358305429d9789c88cff95b80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_3
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 702
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b57e170627c413c93361d2dfd4e2f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 670
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a445dc6fd144fde87d432280ece34d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 670
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f22f95515a4794eaa8027540582be8f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 670
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3bca7ed66620413e940e5e8ed30723e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 670
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a435a4c744f5546248223e6348b5a002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 670
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677973c2df7884e04aaf3a6a54cff7f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 670
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23437a3a7e07e4566bc5c9dd7625c1c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5735e93b69d649398691ffc14f2a334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 638
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e57e5451a39b4fa2bf2efb81351c4c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 638
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d2fa3978c2dd4de28a979cb7d2cf843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 638
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea1fbedc485ab40afbe10b493e188732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 638
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9caa33ece76d748c79338abb95c01460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_15
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 638
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bfcb494db2b4022ab836348b3e7c42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 606
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22641fdfd15854ceebbb71361db4ad06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 606
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3a54c19d7b54734a31fd27ca79bf77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 606
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c769c96ac33494cb35a5af56acd1db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_19
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 606
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9106396b36aa8442cb7101ddc3bdd0fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 574
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711f269f7a4d14e789f288d9b45850e7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 574
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e07fdb9ad09e48d2840250d712ecb9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 574
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7a68b32923b4a60886b2b8b75f7890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 574
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6755bdc4b61b24007811b8331c9964e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 574
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3125a7d8e23fe438aab8e345a8883e4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 574
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cadbe00ccee1046cfbc4334bd09fef8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 542
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f6024fd82d5438e924310687d1a6d1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 542
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d4c754c1e3941f1bd0391898324733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 542
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dd801a098b62430a999531aeaf7a486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 542
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eaabfff4500894d8dad551869d471f86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 542
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa9f78a8734d740cc9febb2a8cd6a3ce
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_31
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 542
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9933840df1e044233bb4265f67a34442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 510
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2033f287d0c7d4e0091ecb3b374b4b78
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 510
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 933c4ba25d95244cbbe67746d8c57e75
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_34
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 510
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b0bd02221ee64bfdaaa1fec06448ada
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_35
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 510
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74fa136c5bd7a404289a522c592215fc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_36
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 510
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b6bf501edd14f988e65258175e3b4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 478
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: affcee18fc27e40f8a3a3c1790c839a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_38
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 478
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c7bc86742944bdfb75f155c475ad06
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 478
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b22f33e702224039910241e472738d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 478
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67d4bcbc57cc4bbe98aeea21535e4e4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_41
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 478
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9c69febf0be34e71b87ed0e6e5286d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_42
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 478
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df896a92672b44871a40e3184165930e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_43
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3301c233316374aab968e87ec034bb8c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_44
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 327fb02d9d47e4c478b37dbed2d13158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_45
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fb14f2ab91e4ad28d0cc5b7545a76b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_46
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 446
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24f3df34564544060a8a01d8d816c138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_47
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 414
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0b5790999164e1dbd7199d7edb6c7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_48
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 414
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa15cc27d9284f9794da55ce7241469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 414
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8531eb3c656cc41c3ad4d1deedb22be4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 414
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8f1b574e78df4c1285cd60cb300854f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 414
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24303c516f92d4aaba0444406e13c5b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_52
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 414
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61297bb4556e543cb8fd96bc9826b38c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_53
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 382
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d7a78414e4b34827a645acc3f250537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_54
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 382
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce2ba55a6e5e44fe905cae6bba2c466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_55
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 382
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ad74d9a64de54ac3a1ae2b800e8cdbb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_56
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 382
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d104edce5385f4c4d999c51edffcbcf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 382
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94697b7684f42463c86574c9b320a747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_58
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 382
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9c86c5a2cdb423b81670135ced16d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_59
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 350
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d4121cdf640a410f85bf7cc1cd5b59c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_60
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 350
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5523077f92bf647968cb40f6b03d8d29
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_61
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 350
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd11f2c71da8448cb930fdd575b1d8b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_62
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 350
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396afbd1b975042e98834fd449a98493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_63
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11858e85cfbae4f959f80a9b957a057b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_64
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a39af1b9e0f54f95a71c58775967e26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_65
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b29bf4850e564a64a60766232491a60
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_66
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 318
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0c54a787a2cc411c9e7a2ce7608a920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_67
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 286
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cfdf3f8a61cb4249b8fa87f60e93204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_68
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 286
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71a040bfaa2134da2aa12bf566d8fe3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_69
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 286
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc24a0cb24b324a1fb10a077800c7ba7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_70
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 286
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2088e3032c51e4c3cae35a6503cb87aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 286
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1eb042a35e848e58e79b0d1033a63b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_72
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 286
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bac53a322157f4c5f8b8005fb80ff1c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_73
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 286
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 599af06e5c28e454091fcf3818c3615f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_74
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 286
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6769a2684d646839600ee0dde75f0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbdf1606c3fae471ba0c9e2f12f3cd18
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_76
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55bf706a2b5694f84b2cf14482a88f16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_77
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61c4809fd5ab74ceab60e13bf2561fec
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_78
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fce2efb3f21094ff5b943f0973bf8bee
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a83b52e37080849a79b8a617ece6bf43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_80
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ba88c1e4cd14b0487296ab52eefc91
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_81
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 254
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7731d3ccc4c43859318d9823acefd1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_82
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 222
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dfd65132178942fe864cec4cd862199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_83
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 222
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc4cb6d2dc43b40788e0844cb2fbbda8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_84
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 222
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8c17d9af8a1a4a2ab1192326f928f8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_85
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 222
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70bdb5efc3868440ebb90e94e2d2901e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_86
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 190
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 814f3abd651ec4ac4968eb4245b7faa7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_87
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 190
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e80421cd1f36147aeb6903893177c75b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_88
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 190
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa43da21f16f34e8084ef10b125c786b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_89
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 190
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6127d97ffaec4fbfae62f360d6e472e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_90
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 190
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a13be28be9ae4f179f54bf1d55eb57a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_91
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dafc1700301d44037847fffc2ab35735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_92
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb2a9aa866414e7d84a0c03dbcb535d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_93
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a270c1768e4d463ea291cec41b4b51a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_94
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1386afde97b80482fbc01a53a1fa572e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_95
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 158
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa1e8c305bd64d03a091508d987f8ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 967a3d3bdf10f40cfae82a29d5a4d990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_97
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff56e19a94af8405b9d31235bc1bff51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6fef2169a9a24af68a53831069b5220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_99
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec8d5d403bd04adb8b8853991355b48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_100
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fd8c9d6f57d1498f958ca4b806dbdb9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_101
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 126
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63f4e48599dec41aea08efb73b216635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_102
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a371ce059b44f4433a0077de7489025a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_103
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b4972fe61b448c28af037b838b3e8d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_104
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae276ac8734d446af9236eb0c8916706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_105
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 94
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c6f0b18bfd81471381cb7e71aadf6f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_106
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ecacaecbd934aa2958987a82ee4daf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_107
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b24d8fc067c504ff28e6300fee9010d8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_108
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 671e35e3f69c743eabc8de04f6311264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_109
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ef4e2113cdf4a5b85b26a1401528e5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_110
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 62
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc10b0486fdfd4c9f938aef8e3bc4eed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_111
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd2ef2f177991497381722d7e6811e88
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_112
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 30
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450439bf2c9f647c69f08c08e1dfcd99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_113
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 30
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b63c16ce777c477c8276ae513a93ec4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_114
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 30
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e627e20fcafcb4d77a5da3928c11ac8b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_115
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 30
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50ea9cd43574d4a2abcab879d08fdbe4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowy Cave + Boulders_116
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 30
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 097b9b2cb38b641ce9d196da9335d51b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: b2bdf112fe2364556b5298311a207e5e
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

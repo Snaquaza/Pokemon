@@ -1,0 +1,7046 @@
+fileFormatVersion: 2
+guid: 55e914c7394a54d179d0c0b806059333
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Inside + Random Pond_0
+    21300002: Inside + Random Pond_1
+    21300004: Inside + Random Pond_2
+    21300006: Inside + Random Pond_3
+    21300008: Inside + Random Pond_4
+    21300010: Inside + Random Pond_5
+    21300012: Inside + Random Pond_6
+    21300014: Inside + Random Pond_7
+    21300016: Inside + Random Pond_8
+    21300018: Inside + Random Pond_9
+    21300020: Inside + Random Pond_10
+    21300022: Inside + Random Pond_11
+    21300024: Inside + Random Pond_12
+    21300026: Inside + Random Pond_13
+    21300028: Inside + Random Pond_14
+    21300030: Inside + Random Pond_15
+    21300032: Inside + Random Pond_16
+    21300034: Inside + Random Pond_17
+    21300036: Inside + Random Pond_18
+    21300038: Inside + Random Pond_19
+    21300040: Inside + Random Pond_20
+    21300042: Inside + Random Pond_21
+    21300044: Inside + Random Pond_22
+    21300046: Inside + Random Pond_23
+    21300048: Inside + Random Pond_24
+    21300050: Inside + Random Pond_25
+    21300052: Inside + Random Pond_26
+    21300054: Inside + Random Pond_27
+    21300056: Inside + Random Pond_28
+    21300058: Inside + Random Pond_29
+    21300060: Inside + Random Pond_30
+    21300062: Inside + Random Pond_31
+    21300064: Inside + Random Pond_32
+    21300066: Inside + Random Pond_33
+    21300068: Inside + Random Pond_34
+    21300070: Inside + Random Pond_35
+    21300072: Inside + Random Pond_36
+    21300074: Inside + Random Pond_37
+    21300076: Inside + Random Pond_38
+    21300078: Inside + Random Pond_39
+    21300080: Inside + Random Pond_40
+    21300082: Inside + Random Pond_41
+    21300084: Inside + Random Pond_42
+    21300086: Inside + Random Pond_43
+    21300088: Inside + Random Pond_44
+    21300090: Inside + Random Pond_45
+    21300092: Inside + Random Pond_46
+    21300094: Inside + Random Pond_47
+    21300096: Inside + Random Pond_48
+    21300098: Inside + Random Pond_49
+    21300100: Inside + Random Pond_50
+    21300102: Inside + Random Pond_51
+    21300104: Inside + Random Pond_52
+    21300106: Inside + Random Pond_53
+    21300108: Inside + Random Pond_54
+    21300110: Inside + Random Pond_55
+    21300112: Inside + Random Pond_56
+    21300114: Inside + Random Pond_57
+    21300116: Inside + Random Pond_58
+    21300118: Inside + Random Pond_59
+    21300120: Inside + Random Pond_60
+    21300122: Inside + Random Pond_61
+    21300124: Inside + Random Pond_62
+    21300126: Inside + Random Pond_63
+    21300128: Inside + Random Pond_64
+    21300130: Inside + Random Pond_65
+    21300132: Inside + Random Pond_66
+    21300134: Inside + Random Pond_67
+    21300136: Inside + Random Pond_68
+    21300138: Inside + Random Pond_69
+    21300140: Inside + Random Pond_70
+    21300142: Inside + Random Pond_71
+    21300144: Inside + Random Pond_72
+    21300146: Inside + Random Pond_73
+    21300148: Inside + Random Pond_74
+    21300150: Inside + Random Pond_75
+    21300152: Inside + Random Pond_76
+    21300154: Inside + Random Pond_77
+    21300156: Inside + Random Pond_78
+    21300158: Inside + Random Pond_79
+    21300160: Inside + Random Pond_80
+    21300162: Inside + Random Pond_81
+    21300164: Inside + Random Pond_82
+    21300166: Inside + Random Pond_83
+    21300168: Inside + Random Pond_84
+    21300170: Inside + Random Pond_85
+    21300172: Inside + Random Pond_86
+    21300174: Inside + Random Pond_87
+    21300176: Inside + Random Pond_88
+    21300178: Inside + Random Pond_89
+    21300180: Inside + Random Pond_90
+    21300182: Inside + Random Pond_91
+    21300184: Inside + Random Pond_92
+    21300186: Inside + Random Pond_93
+    21300188: Inside + Random Pond_94
+    21300190: Inside + Random Pond_95
+    21300192: Inside + Random Pond_96
+    21300194: Inside + Random Pond_97
+    21300196: Inside + Random Pond_98
+    21300198: Inside + Random Pond_99
+    21300200: Inside + Random Pond_100
+    21300202: Inside + Random Pond_101
+    21300204: Inside + Random Pond_102
+    21300206: Inside + Random Pond_103
+    21300208: Inside + Random Pond_104
+    21300210: Inside + Random Pond_105
+    21300212: Inside + Random Pond_106
+    21300214: Inside + Random Pond_107
+    21300216: Inside + Random Pond_108
+    21300218: Inside + Random Pond_109
+    21300220: Inside + Random Pond_110
+    21300222: Inside + Random Pond_111
+    21300224: Inside + Random Pond_112
+    21300226: Inside + Random Pond_113
+    21300228: Inside + Random Pond_114
+    21300230: Inside + Random Pond_115
+    21300232: Inside + Random Pond_116
+    21300234: Inside + Random Pond_117
+    21300236: Inside + Random Pond_118
+    21300238: Inside + Random Pond_119
+    21300240: Inside + Random Pond_120
+    21300242: Inside + Random Pond_121
+    21300244: Inside + Random Pond_122
+    21300246: Inside + Random Pond_123
+    21300248: Inside + Random Pond_124
+    21300250: Inside + Random Pond_125
+    21300252: Inside + Random Pond_126
+    21300254: Inside + Random Pond_127
+    21300256: Inside + Random Pond_128
+    21300258: Inside + Random Pond_129
+    21300260: Inside + Random Pond_130
+    21300262: Inside + Random Pond_131
+    21300264: Inside + Random Pond_132
+    21300266: Inside + Random Pond_133
+    21300268: Inside + Random Pond_134
+    21300270: Inside + Random Pond_135
+    21300272: Inside + Random Pond_136
+    21300274: Inside + Random Pond_137
+    21300276: Inside + Random Pond_138
+    21300278: Inside + Random Pond_139
+    21300280: Inside + Random Pond_140
+    21300282: Inside + Random Pond_141
+    21300284: Inside + Random Pond_142
+    21300286: Inside + Random Pond_143
+    21300288: Inside + Random Pond_144
+    21300290: Inside + Random Pond_145
+    21300292: Inside + Random Pond_146
+    21300294: Inside + Random Pond_147
+    21300296: Inside + Random Pond_148
+    21300298: Inside + Random Pond_149
+    21300300: Inside + Random Pond_150
+    21300302: Inside + Random Pond_151
+    21300304: Inside + Random Pond_152
+    21300306: Inside + Random Pond_153
+    21300308: Inside + Random Pond_154
+    21300310: Inside + Random Pond_155
+    21300312: Inside + Random Pond_156
+    21300314: Inside + Random Pond_157
+    21300316: Inside + Random Pond_158
+    21300318: Inside + Random Pond_159
+    21300320: Inside + Random Pond_160
+    21300322: Inside + Random Pond_161
+    21300324: Inside + Random Pond_162
+    21300326: Inside + Random Pond_163
+    21300328: Inside + Random Pond_164
+    21300330: Inside + Random Pond_165
+    21300332: Inside + Random Pond_166
+    21300334: Inside + Random Pond_167
+    21300336: Inside + Random Pond_168
+    21300338: Inside + Random Pond_169
+    21300340: Inside + Random Pond_170
+    21300342: Inside + Random Pond_171
+    21300344: Inside + Random Pond_172
+    21300346: Inside + Random Pond_173
+    21300348: Inside + Random Pond_174
+    21300350: Inside + Random Pond_175
+    21300352: Inside + Random Pond_176
+    21300354: Inside + Random Pond_177
+    21300356: Inside + Random Pond_178
+    21300358: Inside + Random Pond_179
+    21300360: Inside + Random Pond_180
+    21300362: Inside + Random Pond_181
+    21300364: Inside + Random Pond_182
+    21300366: Inside + Random Pond_183
+    21300368: Inside + Random Pond_184
+    21300370: Inside + Random Pond_185
+    21300372: Inside + Random Pond_186
+    21300374: Inside + Random Pond_187
+    21300376: Inside + Random Pond_188
+    21300378: Inside + Random Pond_189
+    21300380: Inside + Random Pond_190
+    21300382: Inside + Random Pond_191
+    21300384: Inside + Random Pond_192
+    21300386: Inside + Random Pond_193
+    21300388: Inside + Random Pond_194
+    21300390: Inside + Random Pond_195
+    21300392: Inside + Random Pond_196
+    21300394: Inside + Random Pond_197
+    21300396: Inside + Random Pond_198
+    21300398: Inside + Random Pond_199
+    21300400: Inside + Random Pond_200
+    21300402: Inside + Random Pond_201
+    21300404: Inside + Random Pond_202
+    21300406: Inside + Random Pond_203
+    21300408: Inside + Random Pond_204
+    21300410: Inside + Random Pond_205
+    21300412: Inside + Random Pond_206
+    21300414: Inside + Random Pond_207
+    21300416: Inside + Random Pond_208
+    21300418: Inside + Random Pond_209
+    21300420: Inside + Random Pond_210
+    21300422: Inside + Random Pond_211
+    21300424: Inside + Random Pond_212
+    21300426: Inside + Random Pond_213
+    21300428: Inside + Random Pond_214
+    21300430: Inside + Random Pond_215
+    21300432: Inside + Random Pond_216
+    21300434: Inside + Random Pond_217
+    21300436: Inside + Random Pond_218
+    21300438: Inside + Random Pond_219
+    21300440: Inside + Random Pond_220
+    21300442: Inside + Random Pond_221
+    21300444: Inside + Random Pond_222
+    21300446: Inside + Random Pond_223
+    21300448: Inside + Random Pond_224
+    21300450: Inside + Random Pond_225
+    21300452: Inside + Random Pond_226
+    21300454: Inside + Random Pond_227
+    21300456: Inside + Random Pond_228
+    21300458: Inside + Random Pond_229
+    21300460: Inside + Random Pond_230
+    21300462: Inside + Random Pond_231
+    21300464: Inside + Random Pond_232
+    21300466: Inside + Random Pond_233
+    21300468: Inside + Random Pond_234
+    21300470: Inside + Random Pond_235
+    21300472: Inside + Random Pond_236
+    21300474: Inside + Random Pond_237
+    21300476: Inside + Random Pond_238
+    21300478: Inside + Random Pond_239
+    21300480: Inside + Random Pond_240
+    21300482: Inside + Random Pond_241
+    21300484: Inside + Random Pond_242
+    21300486: Inside + Random Pond_243
+    21300488: Inside + Random Pond_244
+    21300490: Inside + Random Pond_245
+    21300492: Inside + Random Pond_246
+    21300494: Inside + Random Pond_247
+    21300496: Inside + Random Pond_248
+    21300498: Inside + Random Pond_249
+    21300500: Inside + Random Pond_250
+    21300502: Inside + Random Pond_251
+    21300504: Inside + Random Pond_252
+    21300506: Inside + Random Pond_253
+    21300508: Inside + Random Pond_254
+    21300510: Inside + Random Pond_255
+    21300512: Inside + Random Pond_256
+    21300514: Inside + Random Pond_257
+    21300516: Inside + Random Pond_258
+    21300518: Inside + Random Pond_259
+    21300520: Inside + Random Pond_260
+    21300522: Inside + Random Pond_261
+    21300524: Inside + Random Pond_262
+    21300526: Inside + Random Pond_263
+    21300528: Inside + Random Pond_264
+    21300530: Inside + Random Pond_265
+    21300532: Inside + Random Pond_266
+    21300534: Inside + Random Pond_267
+    21300536: Inside + Random Pond_268
+    21300538: Inside + Random Pond_269
+    21300540: Inside + Random Pond_270
+    21300542: Inside + Random Pond_271
+    21300544: Inside + Random Pond_272
+    21300546: Inside + Random Pond_273
+    21300548: Inside + Random Pond_274
+    21300550: Inside + Random Pond_275
+    21300552: Inside + Random Pond_276
+    21300554: Inside + Random Pond_277
+    21300556: Inside + Random Pond_278
+    21300558: Inside + Random Pond_279
+    21300560: Inside + Random Pond_280
+    21300562: Inside + Random Pond_281
+    21300564: Inside + Random Pond_282
+    21300566: Inside + Random Pond_283
+    21300568: Inside + Random Pond_284
+    21300570: Inside + Random Pond_285
+    21300572: Inside + Random Pond_286
+    21300574: Inside + Random Pond_287
+    21300576: Inside + Random Pond_288
+    21300578: Inside + Random Pond_289
+    21300580: Inside + Random Pond_290
+    21300582: Inside + Random Pond_291
+    21300584: Inside + Random Pond_292
+    21300586: Inside + Random Pond_293
+    21300588: Inside + Random Pond_294
+    21300590: Inside + Random Pond_295
+    21300592: Inside + Random Pond_296
+    21300594: Inside + Random Pond_297
+    21300596: Inside + Random Pond_298
+    21300598: Inside + Random Pond_299
+    21300600: Inside + Random Pond_300
+    21300602: Inside + Random Pond_301
+    21300604: Inside + Random Pond_302
+    21300606: Inside + Random Pond_303
+    21300608: Inside + Random Pond_304
+    21300610: Inside + Random Pond_305
+    21300612: Inside + Random Pond_306
+    21300614: Inside + Random Pond_307
+    21300616: Inside + Random Pond_308
+    21300618: Inside + Random Pond_309
+    21300620: Inside + Random Pond_310
+    21300622: Inside + Random Pond_311
+    21300624: Inside + Random Pond_312
+    21300626: Inside + Random Pond_313
+    21300628: Inside + Random Pond_314
+    21300630: Inside + Random Pond_315
+    21300632: Inside + Random Pond_316
+    21300634: Inside + Random Pond_317
+    21300636: Inside + Random Pond_318
+    21300638: Inside + Random Pond_319
+    21300640: Inside + Random Pond_320
+    21300642: Inside + Random Pond_321
+    21300644: Inside + Random Pond_322
+    21300646: Inside + Random Pond_323
+    21300648: Inside + Random Pond_324
+    21300650: Inside + Random Pond_325
+    21300652: Inside + Random Pond_326
+    21300654: Inside + Random Pond_327
+    21300656: Inside + Random Pond_328
+    21300658: Inside + Random Pond_329
+    21300660: Inside + Random Pond_330
+  externalObjects: {}
+  serializedVersion: 5
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Inside + Random Pond_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2071
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbc2611bb3d594c45b023e6eff846da6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2071
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe65faae0b6e240339b844bb7eded635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2071
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d46db0bd01b974fd990f914b5de01b77
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2071
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44d4b9ce772eb406688f7ca1fae34981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2071
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9d13259d49d4a3fb96367f9a814b8f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2071
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7123227a80d9d4adc95a488544aa6217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2039
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e44b5cd6d69a842f5a2509582ec20b37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_7
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2039
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c16d5c052cf3840fe86e4bd41cb75ee0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2039
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cac0c158664d41bfb179ed682019789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_9
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2039
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e899d1edd05f241e58eb169ab7f98c92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_10
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2039
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7535a4e33d2452e896da6e7b562f65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2039
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86bf31533b0d340a483c8773c066435d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2007
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e5868bb4c364798a83ab6864720851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 2007
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d95ae5403feac4d31843379a8dbfd0ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 2007
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 802a729ab4ab64207b03a7523cde14d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 2007
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27c6aa990068645a1ab76b502b5018eb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 2007
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b2459a52abb5493185784211aa92463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 2007
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac3799ee7ed4a44438952a34051bc289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1975
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4be81af340a5c449589bb411096a18c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_19
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1975
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05835a24ba2a74fcbb3c8e417a52b134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_20
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1975
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da61249e0f3ab4a65b2bf9a078047b7c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1975
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d07e0fde2779b451bbd404019dbbe428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1943
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8242964e657b84f0b906a6277780afdc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_23
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1943
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ba273d6e0fa941f0a75f33f7b764c0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_24
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1943
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd9a7c01a57a44c6daac64b240357e48
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_25
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1943
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e47f5273383f043398aca17b3a9042aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_26
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1911
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 657e50bebcce84ea182b700e6b1f4f80
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_27
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1911
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6af574701bf1429e944f33d97f5b116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_28
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1911
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56a68e9c025aa4b4c98eca572c0d22c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1911
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a9166c81f50a47c58be1976b87a92d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_30
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1911
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af34c794463fd43648d694e69cec91c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_31
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1911
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc3d0c3f1a07f4aed9e431b5da195564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1879
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f9c73e6adaf248cab483a83537c8547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_33
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1879
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d1c0946ccf034eb6a56d2fa586bcbc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1879
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f5dfda86bb324383833cda629c91fbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1879
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 496090eecc05148f6af145a6bab470bd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_36
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1879
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b888a3a55c5c489ea9a33b10040e33a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_37
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1879
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ce3757a40c3444b99ab3a820280f23
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1847
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16c27952a9800469287240115b9dccd4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_39
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1847
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dba3c530f6f24e27b4b241eb7251fe2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_40
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1847
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856ef04cf810749b4835af975b6dca40
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1847
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 744a4a730ecac45dfa97df5837d05794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1847
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43a6e5da3b5704c1b8e643a808bb86a4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_43
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1847
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fb255f696dbd4cc488c3614efa5ae47
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1815
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a38ebbc7e0b6f4f19936fddc9d871fcc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1815
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9be6fbc577c4dc0bd8e9cc213463d0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_46
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1815
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 901e900d8ce41466e9cb4a7c4feac029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_47
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1815
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9a607586d193431ba12ca65cc8e9671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1783
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8d702f83c809496aac76d02670ba44c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_49
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1783
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08bc969b322934ea382468cd4460006b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_50
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1783
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef091752fb9641a9847e1591ec3ff09
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_51
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1783
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bac690d0a3534275ab6a8c549003ead
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1751
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11755ea5b8b3f43179229851c8f2ccb2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_53
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1751
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c19b9596cba473d88d39fc9b5ee0b6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_54
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1751
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74ab2f3036b240a9ada7cc3e6f4696a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_55
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1751
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 659dfe54799f64d8884735e47c8d28a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1751
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d503d7568014b019069f346f7ff218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_57
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1751
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3389d7453b4824bd2986c8bed189fd5d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1719
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e87bcab7acd43479c122bec28ac2c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_59
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1719
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a96f0af7e759041e68457ed275afdbfa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_60
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1719
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796ea709adcef4475b6cde16059c9879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_61
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1719
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a2d4685133f4d4e87bb1ffb27317bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_62
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1719
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67a66294351314d1e83b395ff7850ecf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_63
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1719
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad7076ca27734529b359cbb30c9a452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1687
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba24170da5b41449689377aca3de050f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_65
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1687
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b72447e07b7347c5aa8f7199ac2fbe1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_66
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1687
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c28c6cd0a3a44226b942de1fa8b45a9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_67
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1687
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0040fa50398344d0b89bc6745d20aa0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1687
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dac249b53b5544f7a30ea4ddc62ba1e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_69
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1687
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d22a978f234474d859095230b01d9e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1655
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e36a16a6026494bad18e9da2344df4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1655
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 252aff6b74dc543bfbe37b030bc2a530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_72
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1655
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e0f84bd8f61462d9a15f5de2269d46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_73
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1655
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e8b0007041549288d2356a84a925bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1623
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18135d3cae578451c85c6bb7cc824930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_75
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1623
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94c0f684e2d24046ae306e8aa456dbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_76
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1623
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e31f04ef54b461fb7e47af0d658440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1623
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d0bf2e0023954db6b97281f4e74f3e1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1591
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e8f14da370c64996ac6872a146723a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_79
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1591
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60ea9b79b1ca84135a9add186724d470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_80
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1591
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f293c01a7f8ab4c7483ad2b41be3f792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_81
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1591
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4519372d7b9ef464d8c8848b10854c13
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_82
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1591
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3a2a96f616544fdcbe5ead0a28554f5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_83
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1591
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423ab609754c24138a8225a15eb06fe7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1559
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d269bd3c886f4e81a6f85959345506d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_85
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1559
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0920e36d615e34dd7b216747d2b598db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_86
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1559
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6a1a36e65374ad8a7f81be3c289b4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_87
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1559
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600f57af1868c4c9fb25a3f769b3cafd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_88
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1559
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b33129220926457b81a656a52e54023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_89
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1559
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d509f0739d6342419bf5ac041ef77dd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1527
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac14d95f3674c4d9f91fb72d064602c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_91
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1527
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da7f53a5894f8412b9d19273657151cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_92
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1527
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6776a65a79e04554a7ddf5247a077bb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_93
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1527
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08c105456036a4df793bdc9e4d08811d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_94
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1527
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9100779e833c9448b9682fada219a49d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_95
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1527
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425624dfb48844d5ba18850f3b71f011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1495
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfec03bfba664d8180edb8f5e1fd88e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_97
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1495
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53842771f173c497bac4d9549b205a4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_98
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1495
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff31d0dd8f4934717b9077447820e176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_99
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1495
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8018920d4a1ef4ad68bb7d87cc1bd9ea
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1463
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b06ec5c9f11c4773b45c20084cb7160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_101
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1463
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52acc6ba3d8e04bdea51db695c001df9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_102
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1463
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5b4e881e5b1484c84cb98832dcfcc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_103
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1463
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86eecdfb9cf2f4d52aa41be2548d1790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_104
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1431
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05d2bb93718c64f619e3cb32896fa707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_105
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1431
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6050a9725b6470d8686ff98c6d1dc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_106
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1431
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 549af345c55934d94935ad042050d5da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_107
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1431
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537bc513f851e4147b1eae74a3e1c574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_108
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1431
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7899bbb2564e475bb0c966943cbc8c6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_109
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1431
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e02e0ab4c1e743089d86e315ba03eb4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1399
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea0ca075bd6cf4ff2895d074c3052df4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_111
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1399
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dbfb909a5e574393a3ecd4ff5f3e478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_112
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1399
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 919e881b6a5e549f1a80cfa1fce57038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_113
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1399
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68ae65d90d2e14324a7f59050aecf601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_114
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1399
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25836eccef3f3485080369571b552a16
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_115
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1399
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7139d09b961b401596f3970e4bd9cf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_116
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1367
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17fe3f8c56da242ca94c80aa4b18fb02
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_117
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1367
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a55a80a314ce64a5b906c361c09603cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_118
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1367
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590265f20433641d699d197d3bb105f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_119
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1367
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5e27d29d45f94d0691ad445d888da2d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_120
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1367
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bba76d120019442da79002cc6101e43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_121
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1367
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e02a6b4f6045945cc9a801654b5c2dad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_122
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1335
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97b9caf51f4141e4b7cbb9c240e643b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_123
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1335
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095b301b3b06c4cada7a092d30e00217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_124
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1335
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49beedbc7d9a44a148b5fad26b94c7a0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_125
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1335
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa556f11d0d049b9903eb3db281a811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_126
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1303
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2411a9a5389d4598b4fc91715a683d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_127
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1303
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee6a2b39f62ae4d31b7460b4f81ed0ca
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_128
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1303
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1012aad9b66e43e69ac45b4e9cb890e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_129
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1303
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b0bfadc4b62445895dbe2e21fca715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1271
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ab26fa01e71422085c8b735b120a9f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_131
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1271
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46bd3033e73cd420bb06b9f8edd381f0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_132
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1271
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40a088c120fb94a8e962d67d0e05cc86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_133
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1271
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef762e25604a43c49076a79185a43ad
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_134
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1271
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 191fec0cae380420d8712c4564b0f644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_135
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1271
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37278a8721a1048dba4ed8a2b27c2009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_136
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1239
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11194448d47be470880d96908267bf86
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_137
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1239
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 749a2d0e686664dce828d179d70da8e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_138
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1239
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f433449fe1be4f6fa56bb407193a217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_139
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1239
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02197eb525867447c9d2c7e275bf18cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_140
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1239
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 827cdfc727c7b4fb1af985b3492b3a9d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_141
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1239
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 055aafbad83bc4a72abb6043a425fd42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_142
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc38546deeab4fef970992162a88675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_143
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a1384e54122744b6a743493c90fc93c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_144
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20054b5850ac94682a2dd5a5e1c3b2c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_145
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e74d0a1bcea0742579653eb24d8b85bf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_146
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60367daf26054edcaec0b66230fed84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_147
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1207
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcead1cd5157451ab042a64329f38fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_148
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1175
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: faae5aed9c6f642f58aa2cff029b0fff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_149
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1175
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3835ffcfd0974afda7023c89966661f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_150
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1175
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e8e0bce017a04097a952d383db63af1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_151
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1175
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: defa1885008594d41a8e5bf67754f587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_152
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8a4ee1c5f1504905bffa86abc01ce51
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_153
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93042b2b1b223486499cbd7e1ab051f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_154
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf982bd247284b1684189a5c0c4288d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_155
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1143
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05fb9d67ed50746e1aa7ef2d6051f4ed
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9ddf438174164fefa69401cdc547250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_157
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a800e257652fa481e8d02015f2a14b2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_158
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bcf9338e4cc4084919cf621b81a075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_159
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a961515120c27411e855a58ebc155813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_160
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b907e547d42a14df890c83015afe4a0c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_161
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1111
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab61f3dda321b49988d6687ef15a7a84
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_162
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1079
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e84cbbefdd3d4454b2655abeb77e4f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_163
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1079
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca7e0b0ca9c374de8b83eaaecf89f97a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_164
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1079
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a202e117b515245cbbbcb0f4b46b9b52
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_165
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1079
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7025345e7fc874258951481864dbe02d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_166
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1079
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fa23f92651447f8918cfc9879c7d10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_167
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1079
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ce92c87f19f8402daa8b374b95c2c07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_168
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1047
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b01246317b1542dab618d2aa0834904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_169
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1047
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5d4666156f214311aadfa59b1431f07
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_170
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1047
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 262ee65af7c16439ab8a2da15b55f1d7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_171
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1047
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a004707461b6f42779b94f9c5e08dfda
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_172
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1047
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5ee74148e86e45d6bbac72c6f35da49
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_173
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1047
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fa68a6c8df04239ab4c1eb35b065b9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_174
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1015
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca15bfa688f5432293289774f36d7a6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_175
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1015
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d2426fefdf194c9b8bb508c2d346c14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_176
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1015
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d43d0f8819b645f1a7364c9d30fe1cb
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_177
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1015
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f68d0843214942a890267a3f174caaf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_178
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 983
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04599127c707e4aa995d6730bd548350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_179
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 983
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 230c413218b274e409983cc6c2111338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_180
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 983
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503262beb9777427abab2f9ff3205066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_181
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 983
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7780d207a2241ffb33e5edf94f609a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_182
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 951
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c0dec289dc22400098b6710479af3f7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_183
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 951
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758025a8410254fa0845204cc4a63ee2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_184
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 951
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198b2fb1b7ef049aeabe9a35129a8372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_185
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 951
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9557e3f3925a74d8496aee772fa7af30
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_186
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 951
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e13bf78ff40f4a88b538f9ce98617d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_187
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 951
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d681ecc68baa9400b8aaf9e22fb934cf
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_188
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 919
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fee0e173c918b4abb9b03bbef05b362a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_189
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 919
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27836b02d026c4c599b07a312d156fde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_190
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 919
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 464f5ecb42704475a943f8001faa22f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_191
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 919
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c43ad37c4be2a4f83ab1ac6db76570f6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_192
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 919
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2f02b4577e9d4e1382157fd641c15af
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_193
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 919
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6482f791457234466b5dcea2ba7f4bf7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_194
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 887
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96e55d47ff8f345808fd2f93bbebb20d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_195
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 887
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28a6d49ea2927495a9ae209491ae8f4f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_196
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 887
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7514f08ab8e68462ba80cb4d5674ee44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_197
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 887
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7cfa72c7ba184f6fa8a63390689c08a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_198
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 887
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36dc3bbb5acf3448fbe7e3f46dc8f898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_199
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 887
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48391283e731d44ec898feee8b93038c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_200
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 855
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0b5d1e705faa492bb1f01ddda92218c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_201
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 855
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf0607e405fd24b0487ea2cf9e263ffe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_202
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 855
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3292e0d4ebf754631b5f84b4c5b3510d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_203
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 855
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2fca98cc380d4891a59a0300616f90e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_204
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 823
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 636b4919144984073ac2359cff4ca8c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_205
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 823
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b83865a145147adbaa5295b2e163fd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_206
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 823
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59f55bd5602054ee5ab26a0578d9e139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_207
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 823
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 402e86789d2f34238880157718d860d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 791
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b31f8823fc9694c9fb4ee5c5268e8597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_209
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 791
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e3c488ae0ebc4645ad5873ab0c89dac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_210
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 791
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1549024e2662940bba83a23917fb6e14
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_211
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 791
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2c899049b424404b84229970ff29e4b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_212
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 791
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27674a681606c42419b7e097be4b0a65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_213
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 791
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024dc43f72e624db3b56ed4ae6ed73c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_214
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 759
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc091d6b139f947be9e988bc7fd08f44
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_215
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 759
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06025123bb5e44bb80441749d63dba6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_216
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 759
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdc5a05c930484a878d11c33ad16cbc8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_217
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 759
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df563d6b3b51e441c98a9ee15ec7f3d3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_218
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 759
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39155266960049a7ba811015ee21b2e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_219
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 759
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f599af8fa67084846b04d61b16fdf657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 727
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 582a6cad7bf4e4ca8a67184b4863b927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_221
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 727
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d57dba78797f40798008977ccf81c5c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_222
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 727
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f61285a3eaf34dc6a7f84b1461dc3c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_223
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 727
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46885fb110606403d8e6bb7ce73ba0d5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_224
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 727
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25526c371bca743d6a0ca53077f9598c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_225
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 727
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5a9bcefb7a664675880e878a1dad354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_226
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 695
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d378642137cb149d3b1149f50e917a10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_227
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 695
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ceebae01f521420398765a58ef40909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_228
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 695
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11b75f292d21846f39ae5df5186e03b0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_229
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 695
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfe47c90dd5b14a4db91eeb7bb3fd9c9
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_230
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 695
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b1b5a731236746c39adef22e24da833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_231
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 695
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d44c5e1f81aef4298adc036adf0c5cf8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_232
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 695
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ee2fa2823b9549289f8e6eedfc9068d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_233
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 663
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac1590280a8e4ad4a099d05eaf3cfc3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_234
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 663
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f1d4e553a4c84c24a013dc52ee799db
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_235
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 663
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e4b38d4d6034f2e975e5dae8773134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_236
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 663
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c09a8ad50f564cf9adff70361ae4c4a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_237
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 663
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce879cd2b952e45b58387e98ef176ed5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_238
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 663
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3df066a13f8854300886baa7ccbf877b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_239
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 663
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8fec8e746f2c46e9affad69a38e7952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_240
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 631
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8cb8797f69246a9b7c56d30e460697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_241
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 631
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62d7cea2a0e44aa08ca269f6ed4289b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_242
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 631
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94fd42aedc16459a9a67ddee758be92
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_243
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 599
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bfc4bd4882684f9fa030a5ad52f087f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_244
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 599
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f0f1c80cca924046b190da2dae42369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_245
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 567
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 851fb003ada3b4aa38eca4ab56f0cda0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_246
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 567
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434d290cf6ee24d9b8f0710e7fc861f8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_247
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 535
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 631c7d58229a5424482f719f4dc51932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_248
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 535
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24532931bf0bb49cc9d7c6c9f79c4b6e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_249
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 535
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f329c54c2361f4a8fa109be57b13dc0f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_250
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 535
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d6b8549aa234dfe943ccbb7020acf6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_251
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 535
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75ec4220c7494b8cbd9ac492873c576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_252
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 535
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d697d49f514450c9d74865baf5a546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_253
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 503
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33e8e9b96b7f6434d9bb9eb937b61d26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_254
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 503
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 698e125a843874fc5a70d5da27430791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_255
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 503
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67fd605e5e91541df8e562724508a5c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_256
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 503
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 009d2d49e41404fbeaf4314f68cb5c3c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_257
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 503
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89146fabfd6074795a7d7f082e6b4ff8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_258
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 503
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 796df5081f87c4c0bbd1c00293d41c93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_259
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 471
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b2fa16f9695f4c01b02983bfd3a1e2f
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_260
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 471
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5730783f25dee412c81860775ac846aa
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_261
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 471
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d4f1b1c0a2b94d32ba0afa49d910b43
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_262
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 471
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd5476b29f8b4323a2eda1f92b632ff
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_263
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 471
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e649a2d182c422eb25851b5eda430a
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_264
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 471
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8e9b5dc293bd4b44875981a0db565f4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_265
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 439
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b6541c5f94264dd5bd59ecefd9e9cf1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_266
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 439
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cbb97efbd20b4a7ab69d7777d147ac2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_267
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 439
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09782648756a248f199c304a66874be2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_268
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 439
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2e7fd1ef69a54cf7b44fee58e3741d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_269
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 407
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae0df42873cd4e4c971be649fb90d10
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_270
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 407
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86c1558855bb44f98b41da3bcfdc0752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_271
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 407
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8d74caad7574adaa1919d9aa286485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_272
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 407
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fded454308b46a8a785493c5ae8f24
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_273
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 375
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b4f98d7665ea421091a7a716aad660d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_274
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 375
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc5667c6fa7542d7b2cc666712327c0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_275
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 375
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284950726429e46cebe3fcce74226eb7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_276
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 375
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 720a0d49f48104a8c848ffa0bf746ad2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_277
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 375
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a2d228d038454feda078c9a86bf8eb8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_278
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 375
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5064186a77b9245a492badea82b0f376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_279
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 343
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33309a4f3d0a844c396b1eb564f4f88d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_280
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 343
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c27234826844c92a5822674df92e65
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_281
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 343
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99aa2360753dc4869b12d6f6f6ef8e82
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_282
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 343
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca753c72dfb09478fbd620499d702818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_283
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 343
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4698ca8afb0c473ba13c630c0170e0b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_284
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 343
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc35da2409282439c855ebb76c047288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_285
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 311
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 231aa50b87c1641c291d1ba92f2a7f42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_286
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 311
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998b14ab7696146a9b137af91830f0b3
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_287
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 311
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ae99ed1c6b1b4ba9ba156a77947bbbd
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_288
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 311
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bcd8652632a049de84068cc5d760245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_289
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 311
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1457d5a040b5b4570b481e59f8172169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_290
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 311
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8cd2197302c9495b9d1fd7d4a6c4690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_291
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 279
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c704286f281e44a6a9ded56844dd57c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_292
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 279
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6030fceb7b5422cab20f1bf5604654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_293
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 279
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e1b94aa3ebd43dd8fc408a40d57b1b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_294
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 279
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7585c5bdb21b479bb472e7b55a1acde
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_295
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 247
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 621add739c3154e3d9d8bdd3dd9fb98e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_296
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 247
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7eed8917d3884785b29f4a18ad66f46
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_297
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 247
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af467a0caeb1743389f063012231889c
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_298
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 247
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac17e8285ac3c482baddf0d476a7758b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_299
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5262ad63fbba94e708f32ff8426a1d4e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_300
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ea5a1f5c22df48158299538e167b6f1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_301
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 945d85651ea744c4ab8541b37a624d0e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_302
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 213d2e90a169e400397e9cd919cc8315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_303
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7765c4de3e62e4709b4c1a95dbf38865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_304
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 215
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 922d1e2615da84090be436c224cc0ee6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_305
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5532ed9c7769448d8b5b32a6afa6a70e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_306
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb842b0919b0f472a939f699468e32c5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_307
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3772bd9712252480a9f00d14b53367d4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_308
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22d0fb1ed78f242ce8c4ebe1cc5e1807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_309
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368c53f6b380945b59c1938d1ddeb277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_310
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 183
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0b52707b7bd488dab596537ad53a61
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_311
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 151
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58cb2915959264a58b667ac41bf4ed26
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_312
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 151
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1c7ac6ffdc2c4d9a84a99905376b0b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_313
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 151
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 309e226337ed7492b967196a032a0d76
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_314
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 151
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a87b6786ee3f34454a13f689e66d19ef
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_315
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 151
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59c6d14f4171247d7b8adff1f7884a93
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_316
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 151
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b3bb5c4d6f24acab2164598fbd13b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_317
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 119
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ef4b9a7d25be482185e860ed1e74865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_318
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 119
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede2e7d18fa564c589bbe8fe6d5f93c7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_319
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 119
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b6fb60d70605402982d825df3c4808b
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_320
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 119
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23f17af00671b4a67a89a35e24c7b600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_321
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fc000889e0d94edb98a0cda9bcefacc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_322
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 87
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24297f698746d44b49e3911d27ba1e7d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_323
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 87
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b53bfa3929504e739d0aefeeb043162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_324
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 87
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6272ac3fd39b4408d80dcdf81b3712fe
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_325
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 55
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab1eb31bda7db449282b3efcab51add7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_326
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 55
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24402a66d02524e269999b0e6efc9bac
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_327
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 55
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea3ca9f7228f84e9090cb90b304884da
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_328
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 23
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88193690a06104dc88379c9542241fc5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_329
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 23
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb422f6008f24e3b96a100aecc9897d
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inside + Random Pond_330
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 23
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8da40183b093b4809b6fe367bfe9c8c8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 3ef1454c5530b4c719be6bbcfeef6949
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
