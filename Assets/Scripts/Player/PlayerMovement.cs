@@ -89,12 +89,13 @@ public class PlayerMovement : MonoBehaviour
 
         endPos = new Vector3(startPos.x + System.Math.Sign(input.x), startPos.y + System.Math.Sign(input.y), startPos.z);
 
-        while (t < 1f)
-        {
-            t += Time.deltaTime * walkSpeed;
-            entity.position = Vector3.Lerp(startPos, endPos, t);
-            yield return null;
-        }
+		if (!Physics2D.Raycast(startPos, endPos - startPos, 1))
+			while (t < 1f)
+			{
+				t += Time.deltaTime * walkSpeed;
+				entity.position = Vector3.Lerp(startPos, endPos, t);
+				yield return null;
+			}
 
         isMoving = false;
         yield return 0;
