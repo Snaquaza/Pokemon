@@ -42,6 +42,6 @@ public class SolidTiles : MonoBehaviour
 	{   
 		if (x < 0 || y < 0)
 			return true;   
-		return mapArray[x + (y - 1) * 32];
+		return mapArray[x + y * 32];
 	}
 }
