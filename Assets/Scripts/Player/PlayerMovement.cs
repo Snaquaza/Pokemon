@@ -111,7 +111,7 @@ class PlayerMovement : MonoBehaviour
 	private Vector2 gridToWorld(Vector2 gridVector)
 	{
 		Debug.Log(locX + " and " + locY);
-		return new Vector2(gridVector.x + 32 * grid.GetComponent<SolidTiles>().locX, gridVector.y + 32 * grid.GetComponent<SolidTiles>().locY);
+		return new Vector2(gridVector.x + 0.5f + 32 * grid.GetComponent<SolidTiles>().locX, gridVector.y + 32 * grid.GetComponent<SolidTiles>().locY);
 	}
 }
 
