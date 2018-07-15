@@ -5129,13 +5129,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5203d2d0bb3614ecfba3287c6e980faa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grid: {fileID: 0}
-  location: {fileID: 0}
+  grid: {fileID: 1989970857}
   walkSpeed: 5
-  northSprite: {fileID: 0}
-  eastSprite: {fileID: 0}
-  southSprite: {fileID: 0}
-  westSprite: {fileID: 0}
+  northSprite: {fileID: 21300018, guid: 7300e7729ea2843299708dcfd317472f, type: 3}
+  eastSprite: {fileID: 21300012, guid: 7300e7729ea2843299708dcfd317472f, type: 3}
+  southSprite: {fileID: 21300000, guid: 7300e7729ea2843299708dcfd317472f, type: 3}
+  westSprite: {fileID: 21300006, guid: 7300e7729ea2843299708dcfd317472f, type: 3}
 --- !u!212 &744640312
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5171,7 +5170,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 6
-  m_Sprite: {fileID: 21300196, guid: a9ce704c29d684dfd9f4fbe7b1527e64, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7300e7729ea2843299708dcfd317472f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5595,6 +5594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1607856622}
   - component: {fileID: 1607856621}
+  - component: {fileID: 1607856623}
   m_Layer: 0
   m_Name: Grids
   m_TagString: Untagged
@@ -5628,6 +5628,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1607856623
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1607856620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef835ffc7a47246298640d8da4074e6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1989970855
 GameObject:
   m_ObjectHideFlags: 0
@@ -5656,10 +5667,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4182a8fc869c14685aee67994d0ca8e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  north: {fileID: 0}
-  east: {fileID: 0}
-  south: {fileID: 0}
-  west: {fileID: 0}
+  locX: 0
+  locY: 0
 --- !u!156049354 &1989970857
 Grid:
   m_ObjectHideFlags: 0

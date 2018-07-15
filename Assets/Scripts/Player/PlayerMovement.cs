@@ -12,6 +12,7 @@ class PlayerMovement : MonoBehaviour
     public Sprite northSprite, eastSprite, southSprite, westSprite;
 
     bool isMoving = false;
+	bool isRunning = false;
     bool isAllowedToMove = true;
 
     Direction currentDir;
@@ -63,6 +64,10 @@ class PlayerMovement : MonoBehaviour
         // TODO: Find world coordinate
         Debug.Log(currentDir);
 
+		isRunning = false;
+		if (Input.GetKey("space"))
+			isRunning = true;
+
         switch (currentDir)
         {
             case Direction.North:
@@ -111,6 +116,7 @@ class PlayerMovement : MonoBehaviour
         {
             // Not in the middle of the tile right now? (1/3 y, 1/2 x?)
             t += Time.deltaTime * walkSpeed;
+			if (isRunning) t *= 2;
             Vector2 lerpPos = Vector2.Lerp(currentPos, endPos, t);
 			transform.position = lerpPos;
 			Debug.Log(t + ", " + transform.position);
