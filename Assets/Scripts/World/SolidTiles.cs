@@ -11,12 +11,13 @@ public class SolidTiles : MonoBehaviour
 
 	BoundsInt bounds = new BoundsInt(0, 0, 0, 32, 32, 1);
 	Tilemap[] tilemaps;
-	bool[] mapArray = new bool[32 * 32];
+	private bool[] mapArray;
 
 	// Use this for initialization
 	void Start()
 	{
 		tilemaps = new Tilemap[transform.childCount];
+		mapArray = new bool[32 * 32];
 		int iterator = 0;
 		foreach (Transform child in transform)
 		{
@@ -35,5 +36,12 @@ public class SolidTiles : MonoBehaviour
 				Debug.Log(tiles[i] + " has " + i + " is true.");
 			}
 		}
+	}
+    
+    public bool CanMove(int x, int y)
+	{   
+		if (x < 0 || y < 0)
+			return true;   
+		return mapArray[x + (y - 1) * 32];
 	}
 }

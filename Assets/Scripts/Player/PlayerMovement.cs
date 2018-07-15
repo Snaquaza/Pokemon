@@ -4,6 +4,7 @@ using UnityEngine;
 class PlayerMovement : MonoBehaviour
 {
 	public Grid grid;
+	SolidTiles tiles;
     private int locX, locY;
 	private int pointInGrid;
 
@@ -20,6 +21,7 @@ class PlayerMovement : MonoBehaviour
 	private void Start()
 	{
 		pointInGrid = locX + locY * 32;
+		tiles = grid.GetComponent<SolidTiles>();
 	}
 
 	private void Update()
@@ -37,38 +39,18 @@ class PlayerMovement : MonoBehaviour
 				if (input.x < 0)
 				{
 					currentDir = Direction.West;
-					locX -= 1;
 				}
 				if (input.x > 0)
 				{
 					currentDir = Direction.East;
-					locX += 1;
 				}
 				if (input.y < 0)
 				{
 					currentDir = Direction.South;
-					locY -= 1;
 				}
 				if (input.y > 0)
 				{
 					currentDir = Direction.North;
-					locY += 1;
-				}
-
-				switch (currentDir)
-				{
-					case Direction.North:
-						gameObject.GetComponent<SpriteRenderer>().sprite = northSprite;
-						break;
-					case Direction.East:
-						gameObject.GetComponent<SpriteRenderer>().sprite = eastSprite;
-						break;
-					case Direction.South:
-						gameObject.GetComponent<SpriteRenderer>().sprite = southSprite;
-						break;
-					case Direction.West:
-						gameObject.GetComponent<SpriteRenderer>().sprite = westSprite;
-						break;
 				}
 
 				StartCoroutine(Move());
@@ -79,19 +61,65 @@ class PlayerMovement : MonoBehaviour
 	public IEnumerator Move()
 	{
 		// TODO: Find world coordinate
-		isMoving = true;      
-		float t = 0;
-
-		while (t < 1f)
-		{
-			// Not in the middle of the tile right now? (1/3 y, 1/2 x?)
-			t += Time.deltaTime * walkSpeed;
-			transform.position = Vector2.Lerp(gridToWorld(pointToVector(pointInGrid)), gridToWorld(pointToVector(PointInGrid())), t);
-			yield return null;
-		}
+		isMoving = true;
+		Debug.Log(currentDir);
+      
+        switch (currentDir)
+        {
+            case Direction.North:
+				gameObject.GetComponent<SpriteRenderer>().sprite = northSprite;
+                if (!tiles.CanMove(locX, locY + 1))
+                {
+					locY += 1;
+					SmoothMove();
+                    yield return null;
+                }
+                break;
+			case Direction.East:
+                gameObject.GetComponent<SpriteRenderer>().sprite = eastSprite;
+                if (!tiles.CanMove(locX + 1, locY))
+                {
+                    locX += 1;
+                    SmoothMove();
+                    yield return null;
+                }
+                break;
+			case Direction.South:
+                gameObject.GetComponent<SpriteRenderer>().sprite = southSprite;
+                if (!tiles.CanMove(locX, locY - 1))
+                {
+                    locY -= 1;
+                    SmoothMove();
+                    yield return null;
+                }
+                break;
+			case Direction.West:
+                gameObject.GetComponent<SpriteRenderer>().sprite = westSprite;
+				if (!tiles.CanMove(locX - 1, locY))
+                {
+                    locX -= 1;
+                    SmoothMove();
+                    yield return null;
+                }
+                break;
+        }      
 
 		isMoving = false;
 		yield return 0;
+	}
+
+	private void SmoothMove()
+	{
+		Vector2 currentPos = gridToWorld(pointToVector(pointInGrid));
+        Vector2 endPos = gridToWorld(pointToVector(PointInGrid()));
+        float t = 0;
+		Debug.Log(locX + " and " + locY);
+		while (t < 1f)
+        {
+            // Not in the middle of the tile right now? (1/3 y, 1/2 x?)
+            t += Time.deltaTime * walkSpeed;
+            transform.position = Vector2.Lerp(currentPos, endPos, t);
+        }
 	}
 
     private int PointInGrid()
