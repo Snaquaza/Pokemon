@@ -5,6 +5,7 @@ class PlayerMovement : MonoBehaviour
 {
     public Grid grid;
     SolidTiles tiles;
+	Barriers barriers;
     private int locX, locY;
     private int pointInGrid;
 
@@ -21,8 +22,9 @@ class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        pointInGrid = locX + locY * 32;
-        tiles = grid.GetComponent<SolidTiles>();
+		pointInGrid = locX + locY * 32;
+		tiles = grid.GetComponent<SolidTiles>();
+		barriers = grid.GetComponent<Barriers>();
     }
 
     private void Update()
@@ -72,31 +74,31 @@ class PlayerMovement : MonoBehaviour
         {
             case Direction.North:
                 gameObject.GetComponent<SpriteRenderer>().sprite = northSprite;
-                if (!tiles.CanMove(locX, locY + 1))
+				if (CanMove(locX, locY, locX, locY + 1, currentDir))
                 {
 					locY += 1;
                     StartCoroutine(SmoothMove());
                 }
                 break;
             case Direction.East:
-                gameObject.GetComponent<SpriteRenderer>().sprite = eastSprite;
-                if (!tiles.CanMove(locX + 1, locY))
+				gameObject.GetComponent<SpriteRenderer>().sprite = eastSprite;
+                if (CanMove(locX, locY, locX + 1, locY, currentDir))
                 {
 					locX += 1;
                     StartCoroutine(SmoothMove());
                 }
                 break;
             case Direction.South:
-                gameObject.GetComponent<SpriteRenderer>().sprite = southSprite;
-                if (!tiles.CanMove(locX, locY - 1))
+				gameObject.GetComponent<SpriteRenderer>().sprite = southSprite;
+                if (CanMove(locX, locY, locX, locY - 1, currentDir))
                 {
 					locY -= 1;
                     StartCoroutine(SmoothMove());
                 }
                 break;
             case Direction.West:
-                gameObject.GetComponent<SpriteRenderer>().sprite = westSprite;
-                if (!tiles.CanMove(locX - 1, locY))
+				gameObject.GetComponent<SpriteRenderer>().sprite = westSprite;
+                if (CanMove(locX, locY, locX - 1, locY, currentDir))
                 {
 					locX -= 1;
                     StartCoroutine(SmoothMove());
@@ -126,6 +128,11 @@ class PlayerMovement : MonoBehaviour
 		yield return 0;
     }
 
+    private bool CanMove(int currentX, int currentY, int targetX, int targetY, Direction direction)
+	{
+		return !(tiles.CanMove(targetX, targetY) || barriers.GetBarrier(currentX, currentY, direction));
+	}
+
     private int PointInGrid()
     {
         pointInGrid = locX + locY * 32;
@@ -147,7 +154,7 @@ class PlayerMovement : MonoBehaviour
     }
 }
 
-enum Direction
+public enum Direction
 {
     North,
     East,
