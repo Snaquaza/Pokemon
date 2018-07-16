@@ -11,6 +11,8 @@ public class StaticEvents : MonoBehaviour {
 		eventArray = new List<StaticEvent>[32 * 32];
 		for (int i = 0; i < eventArray.Length; i++)
 			eventArray[i] = new List<StaticEvent>();
+
+        // need to eventually be read from somewhere
 		eventArray[1 + 2 * 32].Add(new Warp(11, 9));
 	}
 
@@ -34,6 +36,6 @@ public class Warp : StaticEvent {
 
 	public override void OnEvent(GameObject player)
 	{
-		player.GetComponent<PlayerMovement>().Warp(x, y);
+		player.GetComponent<Movement>().Warp(x, y);
 	}
 }

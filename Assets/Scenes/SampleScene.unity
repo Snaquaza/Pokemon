@@ -4967,6 +4967,10 @@ GameObject:
   - component: {fileID: 744640313}
   - component: {fileID: 744640312}
   - component: {fileID: 744640311}
+  - component: {fileID: 744640317}
+  - component: {fileID: 744640316}
+  - component: {fileID: 744640315}
+  - component: {fileID: 744640314}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -4980,7 +4984,7 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 744640310}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5203d2d0bb3614ecfba3287c6e980faa, type: 3}
   m_Name: 
@@ -5049,6 +5053,57 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &744640314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 744640310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d9f5d2fb9e8841dbaf7492ef96a7f49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  northSprite: {fileID: 21300018, guid: 7300e7729ea2843299708dcfd317472f, type: 3}
+  eastSprite: {fileID: 21300012, guid: 7300e7729ea2843299708dcfd317472f, type: 3}
+  southSprite: {fileID: 21300000, guid: 7300e7729ea2843299708dcfd317472f, type: 3}
+  westSprite: {fileID: 21300006, guid: 7300e7729ea2843299708dcfd317472f, type: 3}
+--- !u!114 &744640315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 744640310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dffed4fac502943ce98ddcb23609f3c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &744640316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 744640310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bc713f417b144fcbafe007de56f200d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grid: {fileID: 1989970857}
+  walkSpeed: 5
+  isAllowedToMove: 0
+--- !u!114 &744640317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 744640310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5458db02570bc4c27897d6179038f2f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &904441413
 GameObject:
   m_ObjectHideFlags: 0
