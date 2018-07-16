@@ -5506,6 +5506,7 @@ GameObject:
   - component: {fileID: 1989970857}
   - component: {fileID: 1989970856}
   - component: {fileID: 1989970859}
+  - component: {fileID: 1989970860}
   m_Layer: 0
   m_Name: SolidGrid
   m_TagString: Untagged
@@ -5561,6 +5562,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8eec9c945ce8a482cacbcf1ce2ca0cea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1989970860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1989970855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1493fcda7ca32486a8cc4747daa8a14a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2078751891

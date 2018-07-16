@@ -129,6 +129,8 @@ class PlayerMovement : MonoBehaviour
 		transform.position = gridToWorld(pointToVector(x + 32 * y));
 	}
 
+    // IEnumerator FadeToBlack > Warp. Other animations can be added too.
+
 	private IEnumerator SmoothMove()
 	{
         isMoving = true;
