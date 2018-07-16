@@ -126,7 +126,6 @@ class PlayerMovement : MonoBehaviour
 	{
 		locX = x;
 		locY = y;
-		transform.position = gridToWorld(pointToVector(x + 32 * y));
 	}
 
     // IEnumerator FadeToBlack > Warp. Other animations can be added too.
@@ -146,6 +145,7 @@ class PlayerMovement : MonoBehaviour
 			transform.position = lerpPos;
 			yield return null;
 		}
+		transform.position = gridToWorld(pointToVector(PointInGrid()));
         isMoving = false;
 		yield return 0;
     }
