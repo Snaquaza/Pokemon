@@ -55,7 +55,6 @@ public class Barriers : MonoBehaviour
 
     public bool GetBarrier(int x, int y, Direction direction)
     {
-        Debug.Log(barrierArray[x + 32 * y]);
         switch (direction)
         {
             case Direction.North:

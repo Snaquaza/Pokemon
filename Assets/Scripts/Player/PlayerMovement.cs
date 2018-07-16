@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 class PlayerMovement : MonoBehaviour
@@ -6,6 +7,9 @@ class PlayerMovement : MonoBehaviour
     public Grid grid;
     SolidTiles tiles;
 	Barriers barriers;
+	StaticEvents staticEvents;
+	List<StaticEvent> currentEvents;
+    
     private int locX, locY;
     private int pointInGrid;
 
@@ -25,6 +29,7 @@ class PlayerMovement : MonoBehaviour
 		pointInGrid = locX + locY * 32;
 		tiles = grid.GetComponent<SolidTiles>();
 		barriers = grid.GetComponent<Barriers>();
+		staticEvents = grid.GetComponent<StaticEvents>();
     }
 
     private void Update()
@@ -56,7 +61,7 @@ class PlayerMovement : MonoBehaviour
                     currentDir = Direction.North;
                 }
 
-                Move();
+                Move();            
             }
         }
     }
@@ -104,7 +109,25 @@ class PlayerMovement : MonoBehaviour
                 }
                 break;
         }
+		Debug.Log("I reached this.");
+		RunEvent();
     }
+
+	public void RunEvent()
+	{
+		currentEvents = staticEvents.GetEvent(locX, locY);
+		for (int i = 0; i < currentEvents.Count; i++)
+		{
+			currentEvents[i].OnEvent(this.gameObject);
+		}
+	}
+    
+    public void Warp(int x, int y)
+	{
+		locX = x;
+		locY = y;
+		transform.position = gridToWorld(pointToVector(x + 32 * y));
+	}
 
 	private IEnumerator SmoothMove()
 	{
@@ -127,7 +150,8 @@ class PlayerMovement : MonoBehaviour
 
     private bool CanMove(int currentX, int currentY, int targetX, int targetY, Direction direction)
 	{
-		return !(tiles.CanMove(targetX, targetY) || barriers.GetBarrier(currentX, currentY, direction));
+		return !(tiles.CanMove(targetX, targetY) || barriers.GetBarrier(currentX, currentY, direction)) 
+			&& !(Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift));
 	}
 
     private int PointInGrid()
