@@ -175,11 +175,3 @@ class PlayerMovement : MonoBehaviour
         return new Vector2(gridVector.x + 0.5f + 32 * grid.GetComponent<SolidTiles>().locX, gridVector.y + 1 + 32 * grid.GetComponent<SolidTiles>().locY);
     }
 }
-
-public enum Direction
-{
-    North,
-    East,
-    South,
-    West
-}
