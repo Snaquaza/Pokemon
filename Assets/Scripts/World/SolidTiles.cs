@@ -33,7 +33,6 @@ public class SolidTiles : MonoBehaviour
 			{
 				if (tiles[i] != null)               
 					mapArray[i] = true;
-				Debug.Log(tiles[i] + " has " + i + " is true.");
 			}
 		}
 	}

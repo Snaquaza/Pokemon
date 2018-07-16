@@ -22,9 +22,8 @@ public class Barriers : MonoBehaviour
 
         // Use x + 32 * y to access spot;
 
-        BarrierLine(0, 0, 0, 0, Direction.North);
-        Debug.Log(barrierArray[0]);
-        Debug.Log(GetBarrier(0, 0, Direction.North));
+		BarrierLine(8, 27, 24, 27, Direction.North);
+        BarrierLine(8, 28, 24, 28, Direction.South);
     }
 
     public void BarrierLine(int x1, int y1, int x2, int y2, Direction direction)
@@ -56,6 +55,7 @@ public class Barriers : MonoBehaviour
 
     public bool GetBarrier(int x, int y, Direction direction)
     {
+        Debug.Log(barrierArray[x + 32 * y]);
         switch (direction)
         {
             case Direction.North:

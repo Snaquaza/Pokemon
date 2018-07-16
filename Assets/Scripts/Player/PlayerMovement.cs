@@ -64,7 +64,6 @@ class PlayerMovement : MonoBehaviour
     public void Move()
     {
         // TODO: Find world coordinate
-        Debug.Log(currentDir);
 
 		isRunning = false;
 		if (Input.GetKey("space"))
@@ -113,7 +112,6 @@ class PlayerMovement : MonoBehaviour
         Vector2 currentPos = gridToWorld(pointToVector(pointInGrid));
         Vector2 endPos = gridToWorld(pointToVector(PointInGrid()));
         float t = 0;
-        Debug.Log(locX + " and " + locY);
         while (t < 1f)
         {
             // Not in the middle of the tile right now? (1/3 y, 1/2 x?)
@@ -121,7 +119,6 @@ class PlayerMovement : MonoBehaviour
 			if (isRunning) t *= 2;
             Vector2 lerpPos = Vector2.Lerp(currentPos, endPos, t);
 			transform.position = lerpPos;
-			Debug.Log(t + ", " + transform.position);
 			yield return null;
 		}
         isMoving = false;
@@ -149,7 +146,6 @@ class PlayerMovement : MonoBehaviour
 
     private Vector2 gridToWorld(Vector2 gridVector)
     {
-        Debug.Log(locX + " and " + locY);
         return new Vector2(gridVector.x + 0.5f + 32 * grid.GetComponent<SolidTiles>().locX, gridVector.y + 1 + 32 * grid.GetComponent<SolidTiles>().locY);
     }
 }
