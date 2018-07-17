@@ -24,8 +24,11 @@ public class Movement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		Debug.Log("Ahoy!");
 		locX = (int)transform.position.x;
 		locY = (int)(transform.position.y - 1);
+		startX = locX;
+		startY = locY;
 
 		isAllowedToMove = true;
 
@@ -34,9 +37,12 @@ public class Movement : MonoBehaviour {
 		tiles = grid.GetComponent<SolidTiles>();
 		barriers = grid.GetComponent<Barriers>();
 		entities = grid.GetComponent<Entities>();
+	}
 
+	private void Update()
+	{
 		UpdateEntities();
-	}   
+	}
 
 	public void Move(Vector2 input, bool running, bool shift)
 	{
@@ -100,13 +106,12 @@ public class Movement : MonoBehaviour {
 					break;
 			}
 			eventHandler.RunEvent(locX, locY);
-			UpdateEntities();
 		}
 	}
 
 	private bool CanMove(int currentX, int currentY, int targetX, int targetY, Direction direction)
     {
-		Debug.Log("X: " + currentX + ", Y: " + currentY + " causes " + (entities.GetEntity(targetX, targetY) == true));
+		Debug.Log("X: " + targetX + ", Y: " + targetY + " causes " + (entities.GetEntity(targetX, targetY) == true));
 		return !(tiles.CanMove(targetX, targetY) || barriers.GetBarrier(currentX, currentY, direction) || entities.GetEntity(targetX, targetY) || shift);
     }
 

@@ -10,7 +10,7 @@ public class Entities : MonoBehaviour {
 	void Start () {
 		entities = new GameObject[32 * 32];
 	}
-    
+
 	public void UpdateEntities(GameObject gameObject, int x, int y)
 	{
 		entities[x + y * 32] = gameObject;
