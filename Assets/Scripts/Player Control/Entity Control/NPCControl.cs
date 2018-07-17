@@ -8,15 +8,29 @@ public class NPCControl : EntityControl {
     private int chance;
 	private Vector2 moveVector;
 
+    public bool isTrainer;
+    public int sight;
+
 	NPCBehavior behavior;
 
 	private void Start()
 	{
 		behavior = GetComponent<NPCBehavior>();
+		if (!isTrainer)
+			sight = 0;
 	}
 
 	// Update is called once per frame
 	void FixedUpdate () {
-		behavior.Behavior();
+		if (isTrainer)
+		{
+			if (GetComponent<Movement>().DetectPlayer(sight))
+			{
+				behavior.Behavior();
+			}
+		} else {
+			behavior.Behavior();
+		}
+		
 	}
 }

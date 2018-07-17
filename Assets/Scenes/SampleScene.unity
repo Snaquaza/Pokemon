@@ -5021,6 +5021,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: 2
+  isTrainer: 0
+  sight: 0
 --- !u!212 &714627708
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5730,6 +5732,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   direction: 0
+  isTrainer: 1
+  sight: 5
 --- !u!212 &1236798587
 SpriteRenderer:
   m_ObjectHideFlags: 0

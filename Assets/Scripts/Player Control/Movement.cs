@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Movement : MonoBehaviour {
 
+    // Should movement still be split into a player and a NPC?
+
 	public Grid grid;
 	public float walkSpeed;
 
@@ -24,7 +26,6 @@ public class Movement : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log("Ahoy!");
 		locX = (int)transform.position.x;
 		locY = (int)(transform.position.y - 1);
 		startX = locX;
@@ -127,7 +128,6 @@ public class Movement : MonoBehaviour {
                         entities.GetEntity(currentX - i, currentY) ||
                         shift)
                         result = false;
-					Debug.Log(entities.GetEntity(currentX - i, currentY));
                     break;
 			}
 		}
@@ -188,7 +188,6 @@ public class Movement : MonoBehaviour {
         locY = y;
     }
 
-	// NOTE: YOU CAN CURRENTLY GLITCH THROUGH PEOPLE WHILE RUNNING
 	public void NextMove(Vector2 edge1, Vector2 edge2, Vector2 edge3, Vector2 edge4, bool running)
 	{
 		Vector2 comparison = new Vector2(locX, locY);
@@ -210,6 +209,48 @@ public class Movement : MonoBehaviour {
             Vector2 moveVector = edge1 - edge4;
             Move(moveVector, running, false, 1);
         }
+	}
+
+    public bool DetectPlayer(int sight)
+	{
+		Debug.Log("Hello");
+		for (int i = 0; i < sight; i++)
+		{
+            Debug.Log("It's me...");
+			switch (currentDir)
+			{
+                case Direction.North:
+					Debug.Log("I was wondering...");
+					if (entities.GetEntity(locX, locY + i + 1) && entities.GetEntity(locX, locY + i + 1).CompareTag("Player"))
+					{
+						Move(Vector2.up, false, false, i);
+						return false;
+					}
+					break;
+                case Direction.East:
+					if (entities.GetEntity(locX + i + 1, locY) && entities.GetEntity(locX + i + 1, locY).CompareTag("Player"))
+                    {
+                        Move(Vector2.right, false, false, i);
+                        return false;
+                    }
+					break;
+                case Direction.South:
+					if (entities.GetEntity(locX, locY - i - 1) && entities.GetEntity(locX, locY - i - 1).CompareTag("Player"))
+                    {
+						Move(Vector2.down, false, false, i);
+                        return false;
+                    }
+					break;
+                case Direction.West:
+					if (entities.GetEntity(locX - i - 1, locY) && entities.GetEntity(locX - i - 1, locY).CompareTag("Player"))
+                    {
+                        Move(Vector2.left, false, false, i);
+                        return false;
+                    }
+                    break;
+			}
+		}
+		return true;
 	}
 
     // UPDATING ENTITYCONTROL //
