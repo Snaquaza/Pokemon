@@ -26,6 +26,9 @@ public class NPCControl : EntityControl {
 
 	// Update is called once per frame
 	void FixedUpdate () {
+		// Can glitch and appear near player
+		// Walks before player animation is done (may be good)
+        // Can walk through NPCs sometimes. Sometimes spots with no NPCs.
 		if (isTrainer && !hasBattled)
 		{
 			if (!GetComponent<Movement>().DetectPlayer(sight))
