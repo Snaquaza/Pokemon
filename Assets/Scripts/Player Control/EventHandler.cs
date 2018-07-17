@@ -11,11 +11,6 @@ public class EventHandler : MonoBehaviour {
 	void Start () {
 		staticEvents = GetComponent<Movement>().grid.GetComponent<StaticEvents>();
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
 	public void RunEvent(int x, int y)
     {

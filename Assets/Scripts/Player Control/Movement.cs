@@ -20,6 +20,7 @@ public class Movement : MonoBehaviour {
 	private AnimationHandler animationHandler;
     private SolidTiles tiles;
     private Barriers barriers;
+	private Entities entities;
 
 	// Use this for initialization
 	void Start () {
@@ -32,6 +33,9 @@ public class Movement : MonoBehaviour {
 		animationHandler = GetComponent<AnimationHandler>();
 		tiles = grid.GetComponent<SolidTiles>();
 		barriers = grid.GetComponent<Barriers>();
+		entities = grid.GetComponent<Entities>();
+
+		UpdateEntities();
 	}   
 
 	public void Move(Vector2 input, bool running, bool shift)
@@ -53,10 +57,10 @@ public class Movement : MonoBehaviour {
             currentDir = Direction.North;
         }
 
-		animationHandler.UpdateSprites(currentDir);
-
 		if (!isMoving && isAllowedToMove)
-		{
+		{         
+            animationHandler.UpdateSprites(currentDir);
+
 			startX = locX;
 			startY = locY;
 
@@ -96,20 +100,23 @@ public class Movement : MonoBehaviour {
 					break;
 			}
 			eventHandler.RunEvent(locX, locY);
+			UpdateEntities();
 		}
 	}
 
 	private bool CanMove(int currentX, int currentY, int targetX, int targetY, Direction direction)
     {
-        return !(tiles.CanMove(targetX, targetY) || barriers.GetBarrier(currentX, currentY, direction) || shift);
+		Debug.Log("X: " + currentX + ", Y: " + currentY + " causes " + (entities.GetEntity(targetX, targetY) == true));
+		return !(tiles.CanMove(targetX, targetY) || barriers.GetBarrier(currentX, currentY, direction) || entities.GetEntity(targetX, targetY) || shift);
     }
+
+    // CanMoveLine
 
 	private IEnumerator SmoothMove()
     {
         isMoving = true;
 		Vector2 currentPos = PointToWorld(startX + startY * 32);
 		Vector2 endPos = PointToWorld(locX + locY * 32);
-		Debug.Log(currentPos + " and " + endPos);
         float t = 0;
         while (t < 1f)
         {
@@ -117,7 +124,6 @@ public class Movement : MonoBehaviour {
             t += Time.deltaTime * walkSpeed;
 			if (running) t *= 2;
 			transform.position = Vector2.Lerp(currentPos, endPos, t);
-			Debug.Log(transform.position.x + " and " + transform.position.y);
             yield return null;
         }
 		transform.position = PointToWorld(locX + locY * 32);
@@ -145,4 +151,12 @@ public class Movement : MonoBehaviour {
         locX = x;
         locY = y;
     }
+
+    // UPDATING ENTITYCONTROL //
+
+	public void UpdateEntities()
+	{
+		entities.UpdateEntities(null, startX, startY);
+		entities.UpdateEntities(this.gameObject, locX, locY);
+	}
 }

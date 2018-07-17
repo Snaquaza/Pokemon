@@ -6,16 +6,6 @@ public class AnimationHandler : MonoBehaviour {
    
     public Sprite northSprite, eastSprite, southSprite, westSprite;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
 	public void UpdateSprites(Direction direction)
 	{
 		switch (direction)

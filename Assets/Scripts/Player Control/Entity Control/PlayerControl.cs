@@ -2,17 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerControl : MonoBehaviour {
+public class PlayerControl : EntityControl {
 	
 	Vector2 inputXY;
 
-	Movement movement;
-
-	// Use this for initialization
-	void Start () {
-		movement = GetComponent<Movement>();
-	}
-	
 	// Update is called once per frame
 	void Update () {
 		inputXY = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
