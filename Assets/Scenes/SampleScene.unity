@@ -5792,11 +5792,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 1236798581}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67211347d8b07485e9f951759982882e, type: 3}
+  m_Script: {fileID: 11500000, guid: 62de01586ca2c4eacab909c1c6016078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   running: 0
-  turning: 0
+  x1: 15
+  y1: 10
+  x2: 15
+  y2: 7
+  x3: 19
+  y3: 7
+  x4: 19
+  y4: 10
 --- !u!1 &1607856620
 GameObject:
   m_ObjectHideFlags: 0

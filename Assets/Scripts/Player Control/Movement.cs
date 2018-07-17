@@ -138,8 +138,6 @@ public class Movement : MonoBehaviour {
 		return result;
     }
 
-    // CanMoveLine
-
 	private IEnumerator SmoothMove(int length)
     {
         isMoving = true;
@@ -172,6 +170,18 @@ public class Movement : MonoBehaviour {
         return new Vector2(result.x + 0.5f + 32 * grid.GetComponent<SolidTiles>().locX, result.y + 1 + 32 * grid.GetComponent<SolidTiles>().locY);
     }
 
+    private bool IsBetween(Vector2 comparison, Vector2 edge1, Vector2 edge2)
+	{
+		return (((comparison.x >= edge1.x && comparison.x <= edge2.x)
+             || (comparison.x <= edge1.x && comparison.x >= edge2.x))
+            && ((comparison.y >= edge1.y && comparison.y <= edge2.y)
+                || (comparison.y <= edge1.y && comparison.y >= edge2.y)))
+            && (((comparison.x >= edge1.x && comparison.x < edge2.x)
+             || (comparison.x <= edge1.x && comparison.x > edge2.x))
+            || ((comparison.y >= edge1.y && comparison.y < edge2.y)
+                || (comparison.y <= edge1.y && comparison.y > edge2.y)));
+	}
+
     // SPECIAL MOVEMENT //
 
 	public void Warp(int x, int y)
@@ -179,6 +189,29 @@ public class Movement : MonoBehaviour {
         locX = x;
         locY = y;
     }
+
+	public void NextMove(Vector2 edge1, Vector2 edge2, Vector2 edge3, Vector2 edge4, bool running)
+	{
+		Vector2 comparison = new Vector2(locX, locY);
+        
+		if (IsBetween(comparison, edge1, edge2))
+		{
+			Vector2 moveVector = edge2 - edge1;
+			Move(moveVector, running, false, 1);
+		} else if (IsBetween(comparison, edge2, edge3))
+        {
+            Vector2 moveVector = edge3 - edge2;
+            Move(moveVector, running, false, 1);
+		} else if (IsBetween(comparison, edge3, edge4))
+        {
+            Vector2 moveVector = edge4 - edge3;
+            Move(moveVector, running, false, 1);
+		} else if (IsBetween(comparison, edge4, edge1))
+        {
+            Vector2 moveVector = edge1 - edge4;
+            Move(moveVector, running, false, 1);
+        }
+	}
 
     // UPDATING ENTITYCONTROL //
 
