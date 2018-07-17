@@ -39,11 +39,6 @@ public class Movement : MonoBehaviour {
 		entities = grid.GetComponent<Entities>();
 	}
 
-	private void Update()
-	{
-		UpdateEntities();
-	}
-
 	public void Move(Vector2 input, bool running, bool shift, int length)
 	{
         if (input.x < 0)
@@ -91,9 +86,10 @@ public class Movement : MonoBehaviour {
 						locX -= length;
 						break;
 				}
+                entities.UpdateEntities(this.gameObject, locX, locY);
+                StartCoroutine(SmoothMove(length));
+                eventHandler.RunEvent(locX, locY);
 			}
-			StartCoroutine(SmoothMove(length));
-			eventHandler.RunEvent(locX, locY);
 		}
 	}
 
@@ -131,6 +127,7 @@ public class Movement : MonoBehaviour {
                         entities.GetEntity(currentX - i, currentY) ||
                         shift)
                         result = false;
+					Debug.Log(entities.GetEntity(currentX - i, currentY));
                     break;
 			}
 		}
@@ -153,7 +150,8 @@ public class Movement : MonoBehaviour {
             yield return null;
         }
 		transform.position = PointToWorld(locX + locY * 32);
-        isMoving = false;
+		isMoving = false;
+        UpdateEntities();
         yield return 0;
     }
 
@@ -190,6 +188,7 @@ public class Movement : MonoBehaviour {
         locY = y;
     }
 
+	// NOTE: YOU CAN CURRENTLY GLITCH THROUGH PEOPLE WHILE RUNNING
 	public void NextMove(Vector2 edge1, Vector2 edge2, Vector2 edge3, Vector2 edge4, bool running)
 	{
 		Vector2 comparison = new Vector2(locX, locY);
@@ -217,7 +216,7 @@ public class Movement : MonoBehaviour {
 
 	public void UpdateEntities()
 	{
-		entities.UpdateEntities(null, startX, startY);
 		entities.UpdateEntities(this.gameObject, locX, locY);
+        entities.UpdateEntities(null, startX, startY);
 	}
 }
