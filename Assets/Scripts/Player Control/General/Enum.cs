@@ -9,3 +9,10 @@ public enum Direction
     South,
     West
 }
+
+public enum Behavior
+{
+	None,
+    RandomTurning,
+    RandomMovement
+}

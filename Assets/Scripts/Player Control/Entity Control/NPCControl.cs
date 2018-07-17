@@ -4,10 +4,25 @@ using UnityEngine;
 
 public class NPCControl : EntityControl {
 
+	public Direction direction;
+    private int chance;
+	private Vector2 moveVector;
+
+	public Behavior behavior;
+
+	private void Start()
+	{
+		
+	}
+
 	// Update is called once per frame
 	void Update () {
-		// Put their movement here.
-        // Just to test, trainer right now - Will be in their own file soon.
-		
+		switch (behavior)
+		{
+			case Behavior.RandomTurning:
+			case Behavior.RandomMovement:
+				NPCBehavior.RandomBehavior(gameObject, behavior);
+				break;
+		}
 	}
 }
