@@ -9,6 +9,7 @@ public class NPCControl : EntityControl {
 	private Vector2 moveVector;
 
     public bool isTrainer;
+	public bool hasBattled;
     public int sight;
 
 	NPCBehavior behavior;
@@ -18,17 +19,22 @@ public class NPCControl : EntityControl {
 		behavior = GetComponent<NPCBehavior>();
 		if (!isTrainer)
 			sight = 0;
+		else
+			hasBattled = false;
+		
 	}
 
 	// Update is called once per frame
 	void FixedUpdate () {
-		if (isTrainer)
+		if (isTrainer && !hasBattled)
 		{
-			if (GetComponent<Movement>().DetectPlayer(sight))
+			if (!GetComponent<Movement>().DetectPlayer(sight))
 			{
 				behavior.Behavior();
+			} else {
+				hasBattled = true;
 			}
-		} else {
+		} else if (!isTrainer) {
 			behavior.Behavior();
 		}
 		

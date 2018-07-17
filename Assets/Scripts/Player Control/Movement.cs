@@ -94,6 +94,60 @@ public class Movement : MonoBehaviour {
 		}
 	}
 
+	public void Move(Vector2 input, bool running, bool shift, int length, bool forced)
+    {
+        if (input.x < 0)
+        {
+            currentDir = Direction.West;
+        }
+        if (input.x > 0)
+        {
+            currentDir = Direction.East;
+        }
+        if (input.y < 0)
+        {
+            currentDir = Direction.South;
+        }
+        if (input.y > 0)
+        {
+            currentDir = Direction.North;
+        }
+
+		if ((!isMoving && isAllowedToMove) || forced)
+        {
+            animationHandler.UpdateSprites(currentDir);
+
+            startX = locX;
+            startY = locY;
+
+            this.running = running;
+            this.shift = shift;
+
+            // TODO: Find world coordinate     
+            if (CanMove(locX, locY, currentDir, length))
+            {
+                switch (currentDir)
+                {
+                    case Direction.North:
+                        locY += length;
+                        break;
+                    case Direction.East:
+                        locX += length;
+                        break;
+                    case Direction.South:
+                        locY -= length;
+                        break;
+                    case Direction.West:
+                        locX -= length;
+                        break;
+                }
+                entities.UpdateEntities(this.gameObject, locX, locY);
+                StartCoroutine(SmoothMove(length));
+                eventHandler.RunEvent(locX, locY);
+            }
+        }
+    }
+
 	private bool CanMove(int currentX, int currentY, Direction direction, int length)
     {
 		bool result = true;
@@ -213,44 +267,41 @@ public class Movement : MonoBehaviour {
 
     public bool DetectPlayer(int sight)
 	{
-		Debug.Log("Hello");
 		for (int i = 0; i < sight; i++)
 		{
-            Debug.Log("It's me...");
 			switch (currentDir)
 			{
                 case Direction.North:
-					Debug.Log("I was wondering...");
 					if (entities.GetEntity(locX, locY + i + 1) && entities.GetEntity(locX, locY + i + 1).CompareTag("Player"))
 					{
-						Move(Vector2.up, false, false, i);
-						return false;
+						Move(Vector2.up, false, false, i, true);
+						return true;
 					}
 					break;
                 case Direction.East:
 					if (entities.GetEntity(locX + i + 1, locY) && entities.GetEntity(locX + i + 1, locY).CompareTag("Player"))
                     {
-                        Move(Vector2.right, false, false, i);
-                        return false;
+                        Move(Vector2.right, false, false, i, true);
+                        return true;
                     }
 					break;
                 case Direction.South:
 					if (entities.GetEntity(locX, locY - i - 1) && entities.GetEntity(locX, locY - i - 1).CompareTag("Player"))
                     {
-						Move(Vector2.down, false, false, i);
-                        return false;
+						Move(Vector2.down, false, false, i, true);
+                        return true;
                     }
 					break;
                 case Direction.West:
 					if (entities.GetEntity(locX - i - 1, locY) && entities.GetEntity(locX - i - 1, locY).CompareTag("Player"))
                     {
-                        Move(Vector2.left, false, false, i);
-                        return false;
+                        Move(Vector2.left, false, false, i, true);
+                        return true;
                     }
                     break;
 			}
 		}
-		return true;
+		return false;
 	}
 
     // UPDATING ENTITYCONTROL //
