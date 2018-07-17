@@ -16,7 +16,7 @@ public class NPCControl : EntityControl {
 	}
 
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 		switch (behavior)
 		{
 			case Behavior.RandomTurning:

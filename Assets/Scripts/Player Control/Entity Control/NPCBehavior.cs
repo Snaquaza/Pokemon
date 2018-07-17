@@ -27,9 +27,9 @@ public class NPCBehavior : MonoBehaviour {
                     break;
             }
 			if (behavior == Behavior.RandomTurning)
-			    gameObject.GetComponent<Movement>().Move(moveVector, false, true);
+			    gameObject.GetComponent<Movement>().Move(moveVector, false, true, 0);
 			else if (behavior == Behavior.RandomMovement)
-                gameObject.GetComponent<Movement>().Move(moveVector, false, false);
+                gameObject.GetComponent<Movement>().Move(moveVector, false, false, 1);
         }
 	}
 }

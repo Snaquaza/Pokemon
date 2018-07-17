@@ -44,7 +44,7 @@ public class Movement : MonoBehaviour {
 		UpdateEntities();
 	}
 
-	public void Move(Vector2 input, bool running, bool shift)
+	public void Move(Vector2 input, bool running, bool shift, int length)
 	{
         if (input.x < 0)
         {
@@ -73,51 +73,74 @@ public class Movement : MonoBehaviour {
 			this.running = running;
 			this.shift = shift;
 
-			// TODO: Find world coordinate      
-			switch (currentDir)
+			// TODO: Find world coordinate     
+			if (CanMove(locX, locY, currentDir, length))
 			{
-				case Direction.North:
-					if (CanMove(locX, locY, locX, locY + 1, currentDir))
-					{
-						locY += 1;
-						StartCoroutine(SmoothMove());
-					}
-					break;
-				case Direction.East:
-					if (CanMove(locX, locY, locX + 1, locY, currentDir))
-					{
-						locX += 1;
-						StartCoroutine(SmoothMove());
-					}
-					break;
-				case Direction.South:
-					if (CanMove(locX, locY, locX, locY - 1, currentDir))
-					{
-						locY -= 1;
-						StartCoroutine(SmoothMove());
-					}
-					break;
-				case Direction.West:
-					if (CanMove(locX, locY, locX - 1, locY, currentDir))
-					{
-						locX -= 1;
-						StartCoroutine(SmoothMove());
-					}
-					break;
+				switch (currentDir)
+				{
+					case Direction.North:
+						locY += length;
+						break;
+					case Direction.East:
+						locX += length;
+						break;
+					case Direction.South:
+						locY -= length;
+						break;
+					case Direction.West:
+						locX -= length;
+						break;
+				}
 			}
+			StartCoroutine(SmoothMove(length));
 			eventHandler.RunEvent(locX, locY);
 		}
 	}
 
-	private bool CanMove(int currentX, int currentY, int targetX, int targetY, Direction direction)
+	private bool CanMove(int currentX, int currentY, Direction direction, int length)
     {
-		Debug.Log("X: " + targetX + ", Y: " + targetY + " causes " + (entities.GetEntity(targetX, targetY) == true));
-		return !(tiles.CanMove(targetX, targetY) || barriers.GetBarrier(currentX, currentY, direction) || entities.GetEntity(targetX, targetY) || shift);
+		bool result = true;
+		for (int i = 1; i <= length; i++)
+		{
+			switch (direction)
+			{
+                case Direction.North:
+                    if (tiles.CanMove(currentX, currentY + i) ||
+                        barriers.GetBarrier(currentX, currentY, direction) ||
+                        entities.GetEntity(currentX, currentY + i) ||
+                        shift)
+                        result = false;
+					break;
+                case Direction.East:
+                    if (tiles.CanMove(currentX + i, currentY) ||
+                        barriers.GetBarrier(currentX, currentY, direction) ||
+                        entities.GetEntity(currentX + i, currentY) ||
+                        shift)
+                        result = false;
+					break;
+				case Direction.South:
+                    if (tiles.CanMove(currentX, currentY - i) ||
+                        barriers.GetBarrier(currentX, currentY, direction) ||
+                        entities.GetEntity(currentX, currentY - i) ||
+                        shift)
+                        result = false;
+					break;
+                case Direction.West:
+                    if (tiles.CanMove(currentX - i, currentY) ||
+                        barriers.GetBarrier(currentX, currentY, direction) ||
+                        entities.GetEntity(currentX - i, currentY) ||
+                        shift)
+                        result = false;
+                    break;
+			}
+		}
+
+		return result;
     }
 
     // CanMoveLine
 
-	private IEnumerator SmoothMove()
+	private IEnumerator SmoothMove(int length)
     {
         isMoving = true;
 		Vector2 currentPos = PointToWorld(startX + startY * 32);
@@ -126,7 +149,7 @@ public class Movement : MonoBehaviour {
         while (t < 1f)
         {
             // Not in the middle of the tile right now? (1/3 y, 1/2 x?)
-            t += Time.deltaTime * walkSpeed;
+			t += (Time.deltaTime * walkSpeed) / length;
 			if (running) t *= 2;
 			transform.position = Vector2.Lerp(currentPos, endPos, t);
             yield return null;

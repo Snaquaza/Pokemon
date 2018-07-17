@@ -14,5 +14,6 @@ public enum Behavior
 {
 	None,
     RandomTurning,
-    RandomMovement
+    RandomMovement,
+    CircularRun
 }

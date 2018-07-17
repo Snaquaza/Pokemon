@@ -19,7 +19,7 @@ public class PlayerControl : EntityControl {
 		{
 			movement.Move(inputXY, 
 			              Input.GetKey(KeyCode.Space), 
-			              Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift));
+			              Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift), 1);
 		}
 	}
 }
