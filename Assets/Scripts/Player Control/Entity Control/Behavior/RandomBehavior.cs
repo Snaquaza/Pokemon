@@ -8,6 +8,7 @@ public class RandomBehavior : NPCBehavior {
 
     public override void Behavior()
     {
+		// Add minimum waiting time
         Vector2 moveVector = Vector2.zero;
         int chance = Random.Range(0, 100);
         if (chance == 0)

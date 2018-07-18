@@ -62,7 +62,7 @@ public class Movement : MonoBehaviour {
         }
 
 		if (!isMoving && isAllowedToMove)
-		{         
+		{    
             animationHandler.UpdateSprites(currentDir);
 
 			startX = locX;
@@ -143,7 +143,9 @@ public class Movement : MonoBehaviour {
         isMoving = true;
 		Vector2 currentPos = PointToWorld(startX + startY * 32);
 		Vector2 endPos = PointToWorld(locX + locY * 32);
-        float t = 0;
+		float t = 0;
+        if (running) animationHandler.DirectionToAnimation(currentDir, walkSpeed * 2);
+		else animationHandler.DirectionToAnimation(currentDir, walkSpeed);
         while (t < 1f)
         {
             // Not in the middle of the tile right now? (1/3 y, 1/2 x?)

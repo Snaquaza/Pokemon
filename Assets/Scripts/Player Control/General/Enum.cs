@@ -12,5 +12,8 @@ public enum Direction
 
 public enum Animation
 {
-	
+	Up,
+    Right,
+    Down,
+    Left
 }
