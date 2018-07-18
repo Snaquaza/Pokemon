@@ -5020,7 +5020,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11d9ca5cdee874194a06a3a0e951579e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  direction: 2
+  direction: 0
   isTrainer: 1
   hasBattled: 0
   sight: 3
@@ -5127,6 +5127,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b95669cd9572e4860b2bf7a1ab994430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  frame1: {fileID: 21300020, guid: 7300e7729ea2843299708dcfd317472f, type: 3}
+  frame2: {fileID: 21300022, guid: 7300e7729ea2843299708dcfd317472f, type: 3}
 --- !u!212 &744640312
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5223,7 +5225,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grid: {fileID: 1989970857}
-  walkSpeed: 5
+  walkSpeed: 6
   isAllowedToMove: 0
 --- !u!114 &744640317
 MonoBehaviour:
@@ -5731,8 +5733,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   grid: {fileID: 1989970857}
-  walkSpeed: 5
-  isAllowedToMove: 0
+  walkSpeed: 0
+  isAllowedToMove: 1
 --- !u!114 &1236798586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5744,7 +5746,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11d9ca5cdee874194a06a3a0e951579e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  direction: 0
+  direction: 2
   isTrainer: 1
   hasBattled: 0
   sight: 5
@@ -5804,7 +5806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 62de01586ca2c4eacab909c1c6016078, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  running: 0
+  running: 1
   x1: 15
   y1: 10
   x2: 15
