@@ -21,7 +21,6 @@ public class NPCControl : EntityControl {
 			sight = 0;
 		else
 			hasBattled = false;
-		
 	}
 
 	// Update is called once per frame

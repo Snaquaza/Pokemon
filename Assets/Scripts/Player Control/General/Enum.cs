@@ -9,3 +9,8 @@ public enum Direction
     South,
     West
 }
+
+public enum Animation
+{
+	
+}

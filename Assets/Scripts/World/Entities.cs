@@ -7,7 +7,7 @@ public class Entities : MonoBehaviour {
 	private GameObject[] entities;
 
 	// Use this for initialization
-	void Start () {
+	void OnEnable () {
 		entities = new GameObject[32 * 32];
 	}
 

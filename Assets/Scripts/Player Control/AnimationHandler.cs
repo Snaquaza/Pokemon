@@ -24,4 +24,15 @@ public class AnimationHandler : MonoBehaviour {
                 break;            
 		}
 	}
+
+    public void LoadAnimation()
+	{
+		
+	}
+
+	private IEnumerator Animation()
+	{
+		
+		yield return 0;
+	}
 }

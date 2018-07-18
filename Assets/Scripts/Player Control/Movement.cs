@@ -38,6 +38,8 @@ public class Movement : MonoBehaviour {
 		tiles = grid.GetComponent<SolidTiles>();
 		barriers = grid.GetComponent<Barriers>();
 		entities = grid.GetComponent<Entities>();
+      
+        UpdateEntities();
 	}
 
 	public void Move(Vector2 input, bool running, bool shift, int length)
@@ -135,6 +137,7 @@ public class Movement : MonoBehaviour {
 		return result;
     }
 
+    // Add different movement types?
 	private IEnumerator SmoothMove(int length)
     {
         isMoving = true;
@@ -261,7 +264,7 @@ public class Movement : MonoBehaviour {
 
 	public void UpdateEntities()
 	{
-		entities.UpdateEntities(this.gameObject, locX, locY);
         entities.UpdateEntities(null, startX, startY);
+		entities.UpdateEntities(this.gameObject, locX, locY);
 	}
 }

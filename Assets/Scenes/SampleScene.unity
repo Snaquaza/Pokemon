@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 237645617}
   - component: {fileID: 237645619}
   - component: {fileID: 237645618}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Houses
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -175,14 +175,14 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 4
+  m_SortingLayerID: -2128409917
+  m_SortingLayer: -1
+  m_SortingOrder: 2
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
-  m_SortOrder: 0
+  m_SortOrder: 2
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
 --- !u!1839735485 &237645619
@@ -1303,7 +1303,7 @@ GameObject:
   - component: {fileID: 257060340}
   - component: {fileID: 257060342}
   - component: {fileID: 257060341}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Relief
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1355,14 +1355,14 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingLayerID: -2128409917
+  m_SortingLayer: -1
+  m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
-  m_SortOrder: 0
+  m_SortOrder: 2
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
 --- !u!1839735485 &257060342
@@ -3256,7 +3256,7 @@ GameObject:
   - component: {fileID: 382184115}
   - component: {fileID: 382184117}
   - component: {fileID: 382184116}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Decor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3308,8 +3308,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2128409917
+  m_SortingLayer: -1
   m_SortingOrder: 5
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -3450,7 +3450,7 @@ GameObject:
   - component: {fileID: 619431058}
   - component: {fileID: 619431060}
   - component: {fileID: 619431059}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roads
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3502,8 +3502,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2128409917
+  m_SortingLayer: -1
   m_SortingOrder: 1
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -5108,6 +5108,7 @@ GameObject:
   - component: {fileID: 744640316}
   - component: {fileID: 744640315}
   - component: {fileID: 744640314}
+  - component: {fileID: 744640311}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -5115,6 +5116,17 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &744640311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 744640310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b95669cd9572e4860b2bf7a1ab994430, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &744640312
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5265,7 +5277,7 @@ GameObject:
   - component: {fileID: 904441414}
   - component: {fileID: 904441416}
   - component: {fileID: 904441415}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Stairs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5317,8 +5329,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2128409917
+  m_SortingLayer: -1
   m_SortingOrder: 3
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -5811,7 +5823,7 @@ GameObject:
   - component: {fileID: 1607856622}
   - component: {fileID: 1607856621}
   - component: {fileID: 1607856623}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grids
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5868,7 +5880,7 @@ GameObject:
   - component: {fileID: 1989970859}
   - component: {fileID: 1989970860}
   - component: {fileID: 1989970861}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: SolidGrid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5957,7 +5969,7 @@ GameObject:
   - component: {fileID: 2078751892}
   - component: {fileID: 2078751894}
   - component: {fileID: 2078751893}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6009,8 +6021,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -2128409917
+  m_SortingLayer: -1
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -121450,7 +121462,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2098291690}
   - component: {fileID: 2098291689}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
