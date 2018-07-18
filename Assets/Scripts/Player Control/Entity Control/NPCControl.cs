@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class NPCControl : EntityControl {
 
+    // Code "alert" - notice if running.
+	// Code "bounds" while random walking
 	public Direction direction;
     private int chance;
 	private Vector2 moveVector;
@@ -21,7 +23,6 @@ public class NPCControl : EntityControl {
 			sight = 0;
 		else
 			hasBattled = false;
-		
 	}
 
 	// Update is called once per frame
