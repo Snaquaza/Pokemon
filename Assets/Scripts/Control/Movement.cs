@@ -207,6 +207,25 @@ public class Movement : MonoBehaviour {
 		UpdateEntities();
     }
 
+	public void Face(Direction direction)
+	{
+		switch (direction)
+		{
+            case Direction.North:
+                Move(Vector2.down, false, true, 0);
+				break;
+            case Direction.East:
+                Move(Vector2.left, false, true, 0);
+				break;
+            case Direction.South:
+                Move(Vector2.up, false, true, 0);
+				break;
+            case Direction.West:
+                Move(Vector2.right, false, true, 0);
+                break;
+		}
+	}
+
 	public void NextMove(Vector2 edge1, Vector2 edge2, Vector2 edge3, Vector2 edge4, bool running)
 	{
 		Vector2 comparison = new Vector2(locX, locY);
@@ -239,10 +258,12 @@ public class Movement : MonoBehaviour {
 				case Direction.North:
 					if (entities.GetEntity(locX, locY + i + 1) && entities.GetEntity(locX, locY + i + 1).CompareTag("Player"))
 					{
+						// Turn this into a separate method?
 						FindObjectOfType<PlayerControl>().seen = true;
 						StartCoroutine(QueueMove(Vector2.up, i));
 						EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
-						playerEvent.AddEvent(new Interact(gameObject));
+						playerEvent.AddEvent(new Face(currentDir));
+                        playerEvent.AddEvent(new Interact(gameObject));
                         playerEvent.CallEvent();
 						return true;
 					}
@@ -252,8 +273,9 @@ public class Movement : MonoBehaviour {
 					{
                         FindObjectOfType<PlayerControl>().seen = true;
 						StartCoroutine(QueueMove(Vector2.right, i));
-                        EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
-						playerEvent.AddEvent(new Interact(gameObject));
+						EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
+						playerEvent.AddEvent(new Face(currentDir));
+                        playerEvent.AddEvent(new Interact(gameObject));
                         playerEvent.CallEvent();
                         return true;
                     }
@@ -263,8 +285,9 @@ public class Movement : MonoBehaviour {
 					{
                         FindObjectOfType<PlayerControl>().seen = true;
 						StartCoroutine(QueueMove(Vector2.down, i));
-                        EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
-						playerEvent.AddEvent(new Interact(gameObject));
+						EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
+						playerEvent.AddEvent(new Face(currentDir));
+                        playerEvent.AddEvent(new Interact(gameObject));
                         playerEvent.CallEvent();
                         return true;
                     }
@@ -274,8 +297,9 @@ public class Movement : MonoBehaviour {
 					{
                         FindObjectOfType<PlayerControl>().seen = true;
 						StartCoroutine(QueueMove(Vector2.left, i));
-                        EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
-						playerEvent.AddEvent(new Interact(gameObject));
+						EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
+						playerEvent.AddEvent(new Face(currentDir));
+                        playerEvent.AddEvent(new Interact(gameObject));
                         playerEvent.CallEvent();
                         return true;
                     }

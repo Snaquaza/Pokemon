@@ -54,3 +54,18 @@ public class Interact : StaticEvent
         gameObject.GetComponent<EntityControl>().OnInteract();
     }
 }
+
+public class Face : StaticEvent
+{
+	private Direction direction;
+
+	public Face(Direction direction)
+	{
+		this.direction = direction;
+	}
+
+	public override void OnEvent(GameObject player)
+	{
+		player.GetComponent<Movement>().Face(direction);
+	}
+}
