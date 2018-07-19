@@ -10,6 +10,7 @@ public class Movement : MonoBehaviour {
 	public float walkSpeed;
 	public Direction startDir;
 
+	[SerializeField]
 	private bool isMoving;
 
 	private bool shift, running;
@@ -198,8 +199,12 @@ public class Movement : MonoBehaviour {
 
 	public void Warp(int x, int y)
     {
-        locX = x;
-        locY = y;
+		UpdateEntities();
+		startX = locX;
+		startY = locY;
+		locX = x;
+		locY = y;
+		UpdateEntities();
     }
 
 	public void NextMove(Vector2 edge1, Vector2 edge2, Vector2 edge3, Vector2 edge4, bool running)
