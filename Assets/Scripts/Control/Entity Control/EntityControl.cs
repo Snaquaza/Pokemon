@@ -10,7 +10,7 @@ public abstract class EntityControl : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         movement = GetComponent<Movement>();
-        // Entities aren't on there before they move.
+        // Entities aren't on there before they move
 	}
 
 	private void LateUpdate()
@@ -18,5 +18,5 @@ public abstract class EntityControl : MonoBehaviour {
 		GetComponent<SpriteRenderer>().sortingOrder = Mathf.RoundToInt(transform.position.y) * -1;
 	}
 
-	public abstract void OnInteract();   
+	public abstract void OnInteract(GameObject interacting);   
 }

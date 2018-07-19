@@ -14,7 +14,7 @@ public class Movement : MonoBehaviour {
 	private bool isMoving;
 
 	private bool shift, running;
-
+    
 	private int locX, locY;
     private int startX, startY;
 	private Direction currentDir;
@@ -195,6 +195,11 @@ public class Movement : MonoBehaviour {
                 || (comparison.y <= edge1.y && comparison.y > edge2.y)));
 	}
 
+	public Direction currentDirection()
+	{
+		return currentDir;
+	}
+
     // SPECIAL MOVEMENT //
 
 	public void Warp(int x, int y)
@@ -224,6 +229,7 @@ public class Movement : MonoBehaviour {
                 Move(Vector2.right, false, true, 0);
                 break;
 		}
+		animationHandler.UpdateSprites(currentDir);
 	}
 
 	public void NextMove(Vector2 edge1, Vector2 edge2, Vector2 edge3, Vector2 edge4, bool running)
@@ -262,7 +268,7 @@ public class Movement : MonoBehaviour {
 						FindObjectOfType<PlayerControl>().seen = true;
 						StartCoroutine(QueueMove(Vector2.up, i));
 						EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
-						playerEvent.AddEvent(new Face(currentDir));
+						// playerEvent.AddEvent(new Face(currentDir));
                         playerEvent.AddEvent(new Interact(gameObject));
                         playerEvent.CallEvent();
 						return true;
@@ -274,8 +280,8 @@ public class Movement : MonoBehaviour {
                         FindObjectOfType<PlayerControl>().seen = true;
 						StartCoroutine(QueueMove(Vector2.right, i));
 						EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
-						playerEvent.AddEvent(new Face(currentDir));
-                        playerEvent.AddEvent(new Interact(gameObject));
+						// playerEvent.AddEvent(new Face(currentDir));
+						playerEvent.AddEvent(new Interact(gameObject));
                         playerEvent.CallEvent();
                         return true;
                     }
@@ -286,7 +292,7 @@ public class Movement : MonoBehaviour {
                         FindObjectOfType<PlayerControl>().seen = true;
 						StartCoroutine(QueueMove(Vector2.down, i));
 						EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
-						playerEvent.AddEvent(new Face(currentDir));
+						// playerEvent.AddEvent(new Face(currentDir));
                         playerEvent.AddEvent(new Interact(gameObject));
                         playerEvent.CallEvent();
                         return true;
@@ -298,7 +304,7 @@ public class Movement : MonoBehaviour {
                         FindObjectOfType<PlayerControl>().seen = true;
 						StartCoroutine(QueueMove(Vector2.left, i));
 						EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
-						playerEvent.AddEvent(new Face(currentDir));
+						// playerEvent.AddEvent(new Face(currentDir));
                         playerEvent.AddEvent(new Interact(gameObject));
                         playerEvent.CallEvent();
                         return true;

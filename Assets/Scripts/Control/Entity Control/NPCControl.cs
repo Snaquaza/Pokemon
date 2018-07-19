@@ -12,21 +12,23 @@ public class NPCControl : EntityControl {
     public int sight;
 
 	public TextHolder text;
-
+    
 	NPCBehavior behavior;
 
 	private void Start()
 	{
+        movement = GetComponent<Movement>();
 		behavior = GetComponent<NPCBehavior>();
 		if (!isTrainer)
 			sight = 0;
 		else
 			hasBattled = false;
 	}
-
-	public override void OnInteract()
+    
+	public override void OnInteract(GameObject interacting)
 	{
-		FindObjectOfType<Dialogue>().StartDialogue(text);
+		movement.Face(interacting.GetComponent<Movement>().currentDirection());
+		FindObjectOfType<Dialogue>().StartDialogue(text);      
 	}
 
 	// Update is called once per frame

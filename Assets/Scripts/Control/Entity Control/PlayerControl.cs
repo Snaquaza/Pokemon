@@ -27,7 +27,7 @@ public class PlayerControl : EntityControl {
 			isTalking = FindObjectOfType<Dialogue>().NextDialogue();
 		}
         
-		else if (Input.GetKey(KeyCode.X) && isTalking)
+		else if (Input.GetKeyDown(KeyCode.X) && isTalking)
 		{
 			FindObjectOfType<Dialogue>().EndDialogue();
 		}
@@ -37,7 +37,7 @@ public class PlayerControl : EntityControl {
 			GameObject entity = movement.DetectEntity();
 			if (entity)
 			{
-				entity.GetComponent<EntityControl>().OnInteract();
+				entity.GetComponent<EntityControl>().OnInteract(gameObject);
 				isTalking = true;
 			}
 		}
@@ -50,8 +50,8 @@ public class PlayerControl : EntityControl {
 		}
 	}
 
-    public override void OnInteract()
-    {
-        throw new System.NotImplementedException();
+	public override void OnInteract(GameObject interacting)
+	{      
+        movement.Face(interacting.GetComponent<Movement>().currentDirection());
     }
 }
