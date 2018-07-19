@@ -5,6 +5,7 @@ using UnityEngine;
 public abstract class EntityControl : MonoBehaviour {
    
 	protected Movement movement;
+	protected bool canMove = true;
 
 	// Use this for initialization
 	void Start () {

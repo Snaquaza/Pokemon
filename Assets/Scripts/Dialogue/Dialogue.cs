@@ -8,6 +8,8 @@ public class Dialogue : MonoBehaviour {
     // Make Dialogue system work with animation, not enabling.
 
 	public Canvas dialogueCanvas;
+	public float textSpeed;
+	private bool canNext = true;
 	public Text nameText;
 	public Text dialogueText;
 
@@ -34,10 +36,28 @@ public class Dialogue : MonoBehaviour {
     public bool NextDialogue()
 	{
 		if (dialogue.Count == 0) { EndDialogue(); return false; }
-        // Possibly slowly write text.
-		string currentSentence = dialogue.Dequeue();
-		dialogueText.text = currentSentence;
+		if (canNext)
+		{
+			string currentSentence = dialogue.Dequeue();
+			dialogueText.text = currentSentence;
+			StopCoroutine(TypeSentence(currentSentence));
+			StartCoroutine(TypeSentence(currentSentence));
+		}
 		return true;
+	}
+
+	IEnumerator TypeSentence(string sentence)
+	{
+		canNext = false;
+
+		dialogueText.text = "";
+		foreach (char letter in sentence)
+		{
+			yield return new WaitForSeconds(1 / textSpeed);
+			dialogueText.text += letter;
+			yield return null;
+		}
+		canNext = true;
 	}
     
     public void EndDialogue()

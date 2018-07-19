@@ -34,15 +34,16 @@ public class NPCControl : EntityControl {
 		// Can glitch and appear near player
 		// Walks before player animation is done (may be good)
         // Can walk through NPCs sometimes. Sometimes spots with no NPCs.
-		if (isTrainer && !hasBattled)
+		if (isTrainer && !hasBattled && canMove)
 		{
 			if (!GetComponent<Movement>().DetectPlayer(sight))
 			{
 				behavior.Behavior();
 			} else {
+				canMove = false;
 				hasBattled = true;
 			}
-		} else if (!isTrainer) {
+		} else if (!isTrainer && canMove) {
 			behavior.Behavior();
 		}
 		

@@ -10,7 +10,6 @@ public class Movement : MonoBehaviour {
 	public float walkSpeed;
 
 	private bool isMoving;
-	public bool isAllowedToMove;
 
 	private bool shift, running;
 
@@ -30,8 +29,6 @@ public class Movement : MonoBehaviour {
 		locY = (int)(transform.position.y - 1);
 		startX = locX;
 		startY = locY;
-
-		isAllowedToMove = true;
 
 		eventHandler = GetComponent<EventHandler>();
 		animationHandler = GetComponent<AnimationHandler>();
@@ -61,7 +58,7 @@ public class Movement : MonoBehaviour {
             currentDir = Direction.North;
         }
 
-		if (!isMoving && isAllowedToMove)
+		if (!isMoving)
 		{    
             animationHandler.UpdateSprites(currentDir);
 
@@ -89,6 +86,8 @@ public class Movement : MonoBehaviour {
 						locX -= length;
 						break;
 				}
+				// Empty gameobject - not detected for players, NPCs, etc - possible issue: having null on functions called
+				entities.UpdateEntities(new GameObject(), startX, startY);
                 entities.UpdateEntities(this.gameObject, locX, locY);
                 StartCoroutine(SmoothMove(length));
                 eventHandler.RunEvent(locX, locY);
@@ -155,8 +154,8 @@ public class Movement : MonoBehaviour {
             yield return null;
         }
 		transform.position = PointToWorld(locX + locY * 32);
-		isMoving = false;
-        UpdateEntities();
+		UpdateEntities();     
+        isMoving = false; 
         yield return 0;
     }
 
@@ -165,10 +164,13 @@ public class Movement : MonoBehaviour {
 		while (isMoving)
 			yield return null;
 		Move(target, false, false, i);
+		while (isMoving)
+			yield return null;
+        FindObjectOfType<PlayerControl>().seen = false;
 	}
     
     // CALCULATIONS //
-
+    
     private Vector2 PointToWorld(int point)
     {
 		Vector2 result;      
@@ -232,6 +234,7 @@ public class Movement : MonoBehaviour {
                 case Direction.North:
 					if (entities.GetEntity(locX, locY + i + 1) && entities.GetEntity(locX, locY + i + 1).CompareTag("Player"))
 					{
+						FindObjectOfType<PlayerControl>().seen = true;
 						StartCoroutine(QueueMove(Vector2.up, i));
 						return true;
 					}
@@ -239,6 +242,7 @@ public class Movement : MonoBehaviour {
                 case Direction.East:
 					if (entities.GetEntity(locX + i + 1, locY) && entities.GetEntity(locX + i + 1, locY).CompareTag("Player"))
 					{
+                        FindObjectOfType<PlayerControl>().seen = true;
                         StartCoroutine(QueueMove(Vector2.right, i));
                         return true;
                     }
@@ -246,6 +250,7 @@ public class Movement : MonoBehaviour {
                 case Direction.South:
 					if (entities.GetEntity(locX, locY - i - 1) && entities.GetEntity(locX, locY - i - 1).CompareTag("Player"))
 					{
+                        FindObjectOfType<PlayerControl>().seen = true;
                         StartCoroutine(QueueMove(Vector2.down, i));
                         return true;
                     }
@@ -253,6 +258,7 @@ public class Movement : MonoBehaviour {
                 case Direction.West:
 					if (entities.GetEntity(locX - i - 1, locY) && entities.GetEntity(locX - i - 1, locY).CompareTag("Player"))
 					{
+                        FindObjectOfType<PlayerControl>().seen = true;
                         StartCoroutine(QueueMove(Vector2.left, i));
                         return true;
                     }
