@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EntityControl : MonoBehaviour {
+public abstract class EntityControl : MonoBehaviour {
    
     protected Movement movement;
 
@@ -16,4 +16,6 @@ public class EntityControl : MonoBehaviour {
 	{
 		GetComponent<SpriteRenderer>().sortingOrder = Mathf.RoundToInt(transform.position.y) * -1;
 	}
+
+	public abstract void OnInteract();   
 }

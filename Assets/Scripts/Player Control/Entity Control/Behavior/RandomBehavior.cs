@@ -32,8 +32,4 @@ public class RandomBehavior : NPCBehavior {
             gameObject.GetComponent<Movement>().Move(moveVector, running, turning, 1);
         }
     }
-    public override void onInteract()
-    {
-        
-    }
 }

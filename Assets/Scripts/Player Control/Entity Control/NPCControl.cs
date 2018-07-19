@@ -25,6 +25,11 @@ public class NPCControl : EntityControl {
 			hasBattled = false;
 	}
 
+	public override void OnInteract()
+	{
+		throw new System.NotImplementedException();
+	}
+
 	// Update is called once per frame
 	void FixedUpdate () {
 		// Can glitch and appear near player

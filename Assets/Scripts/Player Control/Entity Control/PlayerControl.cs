@@ -24,4 +24,9 @@ public class PlayerControl : EntityControl {
 			              Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift), 1);
 		}
 	}
+
+    public override void OnInteract()
+    {
+        throw new System.NotImplementedException();
+    }
 }

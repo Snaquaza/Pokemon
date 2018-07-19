@@ -62,6 +62,7 @@ public class AnimationHandler : MonoBehaviour {
 		
 	}
 
+	// May want to do 1 frame per movement (somehow)
 	private IEnumerator Animate()
 	{
         float t = 0;

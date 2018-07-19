@@ -15,8 +15,4 @@ public class CircularBehavior : NPCBehavior {
         Vector2 edge4 = new Vector2(x4, y4);
 		gameObject.GetComponent<Movement>().NextMove(edge1, edge2, edge3, edge4, running);
 	}
-
-	public override void onInteract()
-	{
-	}
 }
