@@ -262,6 +262,23 @@ public class Movement : MonoBehaviour {
 		return false;
 	}
 
+	public GameObject DetectEntity()
+	{
+		switch (currentDir)
+		{
+            case Direction.North:
+				return entities.GetEntity(locX, locY + 1);
+            case Direction.East:
+				return entities.GetEntity(locX + 1, locY);
+            case Direction.South:
+				return entities.GetEntity(locX, locY - 1);
+            case Direction.West:
+                return entities.GetEntity(locX - 1, locY);
+			default:
+				return null;
+		}
+	}
+
     // UPDATING ENTITYCONTROL //
 
 	public void UpdateEntities()

@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Barriers : MonoBehaviour
-{
-
+{   
     private int[] barrierArray;
 
     // Use this for initialization

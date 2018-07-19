@@ -4,15 +4,14 @@ using UnityEngine;
 
 public class NPCControl : EntityControl {
 
-    // Code "alert" - notice if running.
+	// Code "alert" - notice if running.
 	// Code "bounds" while random walking
-	public Direction direction;
-    private int chance;
-	private Vector2 moveVector;
 
     public bool isTrainer;
 	public bool hasBattled;
     public int sight;
+
+	public TextHolder text;
 
 	NPCBehavior behavior;
 
@@ -27,7 +26,7 @@ public class NPCControl : EntityControl {
 
 	public override void OnInteract()
 	{
-		throw new System.NotImplementedException();
+		FindObjectOfType<Dialogue>().StartDialogue(text);
 	}
 
 	// Update is called once per frame

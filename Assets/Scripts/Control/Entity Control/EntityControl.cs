@@ -4,7 +4,7 @@ using UnityEngine;
 
 public abstract class EntityControl : MonoBehaviour {
    
-    protected Movement movement;
+	protected Movement movement;
 
 	// Use this for initialization
 	void Start () {
