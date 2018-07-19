@@ -9,9 +9,11 @@ public class Dialogue : MonoBehaviour {
 
 	public Canvas dialogueCanvas;
 	public float textSpeed;
-	private bool canNext = true;
 	public Text nameText;
 	public Text dialogueText;
+	public Image avatar;
+
+	PlayerControl player;
 
 	private Queue<string> dialogue;
 
@@ -19,13 +21,16 @@ public class Dialogue : MonoBehaviour {
 	void Start () {
 		dialogueCanvas.enabled = false;
 		dialogue = new Queue<string>();
+		player = FindObjectOfType<PlayerControl>().gameObject.GetComponent<PlayerControl>();
 	}
 
 	public void StartDialogue(TextHolder text)
 	{
+		player.isTalking = true;
 		dialogue.Clear();
 		dialogueCanvas.enabled = true;
 		nameText.text = text.name;
+		avatar.sprite = text.sprite;
         foreach (string sentence in text.text)
 		{
 			dialogue.Enqueue(sentence);
@@ -36,20 +41,15 @@ public class Dialogue : MonoBehaviour {
     public bool NextDialogue()
 	{
 		if (dialogue.Count == 0) { EndDialogue(); return false; }
-		if (canNext)
-		{
-			string currentSentence = dialogue.Dequeue();
-			dialogueText.text = currentSentence;
-			StopCoroutine(TypeSentence(currentSentence));
-			StartCoroutine(TypeSentence(currentSentence));
-		}
+		string currentSentence = dialogue.Dequeue();
+		dialogueText.text = currentSentence;
+		StopAllCoroutines();
+		StartCoroutine(TypeSentence(currentSentence));
 		return true;
 	}
 
 	IEnumerator TypeSentence(string sentence)
-	{
-		canNext = false;
-
+	{      
 		dialogueText.text = "";
 		foreach (char letter in sentence)
 		{
@@ -57,12 +57,12 @@ public class Dialogue : MonoBehaviour {
 			dialogueText.text += letter;
 			yield return null;
 		}
-		canNext = true;
 	}
     
     public void EndDialogue()
 	{
 		dialogue.Clear();
         dialogueCanvas.enabled = false;
+		player.isTalking = false;
 	}
 }

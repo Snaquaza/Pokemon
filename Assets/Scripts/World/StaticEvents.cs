@@ -39,3 +39,18 @@ public class Warp : StaticEvent {
 		player.GetComponent<Movement>().Warp(x, y);
 	}
 }
+
+// Create Trainer event
+public class Interact : StaticEvent
+{
+	private GameObject gameObject;
+	public Interact(GameObject gameObject)
+    {
+		this.gameObject = gameObject;
+    }
+
+    public override void OnEvent(GameObject player)
+	{
+        gameObject.GetComponent<EntityControl>().OnInteract();
+    }
+}

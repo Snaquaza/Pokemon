@@ -7,8 +7,7 @@ public class PlayerControl : EntityControl {
 	Vector2 inputXY;
 	bool inputInteract;
 
-	private bool isTalking;
-
+	public bool isTalking;   
 	public bool seen;
 
 	// Update is called once per frame
@@ -31,7 +30,6 @@ public class PlayerControl : EntityControl {
 		else if (Input.GetKey(KeyCode.X) && isTalking)
 		{
 			FindObjectOfType<Dialogue>().EndDialogue();
-			isTalking = false;
 		}
         
 		else if (inputInteract)

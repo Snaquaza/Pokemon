@@ -8,6 +8,7 @@ public class Movement : MonoBehaviour {
 
 	public Grid grid;
 	public float walkSpeed;
+	public Direction startDir;
 
 	private bool isMoving;
 
@@ -29,6 +30,7 @@ public class Movement : MonoBehaviour {
 		locY = (int)(transform.position.y - 1);
 		startX = locX;
 		startY = locY;
+		currentDir = startDir;
 
 		eventHandler = GetComponent<EventHandler>();
 		animationHandler = GetComponent<AnimationHandler>();
@@ -87,9 +89,8 @@ public class Movement : MonoBehaviour {
 						break;
 				}
 				// Empty gameobject - not detected for players, NPCs, etc - possible issue: having null on functions called
-				entities.UpdateEntities(new GameObject(), startX, startY);
-                entities.UpdateEntities(this.gameObject, locX, locY);
-                StartCoroutine(SmoothMove(length));
+                entities.UpdateEntities(this.gameObject, locX, locY);            
+				StartCoroutine(SmoothMove(length));
                 eventHandler.RunEvent(locX, locY);
 			}
 		}
@@ -131,8 +132,7 @@ public class Movement : MonoBehaviour {
                         result = false;
                     break;
 			}
-		}
-
+		}      
 		return result;
     }
 
@@ -154,7 +154,7 @@ public class Movement : MonoBehaviour {
             yield return null;
         }
 		transform.position = PointToWorld(locX + locY * 32);
-		UpdateEntities();     
+		UpdateEntities();
         isMoving = false; 
         yield return 0;
     }
@@ -231,11 +231,14 @@ public class Movement : MonoBehaviour {
 		{
 			switch (currentDir)
 			{
-                case Direction.North:
+				case Direction.North:
 					if (entities.GetEntity(locX, locY + i + 1) && entities.GetEntity(locX, locY + i + 1).CompareTag("Player"))
 					{
 						FindObjectOfType<PlayerControl>().seen = true;
 						StartCoroutine(QueueMove(Vector2.up, i));
+						EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
+						playerEvent.AddEvent(new Interact(gameObject));
+                        playerEvent.CallEvent();
 						return true;
 					}
 					break;
@@ -243,7 +246,10 @@ public class Movement : MonoBehaviour {
 					if (entities.GetEntity(locX + i + 1, locY) && entities.GetEntity(locX + i + 1, locY).CompareTag("Player"))
 					{
                         FindObjectOfType<PlayerControl>().seen = true;
-                        StartCoroutine(QueueMove(Vector2.right, i));
+						StartCoroutine(QueueMove(Vector2.right, i));
+                        EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
+						playerEvent.AddEvent(new Interact(gameObject));
+                        playerEvent.CallEvent();
                         return true;
                     }
 					break;
@@ -251,7 +257,10 @@ public class Movement : MonoBehaviour {
 					if (entities.GetEntity(locX, locY - i - 1) && entities.GetEntity(locX, locY - i - 1).CompareTag("Player"))
 					{
                         FindObjectOfType<PlayerControl>().seen = true;
-                        StartCoroutine(QueueMove(Vector2.down, i));
+						StartCoroutine(QueueMove(Vector2.down, i));
+                        EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
+						playerEvent.AddEvent(new Interact(gameObject));
+                        playerEvent.CallEvent();
                         return true;
                     }
 					break;
@@ -259,7 +268,10 @@ public class Movement : MonoBehaviour {
 					if (entities.GetEntity(locX - i - 1, locY) && entities.GetEntity(locX - i - 1, locY).CompareTag("Player"))
 					{
                         FindObjectOfType<PlayerControl>().seen = true;
-                        StartCoroutine(QueueMove(Vector2.left, i));
+						StartCoroutine(QueueMove(Vector2.left, i));
+                        EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
+						playerEvent.AddEvent(new Interact(gameObject));
+                        playerEvent.CallEvent();
                         return true;
                     }
                     break;
