@@ -16,6 +16,7 @@ public class EventHandler : MonoBehaviour {
 	public void RunEvent(int x, int y)
     {
 		currentEvents = staticEvents.GetEvent(x, y);
+		Debug.Log(staticEvents.GetEvent(1, 2).Count);
 		CallEvent();
     }
 
@@ -25,7 +26,7 @@ public class EventHandler : MonoBehaviour {
         {
             currentEvents[i].OnEvent(gameObject);
         }
-		currentEvents.Clear();
+		// currentEvents.Clear();
 	}
 
 	public void AddEvent(StaticEvent addEvent)
