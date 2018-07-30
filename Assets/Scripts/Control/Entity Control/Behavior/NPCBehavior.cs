@@ -4,6 +4,5 @@ using UnityEngine;
 
 public abstract class NPCBehavior : MonoBehaviour {
 	public abstract void Behavior();
-
-    // Make Behavior serializable classes instead.
+ // Make Behavior serializable classes instead.
 }

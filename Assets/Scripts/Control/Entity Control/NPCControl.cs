@@ -1,15 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
 public class NPCControl : EntityControl {
 
 	// Code "alert" - notice if running.
 	// Code "bounds" while random walking
-
+    // Code running / turning into here, not behavior
     public bool isTrainer;
-	public bool hasBattled;
-    public int sight;
+	public int sight;
+    private bool hasBattled;
 
 	public TextHolder text;
     
@@ -50,4 +51,34 @@ public class NPCControl : EntityControl {
 		}
 		
 	}
+}
+
+[CustomEditor(typeof(NPCControl))]
+public class MyScriptEditor : Editor
+{   
+    // Trainer   
+    private SerializedProperty isTrainer;
+    private SerializedProperty sight;
+
+    private void OnEnable()
+    {      
+        // Trainer
+        isTrainer = serializedObject.FindProperty("isTrainer");
+        sight = serializedObject.FindProperty("sight");      
+    }
+
+    public override void OnInspectorGUI()
+    {
+        serializedObject.UpdateIfRequiredOrScript();
+
+        EditorGUILayout.PropertyField(isTrainer, new GUIContent("Trainer"));
+        if (isTrainer.boolValue)
+        {
+            EditorGUI.indentLevel++;
+            EditorGUILayout.PropertyField(sight, new GUIContent("Sight"));
+            EditorGUI.indentLevel--;
+        }
+      
+        serializedObject.ApplyModifiedProperties();
+    }
 }

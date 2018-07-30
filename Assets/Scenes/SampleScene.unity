@@ -5137,7 +5137,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTrainer: 1
-  hasBattled: 0
   sight: 3
   text:
     name: Jerry
@@ -5952,7 +5951,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isTrainer: 1
-  hasBattled: 0
   sight: 5
   text:
     name: Megan
