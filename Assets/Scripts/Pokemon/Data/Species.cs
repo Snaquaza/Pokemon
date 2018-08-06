@@ -43,11 +43,26 @@ public class Species : MonoBehaviour {
     [SerializeField]
 	private int height, weight;
     [SerializeField]
-    private Colors color;
+	private Colors color;
+	[SerializeField]
+	private List<Species> forms;
     
 	// Use this for initialization
 	void Start () {
 		
+	}
+
+	public Species(string speciesName, int nationalDex, int regionalDex, int hp, int atk, int def, int spa, int spd, int spe)
+	{
+		this.speciesName = speciesName;
+		this.nationalDex = nationalDex;
+		this.regionalDex = regionalDex;
+		this.hp = hp;
+		this.atk = atk;
+		this.def = def;
+		this.spa = spa;
+		this.spd = spd;
+		this.spe = spe;
 	}
 
     public int[] GetStats()
