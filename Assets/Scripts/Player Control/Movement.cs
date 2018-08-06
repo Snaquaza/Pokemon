@@ -8,12 +8,13 @@ public class Movement : MonoBehaviour {
 
 	public Grid grid;
 	public float walkSpeed;
+	public Direction startDir;
 
+	[SerializeField]
 	private bool isMoving;
-	public bool isAllowedToMove;
 
 	private bool shift, running;
-
+    
 	private int locX, locY;
     private int startX, startY;
 	private Direction currentDir;
@@ -30,8 +31,7 @@ public class Movement : MonoBehaviour {
 		locY = (int)(transform.position.y - 1);
 		startX = locX;
 		startY = locY;
-
-		isAllowedToMove = true;
+		currentDir = startDir;
 
 		eventHandler = GetComponent<EventHandler>();
 		animationHandler = GetComponent<AnimationHandler>();
@@ -61,7 +61,7 @@ public class Movement : MonoBehaviour {
             currentDir = Direction.North;
         }
 
-		if (!isMoving && isAllowedToMove)
+		if (!isMoving)
 		{    
             animationHandler.UpdateSprites(currentDir);
 
@@ -89,8 +89,9 @@ public class Movement : MonoBehaviour {
 						locX -= length;
 						break;
 				}
-                entities.UpdateEntities(this.gameObject, locX, locY);
-                StartCoroutine(SmoothMove(length));
+				// Empty gameobject - not detected for players, NPCs, etc - possible issue: having null on functions called
+                entities.UpdateEntities(this.gameObject, locX, locY);            
+				StartCoroutine(SmoothMove(length));
                 eventHandler.RunEvent(locX, locY);
 			}
 		}
@@ -132,8 +133,7 @@ public class Movement : MonoBehaviour {
                         result = false;
                     break;
 			}
-		}
-
+		}      
 		return result;
     }
 
@@ -155,8 +155,8 @@ public class Movement : MonoBehaviour {
             yield return null;
         }
 		transform.position = PointToWorld(locX + locY * 32);
-		isMoving = false;
-        UpdateEntities();
+		UpdateEntities();
+        isMoving = false; 
         yield return 0;
     }
 
@@ -165,10 +165,13 @@ public class Movement : MonoBehaviour {
 		while (isMoving)
 			yield return null;
 		Move(target, false, false, i);
+		while (isMoving)
+			yield return null;
+        FindObjectOfType<PlayerControl>().seen = false;
 	}
     
     // CALCULATIONS //
-
+    
     private Vector2 PointToWorld(int point)
     {
 		Vector2 result;      
@@ -192,13 +195,42 @@ public class Movement : MonoBehaviour {
                 || (comparison.y <= edge1.y && comparison.y > edge2.y)));
 	}
 
+	public Direction currentDirection()
+	{
+		return currentDir;
+	}
+
     // SPECIAL MOVEMENT //
 
 	public void Warp(int x, int y)
     {
-        locX = x;
-        locY = y;
+		UpdateEntities();
+		startX = locX;
+		startY = locY;
+		locX = x;
+		locY = y;
+		UpdateEntities();
     }
+
+	public void Face(Direction direction)
+	{
+		switch (direction)
+		{
+            case Direction.North:
+                Move(Vector2.down, false, true, 0);
+				break;
+            case Direction.East:
+                Move(Vector2.left, false, true, 0);
+				break;
+            case Direction.South:
+                Move(Vector2.up, false, true, 0);
+				break;
+            case Direction.West:
+                Move(Vector2.right, false, true, 0);
+                break;
+		}
+		animationHandler.UpdateSprites(currentDir);
+	}
 
 	public void NextMove(Vector2 edge1, Vector2 edge2, Vector2 edge3, Vector2 edge4, bool running)
 	{
@@ -229,37 +261,75 @@ public class Movement : MonoBehaviour {
 		{
 			switch (currentDir)
 			{
-                case Direction.North:
+				case Direction.North:
 					if (entities.GetEntity(locX, locY + i + 1) && entities.GetEntity(locX, locY + i + 1).CompareTag("Player"))
 					{
+						// Turn this into a separate method?
+						FindObjectOfType<PlayerControl>().seen = true;
 						StartCoroutine(QueueMove(Vector2.up, i));
+						EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
+						// playerEvent.AddEvent(new Face(currentDir));
+                        playerEvent.AddEvent(new Interact(gameObject));
+                        playerEvent.CallEvent();
 						return true;
 					}
 					break;
                 case Direction.East:
 					if (entities.GetEntity(locX + i + 1, locY) && entities.GetEntity(locX + i + 1, locY).CompareTag("Player"))
 					{
-                        StartCoroutine(QueueMove(Vector2.right, i));
+                        FindObjectOfType<PlayerControl>().seen = true;
+						StartCoroutine(QueueMove(Vector2.right, i));
+						EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
+						// playerEvent.AddEvent(new Face(currentDir));
+						playerEvent.AddEvent(new Interact(gameObject));
+                        playerEvent.CallEvent();
                         return true;
                     }
 					break;
                 case Direction.South:
 					if (entities.GetEntity(locX, locY - i - 1) && entities.GetEntity(locX, locY - i - 1).CompareTag("Player"))
 					{
-                        StartCoroutine(QueueMove(Vector2.down, i));
+                        FindObjectOfType<PlayerControl>().seen = true;
+						StartCoroutine(QueueMove(Vector2.down, i));
+						EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
+						// playerEvent.AddEvent(new Face(currentDir));
+                        playerEvent.AddEvent(new Interact(gameObject));
+                        playerEvent.CallEvent();
                         return true;
                     }
 					break;
                 case Direction.West:
 					if (entities.GetEntity(locX - i - 1, locY) && entities.GetEntity(locX - i - 1, locY).CompareTag("Player"))
 					{
-                        StartCoroutine(QueueMove(Vector2.left, i));
+                        FindObjectOfType<PlayerControl>().seen = true;
+						StartCoroutine(QueueMove(Vector2.left, i));
+						EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
+						// playerEvent.AddEvent(new Face(currentDir));
+                        playerEvent.AddEvent(new Interact(gameObject));
+                        playerEvent.CallEvent();
                         return true;
                     }
                     break;
 			}
 		}
 		return false;
+	}
+
+	public GameObject DetectEntity()
+	{
+		switch (currentDir)
+		{
+            case Direction.North:
+				return entities.GetEntity(locX, locY + 1);
+            case Direction.East:
+				return entities.GetEntity(locX + 1, locY);
+            case Direction.South:
+				return entities.GetEntity(locX, locY - 1);
+            case Direction.West:
+                return entities.GetEntity(locX - 1, locY);
+			default:
+				return null;
+		}
 	}
 
     // UPDATING ENTITYCONTROL //

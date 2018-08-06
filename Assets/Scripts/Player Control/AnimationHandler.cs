@@ -62,6 +62,7 @@ public class AnimationHandler : MonoBehaviour {
 		
 	}
 
+	// May want to do 1 frame per movement (somehow)
 	private IEnumerator Animate()
 	{
         float t = 0;
@@ -72,7 +73,6 @@ public class AnimationHandler : MonoBehaviour {
 			{
 				if (t > ((1 / (float)sprites.Count) * i) && (t < ((1 / (float)sprites.Count) * (i + 1))))
 				{
-					Debug.Log("Time: " + t + ", Sprite:" + i);
 					gameObject.GetComponent<SpriteRenderer>().sprite = sprites[i];
                     yield return null;
 				}

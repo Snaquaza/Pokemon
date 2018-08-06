@@ -23,7 +23,7 @@ public class StaticEvents : MonoBehaviour {
 }
 
 public abstract class StaticEvent {
-	public abstract void OnEvent(GameObject player);
+	public abstract void OnEvent(GameObject gameObject);
 }
 
 public class Warp : StaticEvent {
@@ -34,8 +34,41 @@ public class Warp : StaticEvent {
 		this.y = y;
 	}
 
-	public override void OnEvent(GameObject player)
+	public override void OnEvent(GameObject gameObject)
 	{
-		player.GetComponent<Movement>().Warp(x, y);
+		gameObject.GetComponent<Movement>().Warp(x, y);
+	}
+}
+
+// Create Trainer event
+public class Interact : StaticEvent
+{
+	private GameObject interacting;
+
+	public Interact(GameObject interacting)
+    {
+		this.interacting = interacting;
+    }
+    
+	public override void OnEvent(GameObject gameObject)
+	{
+		gameObject.GetComponent<EntityControl>().OnInteract(interacting);
+		interacting.GetComponent<EntityControl>().OnInteract(gameObject);
+    }
+}
+
+// Make always work - even when walking (turn after)
+public class Face : StaticEvent
+{
+	private Direction direction;
+
+	public Face(Direction direction)
+	{
+		this.direction = direction;
+	}
+
+	public override void OnEvent(GameObject gameObject)
+	{
+		gameObject.GetComponent<Movement>().Face(direction);
 	}
 }
