@@ -5261,7 +5261,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b95669cd9572e4860b2bf7a1ab994430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   speed: 1
+=======
+  speed: 0
+>>>>>>> master
   frame1: {fileID: 21300020, guid: 7300e7729ea2843299708dcfd317472f, type: 3}
   frame2: {fileID: 21300022, guid: 7300e7729ea2843299708dcfd317472f, type: 3}
 --- !u!212 &744640312
