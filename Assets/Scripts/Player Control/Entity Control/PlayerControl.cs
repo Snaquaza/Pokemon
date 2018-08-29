@@ -7,6 +7,7 @@ public class PlayerControl : EntityControl {
 	Vector2 inputXY;
 	bool inputInteract;
 	bool inputOpenInventory;
+	bool menuUp, menuDown;
 
 	public bool isTalking;   
 	public bool seen; // Change to isEvent
@@ -16,18 +17,22 @@ public class PlayerControl : EntityControl {
 	void Update () {
 		inputXY = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 		inputInteract = Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.C) || Input.GetMouseButtonDown(0);
+
+        // UI
 		inputOpenInventory = Input.GetKeyDown(KeyCode.V);
+		menuUp = Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.D);
+        menuDown = Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.A);
 
 		canMove = !(isTalking || seen || isInventory);
         
-        // Convert input
+        // CONVERT MOVEMENT INPUT
 
         if (Mathf.Abs(inputXY.x) > Mathf.Abs(inputXY.y))
             inputXY.y = 0;
         else
             inputXY.x = 0;
 
-        // Check input for specific situations
+        // DIALOGUE INPUT
 
 		if (inputInteract && isTalking)
 		{
@@ -49,16 +54,34 @@ public class PlayerControl : EntityControl {
 			}
 		}
         
+		// INVENTORY INPUT
+
+        else if (isInventory && inputInteract)
+        {
+            FindObjectOfType<InventoryUI>().clickButton();
+        }
+
+		else if ((Input.GetKeyDown(KeyCode.X) || inputOpenInventory) && isInventory)
+        {
+            FindObjectOfType<InventoryUI>().OpenInventory(false);
+			isInventory = false;
+        }
+        
+		else if (isInventory && (menuUp || menuDown))
+		{
+			if (menuUp)
+                FindObjectOfType<InventoryUI>().Up();
+			else 
+                FindObjectOfType<InventoryUI>().Down();
+		}      
+        
 		else if (inputOpenInventory)
 		{
 			isInventory = true;
-            FindObjectOfType<InventoryHandler>().OpenInventory(true);
+            FindObjectOfType<InventoryUI>().OpenInventory(true);
 		}
-         
-        else if (Input.GetKeyDown(KeyCode.X) && isInventory)
-		{
-            FindObjectOfType<InventoryHandler>().OpenInventory(false);
-        }
+
+        // MOVEMENT INPUT
 
 		else if (inputXY != Vector2.zero && canMove)
 		{
