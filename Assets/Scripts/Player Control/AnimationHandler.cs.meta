@@ -3,7 +3,12 @@ guid: 8d9f5d2fb9e8841dbaf7492ef96a7f49
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - northSprite: {fileID: 21300018, guid: 7300e7729ea2843299708dcfd317472f, type: 3}
+  - eastSprite: {instanceID: 0}
+  - southSprite: {instanceID: 0}
+  - westSprite: {instanceID: 0}
+  - currentAnimation: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

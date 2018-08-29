@@ -45,6 +45,7 @@ public class Dialogue : MonoBehaviour {
 		dialogueText.text = currentSentence;
 		StopAllCoroutines();
 		StartCoroutine(TypeSentence(currentSentence));
+		Debug.Log(currentSentence);
 		return true;
 	}
 

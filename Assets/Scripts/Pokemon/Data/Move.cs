@@ -74,6 +74,6 @@ public class Move : MonoBehaviour {
     
 	public void OnMove()
 	{
-		int moveBP = GetBasePower.GetBasePower();
+		// int moveBP = GetBasePower.GetBasePower();
 	}
 }

@@ -53,18 +53,21 @@ public class NPCControl : EntityControl {
 	}
 }
 
+/*
 [CustomEditor(typeof(NPCControl))]
 public class MyScriptEditor : Editor
 {   
     // Trainer   
     private SerializedProperty isTrainer;
-    private SerializedProperty sight;
+    private SerializedProperty sight;   
+    private SerializedProperty text;
 
     private void OnEnable()
     {      
         // Trainer
         isTrainer = serializedObject.FindProperty("isTrainer");
-        sight = serializedObject.FindProperty("sight");      
+        sight = serializedObject.FindProperty("sight");
+		text = serializedObject.FindProperty("text");
     }
 
     public override void OnInspectorGUI()
@@ -78,7 +81,10 @@ public class MyScriptEditor : Editor
             EditorGUILayout.PropertyField(sight, new GUIContent("Sight"));
             EditorGUI.indentLevel--;
         }
+        EditorGUILayout.PropertyField(text, new GUIContent("Text"));
       
         serializedObject.ApplyModifiedProperties();
     }
 }
+
+    */

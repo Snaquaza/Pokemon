@@ -4,5 +4,4 @@ using UnityEngine;
 
 public abstract class NPCBehavior : MonoBehaviour {
 	public abstract void Behavior();
-		Assets/Scripts/Player Control/Entity Control/Behavior/NPCBehavior.cs
 }
