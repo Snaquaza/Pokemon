@@ -6,21 +6,28 @@ public class PlayerControl : EntityControl {
 	
 	Vector2 inputXY;
 	bool inputInteract;
+	bool inputOpenInventory;
 
 	public bool isTalking;   
-	public bool seen;
+	public bool seen; // Change to isEvent
+	public bool isInventory;
 
 	// Update is called once per frame
 	void Update () {
 		inputXY = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 		inputInteract = Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.C) || Input.GetMouseButtonDown(0);
+		inputOpenInventory = Input.GetKeyDown(KeyCode.V);
 
-		canMove = !(isTalking || seen);
+		canMove = !(isTalking || seen || isInventory);
         
+        // Convert input
+
         if (Mathf.Abs(inputXY.x) > Mathf.Abs(inputXY.y))
             inputXY.y = 0;
         else
             inputXY.x = 0;
+
+        // Check input for specific situations
 
 		if (inputInteract && isTalking)
 		{
@@ -41,6 +48,17 @@ public class PlayerControl : EntityControl {
 				isTalking = true;
 			}
 		}
+        
+		else if (inputOpenInventory)
+		{
+			isInventory = true;
+            FindObjectOfType<InventoryHandler>().OpenInventory(true);
+		}
+         
+        else if (Input.GetKeyDown(KeyCode.X) && isInventory)
+		{
+            FindObjectOfType<InventoryHandler>().OpenInventory(false);
+        }
 
 		else if (inputXY != Vector2.zero && canMove)
 		{
