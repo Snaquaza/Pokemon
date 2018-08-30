@@ -4,8 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class MenuButton : MonoBehaviour {
-	
-    public Canvas canvas;
+
+	public Canvas menuCanvas;
+	public Canvas inventoryCanvas;
 	public Button button;
 
 	public void Highlight(bool state)
@@ -18,12 +19,21 @@ public class MenuButton : MonoBehaviour {
 
     public void SelectButton()
 	{
+		Debug.Log("Highlighting " + gameObject);
 		transform.parent.parent.parent.GetComponent<InventoryUI>().setCurrentButton(gameObject);
 	}
 
     public void CloseMenu()
     {
-        canvas.enabled = false;
-        FindObjectOfType<PlayerControl>().gameObject.GetComponent<PlayerControl>().isInventory = false;
+		SelectButton();
+        menuCanvas.enabled = false;
+        FindObjectOfType<PlayerControl>().gameObject.GetComponent<PlayerControl>().isMenu = false;
     }
+
+    public void OpenInventory()
+	{
+		SelectButton();
+		inventoryCanvas.enabled = true;    
+        FindObjectOfType<PlayerControl>().gameObject.GetComponent<PlayerControl>().isMenu = false;  
+	}
 }

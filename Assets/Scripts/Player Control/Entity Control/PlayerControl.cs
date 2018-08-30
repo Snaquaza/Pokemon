@@ -10,84 +10,85 @@ public class PlayerControl : EntityControl {
 	bool menuUp, menuDown;
 
 	public bool isTalking;   
-	public bool seen; // Change to isEvent
+	public bool isEvent; // Change to isEvent
+	public bool isMenu;
 	public bool isInventory;
 
 	// Update is called once per frame
-	void Update () {
+	void Update()
+	{
 		inputXY = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
 		inputInteract = Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.C) || Input.GetMouseButtonDown(0);
 
-        // UI
+		// UI
 		inputOpenInventory = Input.GetKeyDown(KeyCode.V);
 		menuUp = Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.D);
-        menuDown = Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.A);
+		menuDown = Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.A);
 
-		canMove = !(isTalking || seen || isInventory);
-        
-        // CONVERT MOVEMENT INPUT
+		canMove = !(isTalking || isEvent || isMenu);
 
-        if (Mathf.Abs(inputXY.x) > Mathf.Abs(inputXY.y))
-            inputXY.y = 0;
-        else
-            inputXY.x = 0;
+		// CONVERT MOVEMENT INPUT
 
-        // DIALOGUE INPUT
+		if (Mathf.Abs(inputXY.x) > Mathf.Abs(inputXY.y))
+			inputXY.y = 0;
+		else
+			inputXY.x = 0;
 
-		if (inputInteract && isTalking)
+		// OVERWORLD INPUT
+
+		if (canMove)
 		{
-			isTalking = FindObjectOfType<Dialogue>().NextDialogue();
-		}
-        
-		else if (Input.GetKeyDown(KeyCode.X) && isTalking)
-		{
-			FindObjectOfType<Dialogue>().EndDialogue();
-		}
-        
-		else if (inputInteract)
-		{
-			GameObject entity = movement.DetectEntity();
-			if (entity)
+			if (inputInteract)
 			{
-				entity.GetComponent<EntityControl>().OnInteract(gameObject);
-				isTalking = true;
+				GameObject entity = movement.DetectEntity();
+				if (entity)
+				{
+					entity.GetComponent<EntityControl>().OnInteract(gameObject);
+					isTalking = true;
+				}
+			}
+			else if (inputOpenInventory)
+			{
+				isMenu = true;
+				FindObjectOfType<InventoryUI>().OpenInventory(true);
+			}
+			else if (inputXY != Vector2.zero)
+			{
+				movement.Move(inputXY,
+							  Input.GetKey(KeyCode.Space),
+							  Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift), 1);
 			}
 		}
-        
-		// INVENTORY INPUT
 
-        else if (isInventory && inputInteract)
-        {
-            FindObjectOfType<InventoryUI>().clickButton();
-        }
+		// DIALOGUE INPUT
 
-		else if ((Input.GetKeyDown(KeyCode.X) || inputOpenInventory) && isInventory)
-        {
-            FindObjectOfType<InventoryUI>().OpenInventory(false);
-			isInventory = false;
-        }
-        
-		else if (isInventory && (menuUp || menuDown))
+		else if (isTalking)
 		{
-			if (menuUp)
-                FindObjectOfType<InventoryUI>().Up();
-			else 
-                FindObjectOfType<InventoryUI>().Down();
-		}      
-        
-		else if (inputOpenInventory)
-		{
-			isInventory = true;
-            FindObjectOfType<InventoryUI>().OpenInventory(true);
+			if (inputInteract)
+			{
+				isTalking = FindObjectOfType<Dialogue>().NextDialogue();
+			}
+			else if (Input.GetKeyDown(KeyCode.X))
+			{
+				FindObjectOfType<Dialogue>().EndDialogue();
+			}
 		}
 
-        // MOVEMENT INPUT
+		// MENU INPUT
 
-		else if (inputXY != Vector2.zero && canMove)
+		else if (isMenu)
 		{
-			movement.Move(inputXY, 
-			              Input.GetKey(KeyCode.Space), 
-			              Input.GetKey(KeyCode.LeftShift) || Input.GetKey(KeyCode.RightShift), 1);
+			if (Input.GetKeyDown(KeyCode.X) || inputOpenInventory)
+			{
+				FindObjectOfType<InventoryUI>().OpenInventory(false);
+				isMenu = false;
+			}
+			else if (inputInteract)
+				FindObjectOfType<InventoryUI>().clickButton();
+			else if (menuUp)
+				FindObjectOfType<InventoryUI>().Up();
+			else if (menuDown)
+				FindObjectOfType<InventoryUI>().Down();
 		}
 	}
 

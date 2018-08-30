@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class InventoryUI : MonoBehaviour {
 
-    public Canvas inventoryCanvas;
+	public Canvas menuCanvas;
     
 	public Button currentButton;
 	public Button[] buttons;
@@ -13,14 +13,14 @@ public class InventoryUI : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-        inventoryCanvas.enabled = false;
+        menuCanvas.enabled = false;
 		buttonIndex = 0;
 		currentButton = buttons[buttonIndex];
 	}
 
 	public void OpenInventory(bool state)
     {
-        inventoryCanvas.enabled = state;
+        menuCanvas.enabled = state;
 		currentButton.GetComponent<MenuButton>().Highlight(true);
     }
 

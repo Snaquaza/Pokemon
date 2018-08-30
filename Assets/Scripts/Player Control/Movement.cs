@@ -167,7 +167,7 @@ public class Movement : MonoBehaviour {
 		Move(target, false, false, i);
 		while (isMoving)
 			yield return null;
-        FindObjectOfType<PlayerControl>().seen = false;
+        FindObjectOfType<PlayerControl>().isEvent = false;
 	}
     
     // CALCULATIONS //
@@ -265,7 +265,7 @@ public class Movement : MonoBehaviour {
 					if (entities.GetEntity(locX, locY + i + 1) && entities.GetEntity(locX, locY + i + 1).CompareTag("Player"))
 					{
 						// Turn this into a separate method?
-						FindObjectOfType<PlayerControl>().seen = true;
+						FindObjectOfType<PlayerControl>().isEvent = true;
 						StartCoroutine(QueueMove(Vector2.up, i));
 						EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
 						// playerEvent.AddEvent(new Face(currentDir));
@@ -277,7 +277,7 @@ public class Movement : MonoBehaviour {
                 case Direction.East:
 					if (entities.GetEntity(locX + i + 1, locY) && entities.GetEntity(locX + i + 1, locY).CompareTag("Player"))
 					{
-                        FindObjectOfType<PlayerControl>().seen = true;
+                        FindObjectOfType<PlayerControl>().isEvent = true;
 						StartCoroutine(QueueMove(Vector2.right, i));
 						EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
 						// playerEvent.AddEvent(new Face(currentDir));
@@ -289,7 +289,7 @@ public class Movement : MonoBehaviour {
                 case Direction.South:
 					if (entities.GetEntity(locX, locY - i - 1) && entities.GetEntity(locX, locY - i - 1).CompareTag("Player"))
 					{
-                        FindObjectOfType<PlayerControl>().seen = true;
+                        FindObjectOfType<PlayerControl>().isEvent = true;
 						StartCoroutine(QueueMove(Vector2.down, i));
 						EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
 						// playerEvent.AddEvent(new Face(currentDir));
@@ -301,7 +301,7 @@ public class Movement : MonoBehaviour {
                 case Direction.West:
 					if (entities.GetEntity(locX - i - 1, locY) && entities.GetEntity(locX - i - 1, locY).CompareTag("Player"))
 					{
-                        FindObjectOfType<PlayerControl>().seen = true;
+                        FindObjectOfType<PlayerControl>().isEvent = true;
 						StartCoroutine(QueueMove(Vector2.left, i));
 						EventHandler playerEvent = FindObjectOfType<PlayerControl>().GetComponent<EventHandler>();
 						// playerEvent.AddEvent(new Face(currentDir));
