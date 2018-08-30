@@ -6,7 +6,8 @@ public class PlayerControl : EntityControl {
 	
 	Vector2 inputXY;
 	bool inputInteract;
-	bool inputOpenInventory;
+	bool inputSelect;
+	bool inputOpenMenu;
 	bool menuUp, menuDown;
 
 	public bool isTalking;   
@@ -17,15 +18,18 @@ public class PlayerControl : EntityControl {
 	// Update is called once per frame
 	void Update()
 	{
+		// Call events always?
+
 		inputXY = new Vector2(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"));
+		inputSelect = Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.C);
 		inputInteract = Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown(KeyCode.C) || Input.GetMouseButtonDown(0);
 
 		// UI
-		inputOpenInventory = Input.GetKeyDown(KeyCode.V);
+		inputOpenMenu = Input.GetKeyDown(KeyCode.V);
 		menuUp = Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.D);
 		menuDown = Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.A);
 
-		canMove = !(isTalking || isEvent || isMenu);
+		canMove = !(isTalking || isEvent || isMenu || isInventory);
 
 		// CONVERT MOVEMENT INPUT
 
@@ -47,10 +51,10 @@ public class PlayerControl : EntityControl {
 					isTalking = true;
 				}
 			}
-			else if (inputOpenInventory)
+			else if (inputOpenMenu)
 			{
 				isMenu = true;
-				FindObjectOfType<InventoryUI>().OpenInventory(true);
+				FindObjectOfType<MenuUI>().OpenInventory(true);
 			}
 			else if (inputXY != Vector2.zero)
 			{
@@ -78,17 +82,30 @@ public class PlayerControl : EntityControl {
 
 		else if (isMenu)
 		{
-			if (Input.GetKeyDown(KeyCode.X) || inputOpenInventory)
+			if (Input.GetKeyDown(KeyCode.X) || inputOpenMenu)
 			{
-				FindObjectOfType<InventoryUI>().OpenInventory(false);
+				FindObjectOfType<MenuUI>().OpenInventory(false);
 				isMenu = false;
 			}
-			else if (inputInteract)
-				FindObjectOfType<InventoryUI>().clickButton();
+			else if (inputSelect)
+				FindObjectOfType<MenuUI>().clickButton();
 			else if (menuUp)
-				FindObjectOfType<InventoryUI>().Up();
+				FindObjectOfType<MenuUI>().Up();
 			else if (menuDown)
-				FindObjectOfType<InventoryUI>().Down();
+				FindObjectOfType<MenuUI>().Down();
+		}
+
+		// INVENTORY INPUT
+
+		else if (isInventory)
+		{
+			if (Input.GetKeyDown(KeyCode.X) || inputOpenMenu)
+			{
+                isMenu = true;
+				isInventory = false;
+                FindObjectOfType<MenuUI>().OpenInventory(true);
+				FindObjectOfType<InventoryHandler>().OpenInventory(false);
+			}
 		}
 	}
 

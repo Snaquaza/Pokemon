@@ -20,7 +20,7 @@ public class MenuButton : MonoBehaviour {
     public void SelectButton()
 	{
 		Debug.Log("Highlighting " + gameObject);
-		transform.parent.parent.parent.GetComponent<InventoryUI>().setCurrentButton(gameObject);
+		transform.parent.parent.parent.GetComponent<MenuUI>().setCurrentButton(button);
 	}
 
     public void CloseMenu()
@@ -34,6 +34,8 @@ public class MenuButton : MonoBehaviour {
 	{
 		SelectButton();
 		inventoryCanvas.enabled = true;    
-        FindObjectOfType<PlayerControl>().gameObject.GetComponent<PlayerControl>().isMenu = false;  
+		FindObjectOfType<PlayerControl>().gameObject.GetComponent<PlayerControl>().isMenu = false;
+        FindObjectOfType<PlayerControl>().gameObject.GetComponent<PlayerControl>().isInventory = true;
+		FindObjectOfType<InventoryHandler>().GetComponentInChildren<ShowItems>().OnOpenBag();
 	}
 }

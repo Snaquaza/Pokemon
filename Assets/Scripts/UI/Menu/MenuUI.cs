@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class InventoryUI : MonoBehaviour {
+public class MenuUI : MonoBehaviour {
 
 	public Canvas menuCanvas;
     
@@ -26,22 +26,23 @@ public class InventoryUI : MonoBehaviour {
 
 	public void Up()
 	{
-		buttonIndex++;
+		buttonIndex--;
         UpdateButton();
 	}
 
 	public void Down()
 	{
-		buttonIndex--;
+		buttonIndex++;
         UpdateButton();
 	}
 
-	public void setCurrentButton(GameObject button)   
+	public void setCurrentButton(Button button)   
 	{
 		for (int i = 0; i < buttons.Length; i++)
 		{
 			if(buttons[i] == button)
 			{
+				Debug.Log(button);
 				buttonIndex = i;
                 UpdateButton();
 			}

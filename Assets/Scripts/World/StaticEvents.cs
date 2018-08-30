@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class StaticEvents : MonoBehaviour {
+
+	public List<Warp> warpArray;
     
 	private List<StaticEvent>[] eventArray;
 
@@ -12,63 +14,15 @@ public class StaticEvents : MonoBehaviour {
 		for (int i = 0; i < eventArray.Length; i++)
 			eventArray[i] = new List<StaticEvent>();
 
+		foreach (Warp warp in warpArray)
+			eventArray[(int)warp.Location().x + (int)warp.Location().y * 32].Add(warp);
+		
         // need to eventually be read from somewhere
-		eventArray[1 + 2 * 32].Add(new Warp(11, 9));
+        // eventArray[11 + 14 * 32].Add(new Warp(19, 14));
 	}
 
     public List<StaticEvent> GetEvent(int x, int y)
 	{
 		return eventArray[x + y * 32];
-	}
-}
-
-public abstract class StaticEvent {
-	public abstract void OnEvent(GameObject gameObject);
-}
-
-public class Warp : StaticEvent {
-	private int x, y;
-	public Warp(int x, int y)
-	{
-		this.x = x;
-		this.y = y;
-	}
-
-	public override void OnEvent(GameObject gameObject)
-	{
-		gameObject.GetComponent<Movement>().Warp(x, y);
-	}
-}
-
-// Create Trainer event
-public class Interact : StaticEvent
-{
-	private GameObject interacting;
-
-	public Interact(GameObject interacting)
-    {
-		this.interacting = interacting;
-    }
-    
-	public override void OnEvent(GameObject gameObject)
-	{
-		gameObject.GetComponent<EntityControl>().OnInteract(interacting);
-		interacting.GetComponent<EntityControl>().OnInteract(gameObject);
-    }
-}
-
-// Make always work - even when walking (turn after)
-public class Face : StaticEvent
-{
-	private Direction direction;
-
-	public Face(Direction direction)
-	{
-		this.direction = direction;
-	}
-
-	public override void OnEvent(GameObject gameObject)
-	{
-		gameObject.GetComponent<Movement>().Face(direction);
 	}
 }

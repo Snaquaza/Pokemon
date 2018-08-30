@@ -339,4 +339,9 @@ public class Movement : MonoBehaviour {
         entities.UpdateEntities(null, startX, startY);
 		entities.UpdateEntities(this.gameObject, locX, locY);
 	}
+
+    public void RemoveEntity()
+	{
+        entities.UpdateEntities(null, startX, startY);
+	}
 }
