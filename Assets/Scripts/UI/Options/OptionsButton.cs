@@ -11,4 +11,10 @@ public class OptionsButton : MonoBehaviour {
 		FindObjectOfType<Options>().textSpeed = setting;
 		FindObjectOfType<Options>().OnUpdateOptions();   
 	}
+
+    public void SetWalk()
+	{
+        FindObjectOfType<Options>().walkSpeed = setting;
+        FindObjectOfType<Options>().OnUpdateOptions();  
+	}
 }

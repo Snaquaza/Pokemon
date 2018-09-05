@@ -14,7 +14,7 @@ public class PlayerControl : EntityControl {
 	public bool isEvent; // Change to isEvent
 	public bool isMenu;
 	public bool isInventory;
-	public bool isOptions;
+	public bool isOptions;   
 
 	// Update is called once per frame
 	void Update()
