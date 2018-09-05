@@ -26,6 +26,7 @@ public class Dialogue : MonoBehaviour {
 
 	public void StartDialogue(TextHolder text)
 	{
+        textSpeed = FindObjectOfType<Options>().textSpeed;
 		player.isTalking = true;
 		dialogue.Clear();
 		dialogueCanvas.enabled = true;

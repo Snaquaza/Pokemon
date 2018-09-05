@@ -14,6 +14,7 @@ public class PlayerControl : EntityControl {
 	public bool isEvent; // Change to isEvent
 	public bool isMenu;
 	public bool isInventory;
+	public bool isOptions;
 
 	// Update is called once per frame
 	void Update()
@@ -29,7 +30,7 @@ public class PlayerControl : EntityControl {
 		menuUp = Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.D);
 		menuDown = Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.LeftArrow) || Input.GetKeyDown(KeyCode.S) || Input.GetKeyDown(KeyCode.A);
 
-		canMove = !(isTalking || isEvent || isMenu || isInventory);
+		canMove = !(isTalking || isEvent || isMenu || isInventory || isOptions);
 
 		// CONVERT MOVEMENT INPUT
 
@@ -39,7 +40,7 @@ public class PlayerControl : EntityControl {
 			inputXY.x = 0;
 
 		// OVERWORLD INPUT
-
+        
 		if (canMove)
 		{
 			if (inputInteract)
@@ -106,6 +107,19 @@ public class PlayerControl : EntityControl {
                 FindObjectOfType<MenuUI>().OpenInventory(true);
 				FindObjectOfType<InventoryHandler>().OpenInventory(false);
 			}
+		}
+
+		// OPTIONS INPUT
+
+		else if (isOptions)
+		{         
+            if (Input.GetKeyDown(KeyCode.X) || inputOpenMenu)
+            {
+                isMenu = true;
+                isOptions = false;
+				FindObjectOfType<MenuUI>().OpenInventory(true);
+                FindObjectOfType<Options>().OpenOptions(false);
+            }
 		}
 	}
 

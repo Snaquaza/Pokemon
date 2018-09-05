@@ -342,6 +342,7 @@ public class Movement : MonoBehaviour {
 
     public void RemoveEntity()
 	{
+		Debug.Log("Hello");
         entities.UpdateEntities(null, startX, startY);
 	}
 }

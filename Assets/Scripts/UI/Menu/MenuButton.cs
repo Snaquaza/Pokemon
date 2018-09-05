@@ -7,6 +7,7 @@ public class MenuButton : MonoBehaviour {
 
 	public Canvas menuCanvas;
 	public Canvas inventoryCanvas;
+	public Canvas optionsCanvas;
 	public Button button;
 
 	public void Highlight(bool state)
@@ -37,5 +38,14 @@ public class MenuButton : MonoBehaviour {
 		FindObjectOfType<PlayerControl>().gameObject.GetComponent<PlayerControl>().isMenu = false;
         FindObjectOfType<PlayerControl>().gameObject.GetComponent<PlayerControl>().isInventory = true;
 		FindObjectOfType<InventoryHandler>().GetComponentInChildren<ShowItems>().OnOpenBag();
+	}
+    public void OpenOptions()
+	{
+		SelectButton();
+		optionsCanvas.enabled = true;  
+        menuCanvas.enabled = false;  
+		FindObjectOfType<PlayerControl>().gameObject.GetComponent<PlayerControl>().isMenu = false;
+		FindObjectOfType<PlayerControl>().gameObject.GetComponent<PlayerControl>().isOptions = true;
+        FindObjectOfType<Options>().OnUpdateOptions();   
 	}
 }
